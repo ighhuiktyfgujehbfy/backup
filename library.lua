@@ -59,7 +59,7 @@ local theme = setmetatable({
 		categorybackground = Color3.fromRGB(28, 28, 28),
 		sectionbackground = Color3.fromRGB(24, 24, 24),
 		foreground = Color3.fromRGB(235, 235, 235),
-		highlight = Color3.fromRGB(43, 79, 199)
+		highlight = Color3.fromRGB(113, 95, 255)
     }
 }, {
 	__index = function(t, k)
