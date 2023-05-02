@@ -3748,6 +3748,9 @@ function library.New(options)
             end
         end
     end)
+	
+	newlibrary:makedraggable(newlibrary.dir.gui.main)
+	autocanvasresize(newlibrary.dir.gui.main.left.panel.container.list, newlibrary.dir.gui.main.left.panel.container)
 
 	newlibrary:makedraggable(newlibrary.dir.gui.main)
 	autocanvasresize(newlibrary.dir.gui.main.left.panel.container.list, newlibrary.dir.gui.main.left.panel.container)
