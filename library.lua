@@ -9,8 +9,8 @@ local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or f
 	return str
 end
 
-local themes = Akiri.imports:fetchsystem("themes")
-local utils = Akiri.imports:fetchsystem("utils")
+local themes = evov3.imports:fetchsystem("themes")
+local utils = evov3.imports:fetchsystem("utils")
 
 local RS = game:GetService("RunService")
 local UIS = game:GetService("UserInputService")
@@ -780,7 +780,7 @@ function slider.new(options)
 		})
 	})
 
-	local slidemaid = Akiri.imports:fetchsystem("maid")
+	local slidemaid = evov3.imports:fetchsystem("maid")
 	newslider.frame.drag.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             newslider.library.settings.dragging = true
@@ -960,7 +960,7 @@ function toggleslider.new(options)
 		})
 	})
 
-	local slidemaid = Akiri.imports:fetchsystem("maid")
+	local slidemaid = evov3.imports:fetchsystem("maid")
 	newtoggleslider.frame.drag.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             newtoggleslider.library.settings.dragging = true
@@ -1975,8 +1975,8 @@ function picker.new(options)
         end
     end)
 
-    local pickermaid = Akiri.imports:fetchsystem("maid")
-	newpicker.maid = Akiri.imports:fetchsystem("maid")
+    local pickermaid = evov3.imports:fetchsystem("maid")
+	newpicker.maid = evov3.imports:fetchsystem("maid")
     newpicker.frame.drop.container.hue.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 and newpicker.library.settings.dragging == false then
             if newpicker.library.flags[newpicker.flag].rainbow then
@@ -2472,8 +2472,8 @@ function togglepicker.new(options)
         end
     end)
 
-    local pickermaid = Akiri.imports:fetchsystem("maid")
-	newtogglepicker.maid = Akiri.imports:fetchsystem("maid")
+    local pickermaid = evov3.imports:fetchsystem("maid")
+	newtogglepicker.maid = evov3.imports:fetchsystem("maid")
     newtogglepicker.frame.drop.container.hue.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 and newtogglepicker.library.settings.dragging == false then
             if newtogglepicker.library.flags[newtogglepicker.flag].rainbow then
@@ -3501,7 +3501,7 @@ function library.New(options)
 		}
 	}, options), library)
 
-	newlibrary.configs = Akiri.imports:fetchsystem("configs", options.content)
+	newlibrary.configs = evov3.imports:fetchsystem("configs", options.content)
 
 	newlibrary.dir = create("Folder", {
 		Name = "Akiri"
@@ -3761,7 +3761,7 @@ function library:toggle()
 end
 
 function library:makedraggable(frame)
-	local dragmaid = Akiri.imports:fetchsystem("maid")
+	local dragmaid = evov3.imports:fetchsystem("maid")
 	frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 and self.settings.dragging == false then
 			self.settings.dragging = true
