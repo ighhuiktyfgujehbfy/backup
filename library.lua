@@ -3631,7 +3631,7 @@ function library.new(options)
 						Name = "game"
 					}),
 					create("ImageLabel", {
-						Image = "",
+						Image = "http://www.roblox.com/asset/?id=8569322835",
 						BackgroundColor3 = Color3.new(1, 1, 1),
 						BackgroundTransparency = 1,
 						Position = UDim2.new(0, 8, 0, 16),
