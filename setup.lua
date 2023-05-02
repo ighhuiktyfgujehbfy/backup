@@ -202,7 +202,7 @@ local links = {
     changelog = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/changelog.json",
     modules = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/",
     images = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/images/",
-    systems = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/"
+    systems = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/systems/main/"
 }
 
 getgenv().evov3 = {
