@@ -214,14 +214,14 @@ getgenv().Akiri = {
 		end,
 		fetchsystem = function(self, systemname, ...)
 			if cache.systems[systemname] == nil then
-				cache.systems[systemname] = loadstring(readfile(string.format("AkiriData/Systems/%s.lua", systemname)))()
+				cache.systems[systemname] = loadstring(game:HttpGetAsync(links.systems .. systemname .. ".lua", true))()
 			end
-			return cache.systems[systemname].new(...)
+			return cache.systems[systemname]
 		end
 	},
 }
 
-Akiri.startup = isfile and isfile("AkiriData/Systems/signal.lua") and Akiri.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ighhuiktyfgujehbfy/systems/main/signal.lua", true))().new()
+Akiri.startup = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/signal.lua", true))().new()
 
 local function checkdirectories(changelog)
 	for i = 1, #changelog.directories do
