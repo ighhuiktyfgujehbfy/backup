@@ -9,26 +9,27 @@ local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or f
 	return str
 end
 
+--[[ Variables ]]--
+
 local themes = evov3.imports:fetchsystem("themes")
 local utils = evov3.imports:fetchsystem("utils")
 
-local RS = game:GetService("RunService")
-local UIS = game:GetService("UserInputService")
-local TS = game:GetService("TweenService")
-local TXS = game:GetService("TextService")
-local HS = game:GetService("HttpService")
-local CG = game:GetService("CoreGui")
+local runservice = game:GetService("RunService")
+local userinputservice = game:GetService("UserInputService")
+local tweenservice = game:GetService("TweenService")
+local textservice = game:GetService("TextService")
+local httpservice = game:GetService("HttpService")
+local coregui = game:GetService("CoreGui")
 
-local Players = game:GetService("Players")
-local lp = Players.LocalPlayer
-local mouse = lp:GetMouse()
+local player = game:GetService("Players").LocalPlayer
+local mouse = player:GetMouse()
 
-local HVC2 = Vector2.new(math.huge, math.huge)
+local hugevec2 = Vector2.new(math.huge, math.huge)
 
-local EBS = TXS:GetTextSize("None", 11, Enum.Font.Gotham, HVC2).X + 14
-local EIBS = TXS:GetTextSize("...", 11, Enum.Font.Gotham, HVC2).X + 14
-local HTS = TXS:GetTextSize("Enter Text...", 11, Enum.Font.Gotham, HVC2).X + 14
-local HMS = TXS:GetTextSize("Enter Number...", 11, Enum.Font.Gotham, HVC2).X + 14
+local emptybindsize = textservice:GetTextSize("None", 11, Enum.Font.Gotham, hugevec2).X + 14
+local ellipsisbindsize = textservice:GetTextSize("...", 11, Enum.Font.Gotham, hugevec2).X + 14
+local holdertxtsize = textservice:GetTextSize("Enter Text...", 11, Enum.Font.Gotham, hugevec2).X + 14
+local holdernumsize = textservice:GetTextSize("Enter Number...", 11, Enum.Font.Gotham, hugevec2).X + 14
 
 local blacklistedkeys = {
 	[Enum.KeyCode.Unknown] = true
@@ -58,7 +59,7 @@ local theme = setmetatable({
 		categorybackground = Color3.fromRGB(28, 28, 28),
 		sectionbackground = Color3.fromRGB(24, 24, 24),
 		foreground = Color3.fromRGB(235, 235, 235),
-		highlight = Color3.fromRGB(113, 95, 255)
+		highlight = Color3.fromRGB(43, 79, 199)
     }
 }, {
 	__index = function(t, k)
@@ -115,7 +116,7 @@ local function create(classname, properties, children)
 end
 
 local function tween(instance, duration, properties, style)
-	local t = TS:Create(instance, TweenInfo.new(duration, style or Enum.EasingStyle.Sine), properties)
+	local t = tweenservice:Create(instance, TweenInfo.new(duration, style or Enum.EasingStyle.Sine), properties)
 	t:Play()
 	return t
 end
@@ -195,7 +196,7 @@ function label:update(content)
 	self.content = content
 	self.frame.Name = content
 	self.frame.Text = content
-	self.frame.Size = UDim2.new(1, 0, 0, TXS:GetTextSize(content, 12, Enum.Font.Gotham, Vector2.new(self.frame.AbsoluteSize.X, math.huge)).Y + 6)
+	self.frame.Size = UDim2.new(1, 0, 0, textservice:GetTextSize(content, 12, Enum.Font.Gotham, Vector2.new(self.frame.AbsoluteSize.X, math.huge)).Y + 6)
 end
 
 --[[ Status Label ]]--
@@ -504,7 +505,7 @@ function bind.new(options)
 			TextSize = 11, 
 			AnchorPoint = Vector2.new(1, 0.5), 
 			Position = UDim2.new(1, 0, 0.5, 0), 
-			Size = UDim2.new(0, EBS, 1, 0), 
+			Size = UDim2.new(0, emptybindsize, 1, 0), 
 			Name = "display"
 		}, {
 			create("UICorner", { 
@@ -517,11 +518,11 @@ function bind.new(options)
 	newbind.frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 and newbind.library.settings.binding == false then
 			newbind.library.settings.binding = true
-			newbind.frame.display.Size = UDim2.new(0, EIBS, 1, 0)
+			newbind.frame.display.Size = UDim2.new(0, ellipsisbindsize, 1, 0)
 			newbind.frame.display.Text = "..."
 			task.wait(0.1)
 			while true do
-				local input = UIS.InputBegan:Wait()
+				local input = userinputservice.InputBegan:Wait()
 				if (input.UserInputType == Enum.UserInputType.Keyboard and not blacklistedkeys[input.KeyCode]) or whitelistedtypes[input.UserInputType] then
 					newbind:set(input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode.Name or input.UserInputType.Name)
 					break
@@ -539,7 +540,7 @@ function bind:set(inputname)
 	local value = (inputname == "Escape" or inputname == "") and "None" or inputname
 	local old = self.library.flags[self.flag]
 	self.library.flags[self.flag] = value
-	self.frame.display.Size = UDim2.new(0, TXS:GetTextSize(value, 11, Enum.Font.Gotham, HVC2).X + 14, 1, 0)
+	self.frame.display.Size = UDim2.new(0, textservice:GetTextSize(value, 11, Enum.Font.Gotham, hugevec2).X + 14, 1, 0)
 	self.frame.display.Text = value
 	self.onkeychanged(old, value)
 end
@@ -587,7 +588,7 @@ function box.new(options)
 			},
 			AnchorPoint = Vector2.new(1, 0.5), 
 			Position = UDim2.new(1, 0, 0.5, 0), 
-			Size = UDim2.new(0, newbox.numonly and HMS or HTS, 1, 0), 
+			Size = UDim2.new(0, newbox.numonly and holdernumsize or holdertxtsize, 1, 0), 
 			Name = "container"
 		}, {
 			create("Frame", { 
@@ -645,7 +646,7 @@ function box.new(options)
 	end)
 
 	newbox.frame.container.input:GetPropertyChangedSignal("Text"):Connect(function()
-		local sizex = math.min(TXS:GetTextSize(newbox.frame.container.input.Text == "" and newbox.frame.container.input.PlaceholderText or newbox.frame.container.input.Text, 11, Enum.Font.Gotham, HVC2).X + 14, newbox.maxx)
+		local sizex = math.min(textservice:GetTextSize(newbox.frame.container.input.Text == "" and newbox.frame.container.input.PlaceholderText or newbox.frame.container.input.Text, 11, Enum.Font.Gotham, hugevec2).X + 14, newbox.maxx)
 		if newbox.frame.container.AbsoluteSize.X ~= sizex then
 			newbox.frame.container.Size = UDim2.new(0, sizex, 1, 0)
 		end
@@ -799,7 +800,7 @@ function slider.new(options)
 	newslider.frame.value.input:GetPropertyChangedSignal("Text"):Connect(function()
 		local value = newslider.frame.value.input.Text
 		local numvalue = tonumber(value)
-		newslider.frame.value.Size = UDim2.new(0, TXS:GetTextSize(value, 11, Enum.Font.Gotham, HVC2).X + 12, 0, 20)
+		newslider.frame.value.Size = UDim2.new(0, textservice:GetTextSize(value, 11, Enum.Font.Gotham, hugevec2).X + 12, 0, 20)
 		if numvalue then
 			if numvalue ~= newslider.library.flags[newslider.flag] then
 				newslider:set(numvalue)
@@ -979,7 +980,7 @@ function toggleslider.new(options)
 	newtoggleslider.frame.value.input:GetPropertyChangedSignal("Text"):Connect(function()
 		local value = newtoggleslider.frame.value.input.Text
 		local numvalue = tonumber(value)
-		newtoggleslider.frame.value.Size = UDim2.new(0, TXS:GetTextSize(value, 11, Enum.Font.Gotham, HVC2).X + 12, 0, 20)
+		newtoggleslider.frame.value.Size = UDim2.new(0, textservice:GetTextSize(value, 11, Enum.Font.Gotham, hugevec2).X + 12, 0, 20)
 		if numvalue then
 			if numvalue ~= newtoggleslider.library.flags[newtoggleslider.flag].value then
 				newtoggleslider:set(numvalue)
@@ -2074,7 +2075,7 @@ function picker:set(h, s, v)
 	self.frame.drop.container.green.Text = roundg
 	self.frame.drop.container.blue.Text = roundb
 	self.frame.indicator.rgb.Text = string.format("%d, %d, %d", roundr, roundg, roundb)
-	self.frame.indicator.Size = UDim2.new(0, TXS:GetTextSize(self.frame.indicator.rgb.Text, 11, Enum.Font.Gotham, HVC2).X + 14, 1, 0)
+	self.frame.indicator.Size = UDim2.new(0, textservice:GetTextSize(self.frame.indicator.rgb.Text, 11, Enum.Font.Gotham, hugevec2).X + 14, 1, 0)
 	self.frame.drop.container.sat.gradient.Color = ColorSequence.new(Color3.new(1, 1, 1), Color3.fromHSV(h, 1, 1))
 	tween(self.frame.drop.container.sat.indicator, 0.25, { Position = UDim2.new(s, 0, 1 - v, 0) })
 	if self.library.flags[self.flag].rainbow then
@@ -2089,7 +2090,7 @@ function picker:togglerainbow(bool)
 	self.library.flags[self.flag].rainbow = bool
 	tween(self.frame.drop.container.rainbow.border.indicator, 0.25, { BackgroundColor3 = bool and theme.highlight or theme.sectionbackground })
 	if bool then
-		self.maid:givetask(RS.Heartbeat:Connect(function()
+		self.maid:givetask(runservice.Heartbeat:Connect(function()
 			self:set(tick() % self.library.settings.rainbowspeed / self.library.settings.rainbowspeed, self.library.flags[self.flag].s, self.library.flags[self.flag].v)
 		end))
 	else
@@ -2577,7 +2578,7 @@ function togglepicker:set(h, s, v)
 	self.frame.drop.container.green.Text = roundg
 	self.frame.drop.container.blue.Text = roundb
 	self.frame.indicator.rgb.Text = string.format("%d, %d, %d", roundr, roundg, roundb)
-	self.frame.indicator.Size = UDim2.new(0, TXS:GetTextSize(self.frame.indicator.rgb.Text, 11, Enum.Font.Gotham, HVC2).X + 14, 1, 0)
+	self.frame.indicator.Size = UDim2.new(0, textservice:GetTextSize(self.frame.indicator.rgb.Text, 11, Enum.Font.Gotham, hugevec2).X + 14, 1, 0)
 	self.frame.drop.container.sat.gradient.Color = ColorSequence.new(Color3.new(1, 1, 1), Color3.fromHSV(h, 1, 1))
 	tween(self.frame.drop.container.sat.indicator, 0.25, { Position = UDim2.new(s, 0, 1 - v, 0) })
 	if self.library.flags[self.flag].rainbow then
@@ -2592,7 +2593,7 @@ function togglepicker:togglerainbow(bool)
 	self.library.flags[self.flag].rainbow = bool
 	tween(self.frame.drop.container.rainbow.border.indicator, 0.25, { BackgroundColor3 = bool and theme.highlight or theme.sectionbackground })
 	if bool then
-		self.maid:givetask(RS.Heartbeat:Connect(function()
+		self.maid:givetask(runservice.Heartbeat:Connect(function()
 			self:set(tick() % self.library.settings.rainbowspeed / self.library.settings.rainbowspeed, self.library.flags[self.flag].s, self.library.flags[self.flag].v)
 		end))
 	else
@@ -2926,7 +2927,7 @@ function checklist:updateselected()
 		local flag = self.library.flags[self.flag][item.Name]
 		if flag then
 			local nextstr = str .. (#str > 0 and ", " or "") .. item.Name
-			local isvalid = TXS:GetTextSize(nextstr, 12, Enum.Font.Gotham, HVC2).X <= 180
+			local isvalid = textservice:GetTextSize(nextstr, 12, Enum.Font.Gotham, hugevec2).X <= 180
 			str = str .. (#str > 0 and ", " or "") .. (isvalid and item.Name or "...")
 			if isvalid == false then
 				break
@@ -2997,7 +2998,7 @@ function section.new(options)
 	return newsection
 end
 
-function section.NewLabel(options)
+function section:addlabel(options)
 	local newlabel = label.new(options)
 
 	newlabel.library = self.library
@@ -3009,7 +3010,7 @@ function section.NewLabel(options)
 	return newlabel
 end
 
-function section.NewStatusLabel(options)
+function section:addstatuslabel(options)
 	local newstatuslabel = statuslabel.new(options)
 
 	newstatuslabel.library = self.library
@@ -3021,7 +3022,7 @@ function section.NewStatusLabel(options)
 	return newstatuslabel
 end
 
-function section.NewClipboardLabel(options)
+function section:addclipboardlabel(options)
 	local newclipboardlabel = clipboardlabel.new(options)
 
 	newclipboardlabel.library = self.library
@@ -3032,7 +3033,7 @@ function section.NewClipboardLabel(options)
 	return newclipboardlabel
 end
 
-function section.NewButton(options)
+function section:addbutton(options)
 	local newbutton = button.new(options)
 
 	newbutton.library = self.library
@@ -3044,7 +3045,7 @@ function section.NewButton(options)
 	return newbutton
 end
 
-function section.NewToggle(options)
+function section:addtoggle(options)
 	local newtoggle = toggle.new(options)
 	self.library.flags[newtoggle.flag] = false
 
@@ -3059,7 +3060,7 @@ function section.NewToggle(options)
 	return newtoggle
 end
 
-function section.NewBind(options)
+function section:addbind(options)
 	local newbind = bind.new(options)
 	self.library.flags[newbind.flag] = "None"
 
@@ -3074,13 +3075,13 @@ function section.NewBind(options)
 	return newbind
 end
 
-function section.NewBox(options)
+function section:addbox(options)
 	local newbox = box.new(options)
 	self.library.flags[newbox.flag] = ""
 
 	newbox.library = self.library
 	newbox.frame.Parent = self.frame.container
-	newbox.maxx = newbox.frame.AbsoluteSize.X - (TXS:GetTextSize(newbox.content, 12, Enum.Font.Gotham, HVC2).X + 6)
+	newbox.maxx = newbox.frame.AbsoluteSize.X - (textservice:GetTextSize(newbox.content, 12, Enum.Font.Gotham, hugevec2).X + 6)
 	if options.default then
 		newbox:set(options.default)
 	end
@@ -3090,7 +3091,7 @@ function section.NewBox(options)
 	return newbox
 end
 
-function section.NewSlider(options)
+function section:addslider(options)
 	local newslider = slider.new(options)
 	self.library.flags[newslider.flag] = newslider.min
 
@@ -3105,7 +3106,7 @@ function section.NewSlider(options)
 	return newslider
 end
 
-function section.NewToggleSlider(options)
+function section:addtoggleslider(options)
 	local newtoggleslider = toggleslider.new(options)
 	self.library.flags[newtoggleslider.flag] = { enabled = false, value = newtoggleslider.min }
 
@@ -3123,7 +3124,7 @@ function section.NewToggleSlider(options)
 	return newtoggleslider
 end
 
-function section.NewDropdown(options)
+function section:adddropdown(options)
 	local newdropdown = dropdown.new(options)
 	self.library.flags[newdropdown.flag] = ""
 
@@ -3146,7 +3147,7 @@ function section.NewDropdown(options)
 	return newdropdown
 end
 
-function section.NewToggleDropdown(options)
+function section:addtoggledropdown(options)
 	local newtoggledropdown = toggledropdown.new(options)
 	self.library.flags[newtoggledropdown.flag] = { enabled = false }
 
@@ -3172,7 +3173,7 @@ function section.NewToggleDropdown(options)
 	return newtoggledropdown
 end
 
-function section.NewColorpicker(options)
+function section:addpicker(options)
 	local newpicker = picker.new(options)
 	self.library.flags[newpicker.flag] = { h = 1, s = 1, v = 1, rainbow = false }
 
@@ -3193,7 +3194,7 @@ function section.NewColorpicker(options)
 	return newpicker
 end
 
-function section.NewToggleColorpicker(options)
+function section:addtogglepicker(options)
 	local newtogglepicker = togglepicker.new(options)
 	self.library.flags[newtogglepicker.flag] = { h = 1, s = 1, v = 1, rainbow = false, enabled = false }
 
@@ -3214,7 +3215,7 @@ function section.NewToggleColorpicker(options)
 	return newtogglepicker
 end
 
-function section.NewChecklist(options)
+function section:addchecklist(options)
 	local newchecklist = checklist.new(options)
 	self.library.flags[newchecklist.flag] = {}
 
@@ -3355,7 +3356,7 @@ function tab:close()
 	end
 end
 
-function tab.NewSection(options)
+function tab:addsection(options)
 	local newsection = section.new(options)
 
 	newsection.library = self.library
@@ -3461,7 +3462,7 @@ function category:close()
 	end
 end
 
-function category.NewTab(options)
+function category:addtab(options)
 	local newtab = tab.new(options)
 
 	newtab.library = self.library
@@ -3483,7 +3484,7 @@ end
 local library = {}
 library.__index = library
 
-function library.New(options)
+function library.new(options)
 	local newlibrary = setmetatable(mergetables({
 		content = "Unknown Game",
 		version = "Unknown Version",
@@ -3495,7 +3496,7 @@ function library.New(options)
 			theme = theme,
 			dragging = false,
 			binding = false,
-			istextboxfocused = UIS:GetFocusedTextBox() ~= nil,
+			istextboxfocused = userinputservice:GetFocusedTextBox() ~= nil,
 			rainbowspeed = 5,
 			dragleniency = 0.15
 		}
@@ -3573,10 +3574,6 @@ function library.New(options)
 								Name = "list"
 							})
 						}),
-						create("UICorner", {
-							CornerRadius = UDim.new(0, 4),
-							Name = "corner"
-						}),
 						create("Frame", {
 							Theme = {
 								BackgroundColor3 = "leftbackground"
@@ -3604,7 +3601,7 @@ function library.New(options)
 						},
 						Font = Enum.Font.GothamBlack,
 						FontSize = Enum.FontSize.Size24,
-						Text = "Akiri",
+						Text = "EvoV3",
 						TextSize = 20,
 						TextXAlignment = Enum.TextXAlignment.Left,
 						TextYAlignment = Enum.TextYAlignment.Bottom,
@@ -3634,7 +3631,7 @@ function library.New(options)
 						Name = "game"
 					}),
 					create("ImageLabel", {
-						Image = "http://www.roblox.com/asset/?id=8569322835",
+						Image = "rbxassetid://9223312631",
 						BackgroundColor3 = Color3.new(1, 1, 1),
 						BackgroundTransparency = 1,
 						Position = UDim2.new(0, 8, 0, 16),
@@ -3719,15 +3716,15 @@ function library.New(options)
 		newlibrary.storage = storage
 	end
 
-	UIS.TextBoxFocused:Connect(function()
+	userinputservice.TextBoxFocused:Connect(function()
 		newlibrary.settings.istextboxfocused = true
 	end)
 
-	UIS.TextBoxFocusReleased:Connect(function()
+	userinputservice.TextBoxFocusReleased:Connect(function()
 		newlibrary.settings.istextboxfocused = false
 	end)
 
-	UIS.InputBegan:Connect(function(input)
+	userinputservice.InputBegan:Connect(function(input)
         if newlibrary.settings.binding == false and newlibrary.settings.istextboxfocused == false then
             local name = input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode.Name or input.UserInputType.Name
             for i, v in next, newlibrary.items do
@@ -3738,7 +3735,7 @@ function library.New(options)
         end
     end)
 
-    UIS.InputEnded:Connect(function(input)
+    userinputservice.InputEnded:Connect(function(input)
         if newlibrary.settings.binding == false and newlibrary.settings.istextboxfocused == false then
             local name = input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode.Name or input.UserInputType.Name
             for i, v in next, newlibrary.items do
@@ -3748,13 +3745,10 @@ function library.New(options)
             end
         end
     end)
-	
-	newlibrary:makedraggable(newlibrary.dir.gui.main)
-	autocanvasresize(newlibrary.dir.gui.main.left.panel.container.list, newlibrary.dir.gui.main.left.panel.container)
 
 	newlibrary:makedraggable(newlibrary.dir.gui.main)
 	autocanvasresize(newlibrary.dir.gui.main.left.panel.container.list, newlibrary.dir.gui.main.left.panel.container)
-  
+
 	utils:protectinstance(newlibrary.dir)
 	return newlibrary
 end
@@ -3800,7 +3794,7 @@ function library:applybuttoneffect(button, callback, background)
 	end)
 end
 
-function library.NewCategory(options)
+function library:addcategory(options)
 	local newcategory = category.new(options)
 
 	newcategory.library = self
@@ -3812,36 +3806,36 @@ function library.NewCategory(options)
 	return newcategory
 end
 
-function library.NewSettings()
-	local settingscat = self:NewCategory({ content = "Settings" })
+function library:addsettings()
+	local settingscat = self:addcategory({ content = "Settings" })
 	
-	local uitheme = settingscat.NewTab({ content = "Theme" })
+	local uitheme = settingscat:addtab({ content = "Theme" })
 
-	local colours = uitheme.NewSection({ content = "Colours" })
-	colours.NewColorpicker({ content = "Title Background", flag = "titlebackground", ignore = true, default = theme.titlebackground, callback = function(colour)
+	local colours = uitheme:addsection({ content = "Colours" })
+	colours:addpicker({ content = "Title Background", flag = "titlebackground", ignore = true, default = theme.titlebackground, callback = function(colour)
 		theme.titlebackground = colour
 	end })
-	colours.NewColorpicker({ content = "Main Background", flag = "mainbackground", ignore = true, default = theme.mainbackground, callback = function(colour)
+	colours:addpicker({ content = "Main Background", flag = "mainbackground", ignore = true, default = theme.mainbackground, callback = function(colour)
 		theme.mainbackground = colour
 	end })
-	colours.NewColorpicker({ content = "Section Background", flag = "sectionbackground", ignore = true, default = theme.sectionbackground, callback = function(colour)
+	colours:addpicker({ content = "Section Background", flag = "sectionbackground", ignore = true, default = theme.sectionbackground, callback = function(colour)
 		theme.sectionbackground = colour
 	end })
-	colours.NewColorpicker({ content = "Category Background", flag = "categorybackground", ignore = true, default = theme.categorybackground, callback = function(colour)
+	colours:addpicker({ content = "Category Background", flag = "categorybackground", ignore = true, default = theme.categorybackground, callback = function(colour)
 		theme.categorybackground = colour
 	end })
-	colours.NewColorpicker({ content = "Left Background", flag = "leftbackground", ignore = true, default = theme.leftbackground, callback = function(colour)
+	colours:addpicker({ content = "Left Background", flag = "leftbackground", ignore = true, default = theme.leftbackground, callback = function(colour)
 		theme.leftbackground = colour
 	end })
-	colours.NewColorpicker({ content = "Foreground", flag = "foreground", ignore = true, default = theme.foreground, callback = function(colour)
+	colours:addpicker({ content = "Foreground", flag = "foreground", ignore = true, default = theme.foreground, callback = function(colour)
 		theme.foreground = colour
 	end })
-	colours.NewColorpicker({ content = "Highlight", flag = "highlight", ignore = true, default = theme.highlight, callback = function(colour)
+	colours:addpicker({ content = "Highlight", flag = "highlight", ignore = true, default = theme.highlight, callback = function(colour)
 		theme.highlight = colour
 	end })
 
-	local uiother = uitheme.NewSection({ content = "Other" })
-	uiother.NewSlider({ content = "Transparency", flag = "uitransparency", ignore = true, max = 0.95, float = 0.01, callback = function(value)
+	local uiother = uitheme:addsection({ content = "Other" })
+	uiother:addslider({ content = "Transparency", flag = "uitransparency", ignore = true, max = 0.95, float = 0.01, callback = function(value)
 		for i = 1, #uicache do
 			local item = uicache[i]
 			if item.BackgroundTransparency < 1 then
@@ -3856,9 +3850,9 @@ function library.NewSettings()
 		end
 	end })
 
-	local themeloader = uitheme.NewSection({ content = "Load Theme", right = true })
-	themeloader.NewDropdown({ content = "Themes", flag = "themelist", ignore = true, items = themes:get() })
-	themeloader.NewButton({ content = "Load", flag = "loadtheme", ignore = true, callback = function()
+	local themeloader = uitheme:addsection({ content = "Load Theme", right = true })
+	themeloader:adddropdown({ content = "Themes", flag = "themelist", ignore = true, items = themes:get() })
+	themeloader:addbutton({ content = "Load", flag = "loadtheme", ignore = true, callback = function()
 		local loadedtheme = themes:load(self.flags.themelist)
 		if loadedtheme then
 			self.items.titlebackground:set(loadedtheme.titlebackground:ToHSV())
@@ -3870,7 +3864,7 @@ function library.NewSettings()
 			self.items.highlight:set(loadedtheme.highlight:ToHSV())
 		end
 	end })
-	themeloader.NewButton({ content = "Refresh List", flag = "refreshthemes", ignore = true, callback = function()
+	themeloader:addbutton({ content = "Refresh List", flag = "refreshthemes", ignore = true, callback = function()
 		self.items.themelist:clear()
 		local themelist = themes:get()
 		for i = 1, #themelist do
@@ -3879,30 +3873,30 @@ function library.NewSettings()
 	end })
 	
 	local themesaver = uitheme:addsection({ content = "Save Theme", right = true })
-	themesaver.NewBox({ content = "Theme Name", flag = "themename", ignore = true })
-	themesaver.NewButton({ content = "Save", flag = "savetheme", ignore = true, callback = function()
+	themesaver:addbox({ content = "Theme Name", flag = "themename", ignore = true })
+	themesaver:addbutton({ content = "Save", flag = "savetheme", ignore = true, callback = function()
 		themes:save(theme, self.flags.themename)
 		self.items.refreshthemes:fire()
 	end })
 
-	local configuration = settingscat.NewTab({ content = "Configuration" })
-	local uiconfig = configuration.AddSection({ content = "UI" })
-	uiconfig.NewBind({ content = "Toggle Key", flag = "togglekey", default = "RightControl", onkeydown = function()
+	local configuration = settingscat:addtab({ content = "Configuration" })
+	local uiconfig = configuration:addsection({ content = "UI" })
+	uiconfig:addbind({ content = "Toggle Key", flag = "togglekey", default = "RightControl", onkeydown = function()
 		self:toggle()
 	end })
-	uiconfig.NewSlider({ content = "Rainbow Cycle Duration", flag = "rainbowspeed", min = 1, max = 25, float = 0.1, default = self.settings.rainbowspeed, callback = function(value)
+	uiconfig:addslider({ content = "Rainbow Cycle Duration", flag = "rainbowspeed", min = 1, max = 25, float = 0.1, default = self.settings.rainbowspeed, callback = function(value)
 		self.settings.rainbowspeed = value
 	end })
-	uiconfig.NewSlider({ content = "Drag Leniency", flag = "dragleniency", min = 0, max = 1, float = 0.01, default = self.settings.dragleniency, callback = function(value)
+	uiconfig:addslider({ content = "Drag Leniency", flag = "dragleniency", min = 0, max = 1, float = 0.01, default = self.settings.dragleniency, callback = function(value)
 		self.settings.dragleniency = value
 	end })
 
-	local configloader = configuration.NewSection({ content = "Load Config", right = true })
-	configloader.NewDropdown({ content = "Configs", flag = "configlist", ignore = true, items = self.configs:get() })
-	configloader.NewButton({ content = "Load", flag = "loadconfig", ignore = true, callback = function()
+	local configloader = configuration:addsection({ content = "Load Config", right = true })
+	configloader:adddropdown({ content = "Configs", flag = "configlist", ignore = true, items = self.configs:get() })
+	configloader:addbutton({ content = "Load", flag = "loadconfig", ignore = true, callback = function()
 		self.configs:load(self, self.flags.configlist)
 	end })
-	configloader.NewButton({ content = "Refresh List", flag = "refreshconfigs", ignore = true, callback = function()
+	configloader:addbutton({ content = "Refresh List", flag = "refreshconfigs", ignore = true, callback = function()
 		self.items.configlist:clear()
 		local configlist = self.configs:get()
 		for i = 1, #configlist do
@@ -3910,9 +3904,9 @@ function library.NewSettings()
 		end
 	end })
 
-	local configsaver = configuration.NewSection({ content = "Save Config", right = true })
-	configsaver.NewBox({ content = "Config Name", flag = "configname", ignore = true })
-	configsaver.NewButton({ content = "Save", flag = "saveconfig", ignore = true, callback = function()
+	local configsaver = configuration:addsection({ content = "Save Config", right = true })
+	configsaver:addbox({ content = "Config Name", flag = "configname", ignore = true })
+	configsaver:addbutton({ content = "Save", flag = "saveconfig", ignore = true, callback = function()
 		self.configs:save(self, self.flags.configname)
 		self.items.refreshconfigs:fire()
 	end })
