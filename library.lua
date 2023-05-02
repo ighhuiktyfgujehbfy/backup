@@ -9,7 +9,6 @@ local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or f
 	return str
 end
 
---[[ Variables ]]--
 
 local themes = evov3.imports:fetchsystem("themes")
 local utils = evov3.imports:fetchsystem("utils")
@@ -3601,7 +3600,7 @@ function library.new(options)
 						},
 						Font = Enum.Font.GothamBlack,
 						FontSize = Enum.FontSize.Size24,
-						Text = "EvoV3",
+						Text = "Akiri",
 						TextSize = 20,
 						TextXAlignment = Enum.TextXAlignment.Left,
 						TextYAlignment = Enum.TextYAlignment.Bottom,
