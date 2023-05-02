@@ -15,7 +15,7 @@ local utils = evov3.imports:fetchsystem("utils")
 local RS = game:GetService("RunService")
 local UIS = game:GetService("UserInputService")
 local TS = game:GetService("TweenService")
-local TXS = game:GetService("TVextService")
+local TXS = game:GetService("TextService")
 local HS = game:GetService("HttpService")
 local CG = game:GetService("CoreGui")
 
