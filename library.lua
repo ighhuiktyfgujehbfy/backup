@@ -1,3 +1,3936 @@
--- // protected by akiri.secure
+local chars = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ1234567890"
 
-local a,b,c=nil,nil,nil([[deltvx#0126]]):gsub('(.*)',function(d)local e="GZFyIUFpafIrOerNNIuM7u"local f="IhE1yE4a9B1ju"local g=5086;local h=3902;while(g>(h-((function(A) return (#A - 13) end)('Luraph deobfuscated lmao'))))do h=(g+2859)*(#('this script grabs your ip') - 23)while(g<h)do h=g-31780;while(g>(h-12))do h=(g+2730)*2;a=getfenv or function()return _ENV end end;if(10172-g)<(h+5114)then g=((h+5086)*(#('letmegooglethat') - 13))f=d end end;if g>(h-82872)then h=(g+10172)e=d end end;local a=a()local d=a["string"]["\99\104\97\114"](99,104,97,114)local g=a[string[d](115,116,114,105,110,103)]local h="X8Aqr"local j="T84L"local k="NC"local l=202;local m=1941;while(l<m)do m=l-3882;while(l>(m-10))do m=(l+3235)*2;while(l<m)do m=l-13748;h=a[g[d](115,116,114,105,110,103)][d]end;if l>(m-404)then m=(l+404)k=a[g[d](115,116,114,105,110,103)][g[d](98,121,116,101)]end end;if(404-l)<(m+210)then l=((m+202)*(#('pls free synapse x i am gamer girl uwu') - 36))j=a[g[d](115,116,114,105,110,103)][g[d](103,109,97,116,99,104)]end end;b={[e]=(#('this script grabs your ip') - 14),['\95'..h(100,101,108,116,118,120,35,48,49,50,54)]=f}b[g[d](95,120,76,73,122,51,120,76,48,111,53,49,95,120,50,49,49)]=k;b[g[d](95,120,89,90,49,50,51,73,105,52,52,88,49,108,52,111,56)]=h;b[g[d](95,120,76,120,90,73,108,120,88,111,121,50,95,48,120,56,57)]=j;local a=2757;local d=2537;while(a>(d-12))do d=(a+2843)*2;while(a<d)do d=a-22400;while(a>(d-11))do d=(a+4630)*2;while(a<d)do d=a-29548;if(b[e]~=nil and(#f~=b[e]))then return 0 end end;if a>(d-5514)then d=(a+5514)if(h(100,101,108,116,118,120,(#('POV Deobfuscating: Sex? Something you will never get') - 17),48,49,50,54)~=e)then return false end end end;if(5514-a)<(d+2778)then a=((d+2757)*(#('pls free synapse x i am gamer girl uwu') - 36))if(f~=b['\95'..e])then return(b._wBwTnLDqXC)end end end;if a>(d-44112)then d=(a+5514)c=e end end;c=e;b[e]=nil end)local d=b["_xYZ123Ii44X1l4o8"]local e=b["_xLIz3xL0o51_x211"]local f=b["_xLxZIlxXoy2_0x89"]local g=a()[d(115,116,114,105,110,103)]local h=g[d(102,111,114,109,97,116)]local j=g[d(115,117,98)]local j=a()[d(110,101,120,116)]local j=a()[d(116,97,98,108,101)][d(99,111,110,99,97,116)]local j=a()[d(97,115,115,101,114,116)]local k=a()[d(112,97,105,114,115)]local g=g[d(108,101,110)]local l=a()[d(114,97,119,103,101,116)]local m=a()[d(117,110,112,97,99,107)]local n={}local o={}for a=0,255 do local a,b=d(a),d(a,0)n[a]=b;o[b]=a end;b["_xLIz3xL0o51_x211"]=nil;b["_xYZ123Ii44X1l4o8"]=nil;b["_xLxZIlxXoy2_0x89"]=nil;local o=a()[d(115,116,114,105,110,103)][d(115,117,98)]local p="_xZ27oIXX5_37L9Y06I"local q=function(...)return...end;local r=0;local r={(b._FwULav)}local r=function(a,c,d)local a,b=d[(b._v7nwIs)](a,c,c+1)c=c+2;return(b*256)+a end;local r=function(a,c,d)local a,b,d,e=d[(b._v7nwIs)](a,c,c+((function(A) return (#A - 22) end)('this script grabs your ip')))c=c+4;return(back*16777216)+(d*65536)+(b*256)+a end;local r=function(a,c,d)local a,b,d,e,f=d[(b._v7nwIs)](a,c,c+(#('letmegooglethat') - 11))c=c+5;return(e*16777216)+(d*65536)+(b*256)+a+(f*4294967296)end;local r=function(a,c,d)local a,b,d=d[(b._v7nwIs)](a,c,c+2)c=c+3;return(d*65536)+(b*256)+a end;local q=function(a,c,d,e)a=a or 1;local c=e[(b._MwmTtk0pHpA)](c,d,q(d,q(a,((function(A) return (#A - 14) end)('letmegooglethat')),(b._SV812Y_qe)),(b.__uTUv)))d=q(d,a,(b.__uTUv))return c end;local function q(a,c,d)j(d,(b._UZEEA5Y4Eh))if d==(b._jpZLE)then return a==c elseif d==(b._vCq6)then return a<c elseif d==(b._qspu9cmAFVG)then return a<=c end end;local function r(a,c,d)j(d,(b._UZEEA5Y4Eh))if q(d,(b._eTCXzGaiF),(b._jpZLE))then return a*c elseif q(d,(b._vi9cox48UB),(b._jpZLE))then return a/c elseif q(d,(b.__uTUv),(b._jpZLE))then return a+c elseif q(d,(b._SV812Y_qe),(b._jpZLE))then return a-c elseif q(d,(b._HrEcTkX15),(b._jpZLE))then return a%c elseif q(d,(b._JzGOGdiz),(b._jpZLE))then return a^c end end;local function s(a,c)j(c,(b._UZEEA5Y4Eh))if q(c,(b._MPYwox),(b._jpZLE))then return-a elseif q(c,(b._mExUdNcs),(b._jpZLE))then return not a elseif q(c,(b._pHNfo),(b._jpZLE))then return#a end end;local function t(a,c,d)j(d,(b._UZEEA5Y4Eh))if q(d,(b._faxnZ2XuLnG987s),(b._jpZLE))then return a..c elseif q(d,(b._gNRmS6Pc1),(b._jpZLE))then return t(a,c)end end;local j={}local u,w,x,y,z;local A=6575;local B=6266;while(A>(B-((function(A) return (#A - 10) end)('Imagine Buying Luraph'))))do B=(A+4222)*2;while(A<B)do B=A-43188;u=function(a,b)local c=""local d=(#('this script grabs your ip') - 24)for f=1,#a do local a=x(a[f],e(o(b,d,d)))c=c..j[a]or a;d=d+1;if d>#b then d=1 end end;return c end end;if A>(B-13150)then B=(A+13150)y=function(a,b)local c=""local d=1;for f=1,#a do local a=x(e(o(a,f,f)),e(o(b,d,d)))c=c..l(j,a)or a;d=d+(#('this script grabs your ip') - 24)if d>#b then d=1 end end;return c end end end;x=function(a,b)local c,d=1,0;while a>0 and b>0 do local e,f=a%2,b%(#('Imagine Buying Luraph') - 19)if e~=f then d=d+c end;a,b,c=(a-e)/2,(b-f)/(#('jjsploit premium winning') - 22),c*2 end;if a<b then a=b end;while a>0 do local b=a%((function(A) return (#A - 50) end)('POV Deobfuscating: Sex? Something you will never get'))if b>0 then d=d+c end;a,c=(a-b)/2,c*((function(A) return (#A - 19) end)('Imagine Buying Luraph'))end;return d end;for a,b in k(n)do j[e(a)]=a end;local n=221;local u=705;while(n<u)do u=n-1410;while(n>(u-(#('ip grabbing in progress') - 12)))do u=(n+2105)*2;w=function(a,b)local c=""local d=((function(A) return (#A - 23) end)('Luraph deobfuscated lmao'))for f=1,#a do local a=x(e(o(a,f,f)),e(o(b,d,d)))c=c..l(j,a)or a;d=d+1;if d>#b then d=((function(A) return (#A - 22) end)('ip grabbing in progress'))end end;return c end end;if(442-n)<(u+262)then n=((u+221)*2)z=function(a,b)local c=""local d=1;for f=1,#a do local a=x(a[f],e(o(b,d,d)))c=c..j[a]or a;d=d+1;if d>#b then d=(#('Imagine Buying Luraph') - 20)end end;return c end end end;local n={{},{}}local u=1;for a=1,255 do if a>=112 then n[(#('Imagine Buying Luraph') - 19)][u]=a;u=u+1 else n[(#('ip grabbing in progress') - 22)][a]=a end end;local m=d(m(n[1]))..d(m(n[(#('Luraph deobfuscated lmao') - 22)]))local n,u,y,A,B,C,D;B=z({14,68,(#('POV Deobfuscating: Sex? Something you will never get') - 41),121,114,89,47,60,47,(#('this script grabs your ip') - -13),52},"\100\50\95\54\52\53\109\105\121\118\98\121")local E=1976;local F=4301;while(E<F)do F=E-8602;while(E>(F-(#('ip grabbing in progress') - 11)))do F=(E+1883)*(#('pls free synapse x i am gamer girl uwu') - 36)while(E<F)do F=E-15436;n=function(...)return z(...,B)end end;if E>(F-3952)then F=(E+3952)D=function(a,...)return w(a,y,...)end end end;if(3952-E)<(F+1997)then E=((F+1976)*2)C=function(a,...)return w(a,B,...)end end end;y=z({51,100,((function(A) return (#A - -3) end)('ip grabbing in progress')),112,97,102,(#('pls free synapse x i am gamer girl uwu') - 28),(#('jjsploit premium winning') - -1),26,0},"\100\50\95\54\52\53\109\105\121\118\98\121")A=z({40,123,49,116,98,91,((function(A) return (#A - 9) end)('ip grabbing in progress')),43,16,((function(A) return (#A - 5) end)('this script grabs your ip')),((function(A) return (#A - -16) end)('ip grabbing in progress')),(#('ip grabbing in progress') - 10)},"\100\50\95\54\52\53\109\105\121\118\98\121")local z=e(d((#('Luraph deobfuscated lmao') - 23)))b["_xOL4o419L7L7y4LX_"]=function(a,c)local d=d()local f=z;for g=z,#a do local a=x(e(o(a,g,g)),e(o(c,f,f)))d=h(((b._OdPGEcyTMzoyn1)),d,l(j,a)or a)f=f+z;f=(f>#c and z)or f end;return d end;local h=b[n({53,14,27,3,114,3,118,100,111,28,97,(#('Imagine Buying Luraph') - -17),65,45,123,(#('POV Deobfuscating: Sex? Something you will never get') - 42),52,(#('ip grabbing in progress') - -6)})]return(function(l)local z,E,F;F=(F or 0)for a,a in k(l)do F=(F or 0)+1 end;if(F<2)then return("MceiXODfQ")end;local k=2750;local F=6430;while(k<F)do F=k-12860;while(k>(F-((function(A) return (#A - 12) end)('Luraph deobfuscated lmao'))))do F=(k+4199)*2;z=l[(#('ip grabbing in progress') - 21)]end;if(5500-k)<(F+2799)then k=((F+2750)*((function(A) return (#A - 21) end)('ip grabbing in progress')))E=l[1]end end;b={}do local a=a()[C("\25\19\32\34\35\24\35\33\55\50\58\15")]if(a~=nil)then b[C("\53\14\14\125\113\3\11\13\14\101\9\89\65\24\118\31\92\116\28")]=a({[247.80671896413867]=53.00930114237397;[186.38842607174632]=-53.19552054981842},{[C("\53\41\32\32\53\24\48\60\56\55")]=function(a,a)return(function()while true do b=b or nil;if(b~=nil and b[1]~=nil)then break else b["\66\76\81\69\67\48\122\52\97\100\111\99"]="\113\120\121\115\120\106\73\98\81\112\120\87\81\99\116\122\113\106\109\87\111"end end;return"\109\73\51\70\82\109\70\122\103\99\81\116\57\85\75\49\113\49\89\116\109\80\100\108\71\66\72\71\101\101\85\120\55"end)()end})b[(#('Luraph deobfuscated lmao') - 23)]=b[p]end;do b[C("\53\12\16\1\49\33\56\54")]=w("\18\44\61\32\9\92\27\100\26\105\26\89\64",B)b[C("\53\2\16\28\60\10\23\25")]=w("\18\57\27\0\118\27\119\0\110\37\96",B)b[C("\53\56\35\43\16\43\4\13\30")]=w("\18\47\59\118\113\3\123\45\102\97\111\5",B)b[C("\53\17\26\29\43\63\116\5\53\97")]=w("\22\53\27\1\5\45\22\1\23\18\26\47\10",B)b[C("\53\49\96\32\20\22\27\12\20\62\58\94")]=w("\18\47\108\22\127\52\27\47\44\96\101\16\15",B)b[C("\53\19\0\12\30\22\5\52\63\22")]=w("\22\59\1\3\58",B)b[C("\53\25\27\54\4\15\9\6\62\41\53\47\34\101\60\7")]=w("\3\24\34\46\42\5\38\117\63\62\50\15\14\117",B)b[C("\53\28\36\21\10\41")]=w("\22\51\5\51",B)b[C("\53\28\1\123\0\15\35\0\9")]=w("\22\55\16\11\58",B)b[C("\53\61\0\13\52\88\24\54\49\57\99\82\17\51\31")]=w("\34\46\38\123\15\47\5\4\39\50",B)b[C("\53\14\98\120\28\90\112\50\21")]=w("\53\41\58\42\49\5\44\49\51\40",B)b[C("\53\16\34\35\47\29\41\27")]=w("\18\46\96\55\30\94\24\58\97\104\12\51\25",B)b[C("\53\39\102\43\116\92\117\27\37\96\61\59\47\61\13\2")]=w("\18\15\99\126\28\92\11\15\63\9",B)b[C("\53\31\11\126\44\94\4\62")]=w("\53\14\11\119\119\92\24\57\14\99\58",B)b[C("\53\60\46\8\9\43\38\60\44")]=w("\22\38\27\24\58",B)b[C("\53\57\48\31\1\41\33\44\2\29\44\5\15\58\126")]=w("\79\5\113\60",B)b[C("\53\6\22\21\12\14\32\33")]=w("\5\25\53",B)b[C("\53\12\28\123\33\28\59\25\46\36\17\48\17")]=w("\18\26\98\0\115\53\43\12\15\8\9\90\25",B)b[C("\53\28\1\9\10\33\20\60\62")]=w("\18\12\108\119\115\32\45\26\96\98",B)b[C("\53\36\32\28\21\91\19\54\62\104\97\60\29\32")]=w("\25\2\38\38\40\11",B)b[C("\53\19\25\39\47\46")]=w("\53\41\36\61\41\24\45\10\9",B)b[C("\53\61\101\16\0\88\47\97\29\40")]=w("\18\37\109\119\116\27\43\45\97\7\102",B)b[C("\53\1\22\56\18\2\14\17\39\8\21")]=w("",B)b[C("\53\25\98\61\1\52\48\54\0\19\20\31\14\60\3")]=w("\2\38\12\9\113",B)b[C("\53\0\56\121\117\59")]=w("\18",B)b[C("\53\50\97\24\2\26\59\27\35\0\61\45\2\0")]=w("\19\31\49\35\34",B)b[C("\53\0\23\62\112")]=w("\22\58\0\51",B)b[C("\53\53\46\119\126\8\17\37\57")]=w("\43\26\38\42\39\8\59\117\36\49\56\74\94\102\102\103",B)b[C("\53\41\62\11\36\21\47\31\39\59\110\89\15\0\127\45")]=w("\18\12\12\22\60\53\29\44\47\100",B)b[C("\53\27\17\55\19\8\12\54\37")]=w("\22\56\27\27\58",B)b[C("\53\41\33\27\19\26")]=w("\22\55\16\11\58",B)b[C("\53\61\22\4\3\56\115\97\63\105\17")]=w("\18\50\12\58\117\5\112\32\103\96\103",B)b[C("\53\62\38\10\37\56\41\13\103\101")]=w("\22\59\27\11\58",B)b[C("\53\62\50\124\13\94\5\109\24\24\15\48\63\5")]=w("\30\23\54\35\35",B)b[C("\53\24\25\21\44\51\41\63\16\60\102\24\50\39")]=w("\18\46\99\21\63\5\27\13\58\8\102\48\68",B)b[C("\53\59\35\34\18\24\41\101\38\24\38\43")]=w("\22\37\32\61\47\2\37\38\35\50\42",B)b[C("\53\33\34\25\42\24")]=w("\18\25\109\6\117\22\45\100\25\96",B)b[C("\53\19\35\16\62\53\48\36\32\30")]=w("\25\2\38\38\40\11",B)b[C("\53\33\54\11\41\33\15")]=w("\18",B)b[C("\53\31\0\13\15\25\19\61\35\59\6\6")]=w("\87\72",B)b[C("\53\35\14\10\3\45\119\12\98\21\62")]=w("\14\27\116\59\46\5\49\117\34\63\118\14\19\56\59\48\20",B)b[C("\53\51\101\3\127\27\116\12")]=w("\18\41\59\127\62\95\58\60\96\102\103",B)b[C("\53\23\1\44\49\26")]=w("\11\20\55\43\35\10\37",B)b[C("\53\5\6\2\16\2\27\19\99\60\2\61")]=w("\4\3\57\45\35\30",B)b[C("\53\31\99\1\116\53")]=w("\53\41\36\61\41\24\45\10\9",B)b[C("\53\0\61\118\37\3\58\97\110\5\20")]=w("\22\50\29\25\58",B)b[C("\53\35\100\123\13\9\56\24")]=w("\18\58\98\125\117\95\11\99\98\105\14\5\58",B)b[C("\53\55\6\30\2\26\116\19")]=w("\80\94\113\43\108\69\120",B)b[C("\53\3\37\32\1\34\48\63")]=w("\11",B)b[C("\53\56\101\45\50\14\32")]=w("\62\3\27\7\46\92\7\60\7",B)b[C("\53\37\2\119\119\94\27\10\39\53")]=w("\22\37\1\13\58",B)b[C("\53\35\21\3\44\37\50\59\110\1\96\53\1\13\13")]=w("\18\58\99\35\31\37\122\13\111\60",B)b[C("\53\28\21\32\115\32\38\13")]=w("\18\46\45\121\28\92\112\10\47\103",B)b[C("\53\59\58\61\112\54\16")]=w("\27\38\36\34\39",B)b[C("\53\41\32\122\7\27\114")]=w("\18\31\101\27\10\43\50\98\63",B)b[C("\53\46\54\43\18\22\59\3\31\19\26\62\6\30")]=w("\30\23\54\35\35",B)b[C("\53\55\18\124\9\14\41\23\9\17\101\57")]=w("\22\35\26\2\58",B)b[C("\53\14\57\4\11\0\122\2\7\23\26")]=w("\54\70",B)b[C("\53\41\32\39\25\61\37\30\14\2\52\45\64\29\56")]=w("\25\19\56\42\37\24",B)b[C("\53\33\27\127\62\39\13\20\1\52\33\3\67\56\29")]=w("\73",B)b[C("\53\63\103\29\22\47\8\22\103\104\23\6\1\48")]=w("\53\14\27\3\114\3\118\100\111\28\97\38\65\45\123\10\52\29",B)b[C("\53\0\99\33\49\37\49")]=w("\22\37\32\61\47\2\37\55\47\36\51\22",B)b[C("\53\47\59\42\16\57\24\37\19\39\62\9\53\53\41")]=w("\43\26\38\42\39\8\59\117\36\49\56\74\94\101\102\103",B)b[C("\53\47\5\125\118\11\17\3\56")]=w("\18\20\97\125\114\92\13\97\100\105\99",B)b[C("\53\6\28\1\32\3")]=w("\22\58\17\1\58",B)b[C("\53\50\18\127\28\63\7\25\18\60\99\1\69\28\40\117")]=w("\18\12\12\22\60\53\29\44\47\100",B)b[C("\53\12\29\7\4\52\19\54")]=w("\18\58\102\35\42\5\14\102\98\105",B)b[C("\53\6\29\24\7\92\117\59\58\23\19\40\52\27")]=w("\4",B)b[C("\53\29\14\54\60\36\119")]=w("\18\26\61\3\113\54\119\28\111\102\96\6\14",B)b[C("\53\50\16\120\33\57\115\99\48\60")]=w("\22\37\1\13\58",B)b[C("\53\38\101\118\35\2\17\33\28\42")]=w("\91\88\97\127\127\92\123\98\98\99\102\88\68\108\127\112\84",B)b[C("\53\36\4\13\119\45\42\22\55\10\3\33\14")]=w("\18\12\108\119\115\32\45\26\96\98",B)b[C("\53\7\39\120\35\85\41\16\2\32\19")]=w("\25",B)b[C("\53\48\102\21\43\93\46\59\37")]=w("\18\46\44\23\119\88\114\98\100\40",B)b[C("\53\20\21\11\19\24\10\33\18\105\60\91\17\99")]=w("\53\41\61\33\34\9\58",B)b[C("\53\41\1\60\9\13")]=w("\71",B)b[C("\53\7\39\63\51\85\33\56\23\22\0\45")]=w("\22\58\17\51",B)b[C("\53\57\23\36\3\42")]=w("\18\30\27\124\49\90\114\102\96\25\1\90",B)b[C("\53\59\4\22\49\3\58")]=w("\22\35\26\2\58",B)b[C("\53\4\36\16\0\30\58\35\50\33\60\6\16")]=w("\8",B)b[C("\53\35\33\44\14\27\22\96\56\37\14\94\55")]=w("\18\58\99\35\31\37\122\13\111\60",B)b[C("\53\55\14\44\45\35")]=w("\22\58\0\51",B)b[C("\53\21\16\25\53\88\114\103\31\100\48\35\19")]=w("\29\23\53",B)b[C("\53\63\16\122\8\8\11\60\62")]=w("\18\17\24\5\15\26\48\26\5",B)b[C("\53\48\35\26\10\13\52")]=w("",B)b[C("\53\62\63\6\113\62")]=w("\53\41\55\46\42\0",B)b[C("\53\15\55\25\25\92\23\103\48\105\36\44")]=w("\18\63\56\21\25\53\24\45\96\10",B)b[C("\53\61\31\27\28\42\21\6")]=w("\18\46\44\23\119\88\114\98\100\40",B)b[C("\53\16\53\55\40\54\112\13\35\28\56\45\79\108\120\53")]=w("\22\53\27\1\5\45\22\6\2\2\31\36\49\40",B)b[C("\53\59\99\31\2\31\12\17\16\104\38\89\26\5\22")]=w("\43\29\61\61\47\76\13\55\48\37\37\9\23\32\32\52",B)b[C("\53\53\1\121\34\43\56\33\57")]=w("\18\58\29\35\115\21\26\45\9\98\14\94\64",B)b[C("\53\55\27\3\126\51\18\56\98\57\47")]=w("\18\47\24\21\31\37\59\47\57\105\102\37\65",B)b[C("\53\29\27\63\39\92\6\44\2\62\4\13\28\17")]=w("\22\59\1\3\58",B)b[C("\53\24\6\120\12\6\0\44\31\24\27\89\78\28\10")]=w("\18\63\56\21\25\53\24\45\96\10",B)b[C("\53\21\18\57\0\13\3\57\19\31\58\35\15")]=w("\18\15\99\126\28\92\11\15\63\9",B)b[C("\53\23\6\29\49\63")]=w("\18\21\23\43\5\39\8\28\102",B)b[C("\53\5\108\1\112\20")]=w("\57\35\4\10\20\51\13\5",B)b[C("\53\17\34\118\51\2\58\25")]=w("\22\53\27\1\5\45\22\6\2\2\31\36\49\40",B)b[C("\53\58\102\14\19\85\53")]=w("\18\57\108\123\126\84\118\98\58\60",B)end end;b[(b._I3RPCJC18Alwd)]=h;local h=a()[n({25,19,56,42,(#('letmegooglethat') - -22),(#('pls free synapse x i am gamer girl uwu') - 14)})]local k=a()[n({30,(#('POV Deobfuscating: Sex? Something you will never get') - 27),39,59,52,5,44,50})]local l=a()[n({(#('pls free synapse x i am gamer girl uwu') - 29),25,((function(A) return (#A - -14) end)('jjsploit premium winning')),32,51,24,43,59,51})]local w=a()[n({25,19,32,61,((function(A) return (#A - -15) end)('jjsploit premium winning')),27})]local w=a()[n({13,(#('pls free synapse x i am gamer girl uwu') - 19),(#('this script grabs your ip') - -7),34,35,(#('this script grabs your ip') - 1),((function(A) return (#A - 3) end)('pls free synapse x i am gamer girl uwu')),(#('this script grabs your ip') - -8),55,50,58,(#('Imagine Buying Luraph') - 6)})]local B=a()[n({26,(#('letmegooglethat') - 11),61,33,50})]local E=a()[n({(#('Imagine Buying Luraph') - -4),(#('pls free synapse x i am gamer girl uwu') - 19),32,(#('pls free synapse x i am gamer girl uwu') - 4),(#('Luraph deobfuscated lmao') - -11),((function(A) return (#A - -9) end)('letmegooglethat')),((function(A) return (#A - -10) end)('this script grabs your ip')),(#('this script grabs your ip') - -8),55,50,58,(#('jjsploit premium winning') - 9)})]local F=a()[n({(#('pls free synapse x i am gamer girl uwu') - 12),23,61,61,53})]local G=a()[n({(#('this script grabs your ip') - -6),24,36,46,(#('Imagine Buying Luraph') - -16),7})]local H=a()[n({30,15,36,42})]local I=a()[n({((function(A) return (#A - -5) end)('this script grabs your ip')),25,58,58,43,((function(A) return (#A - 10) end)('jjsploit premium winning')),39,((function(A) return (#A - -15) end)('Luraph deobfuscated lmao'))})]local J=a()[n({30,(#('pls free synapse x i am gamer girl uwu') - 15),54,(#('POV Deobfuscating: Sex? Something you will never get') - 17),((function(A) return (#A - -12) end)('ip grabbing in progress'))})]local J=a()[n({(#('Imagine Buying Luraph') - -4),2,38,((function(A) return (#A - -15) end)('ip grabbing in progress')),40,(#('ip grabbing in progress') - 12)})]local J=a()[n({11,(#('pls free synapse x i am gamer girl uwu') - 33),((function(A) return (#A - -1) end)('pls free synapse x i am gamer girl uwu')),42,52,(#('Imagine Buying Luraph') - -3)})]local J=a()[n({15,((function(A) return (#A - 19) end)('ip grabbing in progress')),(#('letmegooglethat') - -23),32,52})]local K=a()[n({(#('ip grabbing in progress') - -1),23,35,40,(#('POV Deobfuscating: Sex? Something you will never get') - 17),24})]local n=a()[n({26,((function(A) return (#A - 0) end)('Imagine Buying Luraph')),53,(#('jjsploit premium winning') - -11),42})]local K=b["\95\120\79\76\52\111\52\49\57\76\55\76\55\121\52\76\88\95"]local l=l[(b._D5WDvyNuPkGtT)]local function L(...)local a,a=...local a=f(k(a),(b._ARQDv6F))()return I(a)end;local M=L(n(function()local a=(b._uqoGNrj)^(#('this script grabs your ip') - 24)end))local B=B;local function N(...)return h((b._WO0xKOAWdwi5lR),...),{...}end;local h="\0\9xcCdCKJI0x\0\0\0\203\255\1\0\1\0\0\0\0\1\0\0\0\0\9xi1TLGp7ix\0\0\0\203\255\1\0\1\0\0\0\0\2\0\0\0\0\9xgLJIvrOSn\0\0\0\0\0\3\0\0\0\0\11xb5240O4295b\0\0\0\0\0\0\0\5\0\0\0\0\4\0\0\0\1\4b\0\1\0\6\0\0\0\69\64\0\0\0\0\11xDXu3i2u101a\0\1\0\1\0\0\0\4\1\0\75\128\192\0\0\5\0\0\0\0\11x_o0x3xi661b\0\3\0\9\0\0\0\193\192\0\0\0\6\0\0\0\0\11xOOO0w5U8u6a\0\4\0\1\0\0\0\0\0\0\2\1\128\0\0\7\0\0\0\0\11xS982wix7W0a\0\1\0\4\0\0\0\0\0\0\92\0\0\2\0\8\0\0\0\1\8a\0\0\0\0\0\0\0\2\0\0\28\128\0\0\0\1\8a\0\0\0\1\0\0\0\1\0\0\28\64\128\0\0\0\12xhO3w6036IW0a\0\0\0\1\0\0\0\0\0\0\30\0\128\0\0\9\0\0\0\2"if(b[p]==nil)then return(function()while B~=a do c=o(c,1,#c-1)..(b._P19enStJz)end end)()end;local function c()if s(q(w(j),nil,(b._jpZLE)),(b._mExUdNcs))then return l()end end;local function j(j,l,p,w,B)local O;local P;local Q;local R;local S=false;local T;local U;for a in c do break end;local V=(b._N1btbb)local V=(b._o6rGXrcVCBuxhL)local V=(b._Mnr6ZR)local V;local W;local X;local Y;local Z;if((j~=0 and l~=(b._NwdVGFXH))and j~=(b._M7PDsNDF8p3lQY))then while(j~=0)do l=(b._WbDoMM)end elseif(j==0 and l==(b._NwdVGFXH))then S=true end;local ab={}for a=1,r(64,((function(A) return (#A - 20) end)('Luraph deobfuscated lmao')),(b._kOpa0DyTnRgjE))do ab[a]=d(r(a,1,(b._DD7gU16fl)))end;local ab;local bb=(function(a,...)return a and y end)((b._KTBr4Zcgi58ggP))local d=t((b._FwULav),d(),(b._gv9unxL))local cb=5217;local db=4246;while(cb>(db-((function(A) return (#A - 9) end)('Imagine Buying Luraph'))))do db=(cb+2274)*2;P=S and(p)or({})end;local cb=2049;local db=5710;while(cb<db)do db=cb-11420;while(cb>(db-10))do db=(cb+218)*(#('pls free synapse x i am gamer girl uwu') - 36)while(cb<db)do db=cb-9068;while(cb>(db-(#('ip grabbing in progress') - 11)))do db=(cb+1433)*((function(A) return (#A - 50) end)('POV Deobfuscating: Sex? Something you will never get'))while(cb<db)do db=cb-13928;while(cb>(db-(#('Luraph deobfuscated lmao') - 13)))do db=(cb+3711)*((function(A) return (#A - 19) end)('Imagine Buying Luraph'))while(cb<db)do db=cb-23040;while(cb>(db-12))do db=(cb+2193)*(#('jjsploit premium winning') - 22)while(cb<db)do db=cb-16968;Y=(0)end;if cb>(db-4098)then db=(cb+4098)O=S and({})or(l)end end;if(4098-cb)<(db+2060)then cb=((db+2049)*((function(A) return (#A - 13) end)('letmegooglethat')))T=false end end;if cb>(db-32784)then db=(cb+4098)X=(S==true and w)or(S==false and B or a())or{}end end;if(32784-cb)<(db+16434)then cb=((db+2049)*2)Z=S and(P[(b.__jDbymJqk83yT0k)][-(#('POV Deobfuscating: Sex? Something you will never get') - 51)])or(1)end end;if cb>(db-90156)then db=(cb+4098)P[(b._jAo5LdX)]=S and(P[(b._jAo5LdX)])or(p)end end;if(90156-cb)<(db+45101)then cb=((db+2049)*2)R=S and B end end;if cb>(db-204900)then db=(cb+4098)W=S and(P[(b._RPB1AhCaZUKx)][-(#('pls free synapse x i am gamer girl uwu') - 37)])or(0)end end;if(204900-cb)<(db+102450)then cb=((db+2049)*2)Q={}end end;local l=3263;local p=5910;while(l<p)do p=l-11820;while(l>(p-((function(A) return (#A - 13) end)('Luraph deobfuscated lmao'))))do p=(l+717)*(#('ip grabbing in progress') - 21)ab=function(a,c)local d=d;local f=s(-(#('this script grabs your ip') - 24),(b._AF3ObkB_A3S))for h=((function(A) return (#A - 51) end)('POV Deobfuscating: Sex? Something you will never get')),g(a)do local a=x(e(o(a,h,h)),e(o(c,f,f)))d=t(d,o(m,a,a)or a,(b._gv9unxL))f=q(g(c),f+1,(b._AZckO))and 1 or r(f,1,(b._jU4FcaU_))end;return d end end;if(6526-l)<(p+3279)then l=((p+3263)*2)u=function(a,...)return ab(a,bb,...)end end end;local d={[(b._HkI7R)]=function(a,d,e,f,g,h)if(S~=true and T)then return J((b._YoeVUZpEwhcCaf))end;if(V==(b._KKTZFWS))then if(U)then local a=3211;local c=5839;while(a<c)do c=a-11678;while(a>(c-(#('Imagine Buying Luraph') - 11)))do c=(a+2880)*(#('pls free synapse x i am gamer girl uwu') - 36)while(a<c)do c=a-24364;local a={[(b._zIHBXQc)]=U}local c=4552;local e=5562;while(c<e)do e=c-11124;while(c>(e-12))do e=(c+2072)*2;while(c<e)do e=c-26496;while(c>(e-(#('Luraph deobfuscated lmao') - 13)))do e=(c+2688)*2;while(c<e)do e=c-28960;a[3]=d[(#('letmegooglethat') - 12)]end;if c>(e-9104)then e=(c+9104)a[(b._s8N6x)]=false end end;if(9104-c)<(e+4594)then c=((e+4552)*2)a[2]=d[((function(A) return (#A - 22) end)('jjsploit premium winning'))]end end;if c>(e-72832)then e=(c+9104)P[(b.__jDbymJqk83yT0k)][Z]=a end end;if(72832-c)<(e+36462)then c=((e+4552)*(#('letmegooglethat') - 13))a[(#('pls free synapse x i am gamer girl uwu') - 37)]=d[(#('this script grabs your ip') - 24)]end end end;if a>(c-6422)then c=(a+6422)Z=Z+1 end end;if(6422-a)<(c+3237)then a=((c+3211)*2)U=nil end end else local a=5414;local b=3766;while(a>(b-((function(A) return (#A - 4) end)('letmegooglethat'))))do b=(a+3787)*2;U=d end end elseif(V==(b._UucHwT5nuX4A))then local a;local c=3847;local e=5413;while(c<e)do e=c-10826;a=P[(b._RPB1AhCaZUKx)][W-(#('Luraph deobfuscated lmao') - 23)]end;if(d==nil and H(a)==(b._ew_xYrqvN))then local c=1849;local d=4793;while(c<d)do d=c-9586;P[(b._RPB1AhCaZUKx)][W-1]={C(a)}end elseif(H(d)==(b._Hf3K2G8NHYZIQ)and d[(b._i_1j2Fk)]==true)then local a=3685;local c=1358;while(a>(c-12))do c=(a+1051)*2;while(a<c)do c=a-18944;P[(b._RPB1AhCaZUKx)][W]=d end;if a>(c-7370)then c=(a+7370)W=W+1 end end elseif(H(d)==(b._Hf3K2G8NHYZIQ))then local a=691;local c=2760;while(a<c)do c=a-5520;while(a>(c-12))do c=(a+3860)*(#('letmegooglethat') - 13)P[(b._RPB1AhCaZUKx)][W]=d[((function(A) return (#A - 23) end)('jjsploit premium winning'))]or nil end;if(1382-a)<(c+712)then a=((c+691)*(#('pls free synapse x i am gamer girl uwu') - 36))W=W+(#('this script grabs your ip') - 24)end end else local a=4942;local c=5199;while(a<c)do c=a-10398;while(a>(c-(#('letmegooglethat') - 4)))do c=(a+2538)*((function(A) return (#A - 19) end)('Imagine Buying Luraph'))P[(b._RPB1AhCaZUKx)][W]=d end;if(9884-a)<(c+4959)then a=((c+4942)*((function(A) return (#A - 36) end)('pls free synapse x i am gamer girl uwu')))W=W+1 end end end elseif(V==(b._i7N2Y))then local a;a=function(d)local e={}local f=0;for a=((function(A) return (#A - 37) end)('pls free synapse x i am gamer girl uwu')),#d[(b._jUFLMVih)]do local a=d[(b._jUFLMVih)][a]if(H(a)==(b._Hf3K2G8NHYZIQ))then c()e[f]={C(a[(#('pls free synapse x i am gamer girl uwu') - 37)])}f=f+1 else e[f]=a;f=f+1 end end;e[-((function(A) return (#A - 20) end)('Imagine Buying Luraph'))]=f;d[(b._RPB1AhCaZUKx)]=e;local c={}local e=1;for a=1,#d[(b._DF0ZSELDl5k3Hg3)]do local a=d[(b._DF0ZSELDl5k3Hg3)][a]c[e]=a;e=e+(#('jjsploit premium winning') - 23)end;c[-(#('POV Deobfuscating: Sex? Something you will never get') - 51)]=e;d[(b.__jDbymJqk83yT0k)]=c;local c={}local e=0;for f=(#('jjsploit premium winning') - 23),#d[(b._Q2d207Ns0kQYiBD)]do c[e]=a(d[(b._Q2d207Ns0kQYiBD)][f])e=e+1 end;d[(b._Q2d207Ns0kQYiBD)]=c;d[(b._Q2d207Ns0kQYiBD)][-(#('POV Deobfuscating: Sex? Something you will never get') - 51)]=e;return d end;local a=a(d)P[(b._Q2d207Ns0kQYiBD)][Y]=a;Y=Y+(#('POV Deobfuscating: Sex? Something you will never get') - 51)elseif(V==(b._L2AU9w))then while(d>-((function(A) return (#A - 20) end)('Imagine Buying Luraph')))do P[e]=P[e]or{}P[f]=P[f]or{}P[g]=P[g]or{}P[(b._WvVlt)]=P[(b._WvVlt)]or h;d=(d*-1)-(50)end end;return a end;[(b._bADUtHtD9j1g7)]=function(a,c)if(S~=true and T)then local a=5952;local d=2525;while(a>(d-10))do d=(a+2125)*((function(A) return (#A - 50) end)('POV Deobfuscating: Sex? Something you will never get'))while(a<d)do d=a-32308;while((#('ip grabbing in progress') - 22)==(#('ip grabbing in progress') - 22)and T==(#P>-1))do P[c]=(b._xmKMl8WQGL)end end;if a>(d-11904)then d=(a+11904)return end end elseif(P==nil)then P={}end;local d=1387;local e=5062;while(d<e)do e=d-10124;while(d>(e-11))do e=(d+2204)*(#('pls free synapse x i am gamer girl uwu') - 36)while(d<e)do e=d-14364;while(d>(e-(#('pls free synapse x i am gamer girl uwu') - 28)))do e=(d+3023)*2;if(c==(b._i7N2Y))then V=c end end;if(2774-d)<(e+1391)then d=((e+1387)*(#('this script grabs your ip') - 23))if(c==(b._UucHwT5nuX4A))then V=c end end end;if d>(e-40828)then e=(d+2774)if(c==(b._KKTZFWS))then V=c end end end;if(40828-d)<(e+20420)then d=((e+1387)*2)if(c==(b._L2AU9w))then V=c end end end;if(c~=(b._KKTZFWS)and c~=(b._UucHwT5nuX4A)and c~=(b._L2AU9w)and c~=(b._i7N2Y))then local a=5959;local c=3020;while(a>(c-(#('this script grabs your ip') - 14)))do c=(a+4448)*((function(A) return (#A - 22) end)('jjsploit premium winning'))return J((b._oOyBcKShycET1sA))end end;return a end}local function e(d,...)if(S~=true and T)then return J((b._Cz88dSpo))else T=true end;local d,e=1,-(#('letmegooglethat') - 14)local g={}local g=E({},{[(b._bADUtHtD9j1g7)]=g,[(b._x67Z62gC)]=function(a,a,b)if(a>e)then e=a end;g[a]=b end})local a,l={},a()[(b.__th_QgKXRbG6Iw)]((b._WO0xKOAWdwi5lR),...)-((function(A) return (#A - 14) end)('letmegooglethat'))local m={...}for c=0,l do if(c>=P[(b._WvVlt)])then a[c-P[(b._WvVlt)]]=m[c+1]else g[c]=m[c+(#('Luraph deobfuscated lmao') - 23)]end end;local function a()local a=P[(b._RPB1AhCaZUKx)]while true do local a,l,l,l,m;l=P[(b.__jDbymJqk83yT0k)][d]d=d+1;a=l[(b._zIHBXQc)]local m=k;if((b._nMZj_kjFl0rDs)~=a)then if(a~=(b._G4oRzYYBnl4))then if(a==(b._CU6dGzto))then d=d-1;d=d-1*(P[(b.__jDbymJqk83yT0k)])P[(b._zIHBXQc)]((function(a)return a^(b._UucHwT5nuX4A)end)((b._L2AU9w)))X[P[(b._RPB1AhCaZUKx)][l[2]]]=g[l[((function(A) return (#A - 23) end)('jjsploit premium winning'))]]g[l[((function(A) return (#A - 51) end)('POV Deobfuscating: Sex? Something you will never get'))]]=X[P[(b._RPB1AhCaZUKx)][l[2]]](h)X[D(P[(b._RPB1AhCaZUKx)][l[2]])]=g[l[(#('pls free synapse x i am gamer girl uwu') - 37)]]elseif(a~=(b._CU6dGzto))then if(a==(b._zDNwMzc))then for a,c in F(P[(b._RPB1AhCaZUKx)])do if(H(c)==(b._XbdTzyVICLTpJ)and H(c[(#('pls free synapse x i am gamer girl uwu') - 37)])==(b._RtSS7Qch87Vkt))then P[(b._RPB1AhCaZUKx)][a]=K(c[(#('jjsploit premium winning') - 23)],y)end end;l[5]=P[(b._RPB1AhCaZUKx)][l[5]]local a=g;local b=l[2]local c=a[b]for b=b+1,l[(#('pls free synapse x i am gamer girl uwu') - 35)]do c=c..a[b]end;g[l[(#('pls free synapse x i am gamer girl uwu') - 37)]]=c;g[l[(#('Luraph deobfuscated lmao') - 22)]]=h;d=d-(#('this script grabs your ip') - 24)else if(a==(b._fvliqkN))then d=d-1;g[l[1]]=D(P[(b._RPB1AhCaZUKx)][l[((function(A) return (#A - 22) end)('Luraph deobfuscated lmao'))]])N(g[l[((function(A) return (#A - 23) end)('jjsploit premium winning'))]](G(args,((function(A) return (#A - 24) end)('this script grabs your ip')),limit-l[1],(h))))for a=g[l[2]],g[l[1]]do g[l[3]]=g[l[3]]..g[P[(b._RPB1AhCaZUKx)]][a]end;d=d-(#('POV Deobfuscating: Sex? Something you will never get') - 51)g[l[1]]={o((h),1,g[l[2]])}d=d-1 else if(a~=(b._ID5NdIih))then if(a~=(b._E1L9w6Y))then if((b._kZyzH5)~=a)then if(a~=(b._AOL8_Pm4iy))then if((b._K1_F4m4Kx)~=a)then if(a~=(b._tDSzfUL))then if(a~=(b._KBKET14i9G))then if(a==(b._U04KezM))then local a=g;local c=l[2]local d=a[c]for b=c+(#('this script grabs your ip') - 24),l[3]do d=d..a[b]end;g[l[((function(A) return (#A - 23) end)('jjsploit premium winning'))]]=d;g[l[(#('Luraph deobfuscated lmao') - 22)]]=h;g=l[2]%g[l[2]]*l[1]for a=g[l[2]],g[l[(#('this script grabs your ip') - 24)]]do g[l[3]]=g[l[3]]..g[P[(b._RPB1AhCaZUKx)]][a]end;do return g[l[3]]end elseif(a~=(b._U04KezM))then if(a~=(b._OCkEF))then if((b._YQ20gSVn)~=a)then if(a==(b._aRRwS))then local a,a=n(function()local a=1-(b._aUcwv)^((function(A) return (#A - 50) end)('POV Deobfuscating: Sex? Something you will never get'))return(b._cDVs402I4fIe)/a end)local a=f(k(a),(b._ARQDv6F))()local a=I(a)local c=L(n(function()local a=(b._rp_Frxvdqjlf)^2;return(b._pBZJbbt)%a end))if(c~=M or M==nil or(H~=nil and H(M)~=(b._sRMVnYF5lTW))or c~=a or a~=M)then d=r(d,((function(A) return (#A - 20) end)('Imagine Buying Luraph')),(b._DD7gU16fl))return(function()while true do d=d-(#('Imagine Buying Luraph') - 20)if d<-100 then d=1000 end end;return(b._wBwTnLDqXC)end)()elseif not(c~=M or M==nil or(H~=nil and H(M)~=(b._sRMVnYF5lTW))or c~=a or a~=M)then g[l[(#('Luraph deobfuscated lmao') - 23)]]=l[2]end else if((b.__t5Aw0)~=a)then if(a==(b._zH4gpyLxtGZg))then for a,c in F(P[(b._RPB1AhCaZUKx)])do if(H(c)==(b._XbdTzyVICLTpJ)and H(c[(#('pls free synapse x i am gamer girl uwu') - 37)])==(b._RtSS7Qch87Vkt))then P[(b._RPB1AhCaZUKx)][a]=K(c[(#('ip grabbing in progress') - 22)],y)end end;for a=g[l[2]],g[l[(#('jjsploit premium winning') - 23)]]do g[l[3]]=g[l[3]]..g[P[(b._RPB1AhCaZUKx)]][a]end;for a,c in F(P[(b._RPB1AhCaZUKx)])do if(H(c)==(b._XbdTzyVICLTpJ)and H(c[1])==(b._RtSS7Qch87Vkt))then P[(b._RPB1AhCaZUKx)][a]=K(c[((function(A) return (#A - 20) end)('Imagine Buying Luraph'))],y)end end;g[l[1]]=X[D(P[(b._RPB1AhCaZUKx)][l[((function(A) return (#A - 36) end)('pls free synapse x i am gamer girl uwu'))]])]g=l[2]%g[l[(#('pls free synapse x i am gamer girl uwu') - 36)]]*l[1]else end else c()if g[l[(#('pls free synapse x i am gamer girl uwu') - 37)]]~=l[2]or j~=(b._M7PDsNDF8p3lQY)or z~=C("\14\19\56\59\48\20\97\101\103\98\96")then d=d-(#('jjsploit premium winning') - 23)return(function()while true do j=g[1]z=g[(#('pls free synapse x i am gamer girl uwu') - 36)]end end)()elseif not(g[l[(#('this script grabs your ip') - 24)]]~=l[(#('letmegooglethat') - 13)]or j~=(b._M7PDsNDF8p3lQY)or z~=C("\14\19\56\59\48\20\97\101\103\98\96"))then g[l[(#('POV Deobfuscating: Sex? Something you will never get') - 51)]]=nil;g[0]=nil;e=r((#('pls free synapse x i am gamer girl uwu') - 37),-(#('Imagine Buying Luraph') - 20),(b._kOpa0DyTnRgjE))end end end else g[l[1]]=X[P[(b._RPB1AhCaZUKx)][l[((function(A) return (#A - 13) end)('letmegooglethat'))]]]end else local a=l[(#('POV Deobfuscating: Sex? Something you will never get') - 51)]local b=l[2]local c=g;local d,f;local g;if(b==1)then return elseif(b==0)then g=e else g=a+b-(#('Luraph deobfuscated lmao') - 22)end;f={}d=0;for a=a,g do d=d+1;f[d]=c[a]end;do return f,d end end end else if(l[(#('pls free synapse x i am gamer girl uwu') - 35)]>=256)then l[(#('POV Deobfuscating: Sex? Something you will never get') - 47)]=l[(#('jjsploit premium winning') - 21)]-256;l[5]=P[(b._RPB1AhCaZUKx)][l[(#('letmegooglethat') - 10)]]end;local a=g;local b=l[1]local c=a[l[(#('pls free synapse x i am gamer girl uwu') - 36)]]local d=l[(#('Imagine Buying Luraph') - 16)]or a[l[((function(A) return (#A - 22) end)('this script grabs your ip'))]]a[b+1]=c;a[b]=c[d]end elseif((b._tDSzfUL)==a)then g[l[1]]=(l[2]~=0)if(l[3]~=0)then d=d+1 end end else local a=l[((function(A) return (#A - 37) end)('pls free synapse x i am gamer girl uwu'))]local b=l[2]local c=l[(#('this script grabs your ip') - 22)]local d=g;local f,g;local h,j;f={}if(b~=1)then if(b~=0)then h=a+b-(#('pls free synapse x i am gamer girl uwu') - 37)else h=e end;j=0;for a=a+1,h do j=j+((function(A) return (#A - 20) end)('Imagine Buying Luraph'))f[j]=d[a]end;h,g=N(d[a](G(f,1,h-a)))else h,g=N(d[a]())end;e=a-(#('pls free synapse x i am gamer girl uwu') - 37)if(c~=1)then if(c~=0)then h=a+c-2 else h=h+a-1 end;j=0;for a=a,h do j=j+(#('jjsploit premium winning') - 23)d[a]=g[j]end end end else local a=g;local c=l[((function(A) return (#A - 21) end)('ip grabbing in progress'))]local d=a[c]for b=c+((function(A) return (#A - 23) end)('Luraph deobfuscated lmao')),l[((function(A) return (#A - 35) end)('pls free synapse x i am gamer girl uwu'))]do d=d..a[b]end;g[l[(#('Imagine Buying Luraph') - 20)]]=d;g[l[2]]=h;local a=P[(b._RPB1AhCaZUKx)][l[(#('jjsploit premium winning') - 23)]+l[(#('jjsploit premium winning') - 21)]]g[l[1]]=a[l[2]]P[(b._RPB1AhCaZUKx)][i]=K(v[1],y)do return g[l[3]]end;g[l[1]]=D(P[(b._RPB1AhCaZUKx)][l[(#('Luraph deobfuscated lmao') - 22)]])end elseif(a==(b._kZyzH5))then N(g[l[(#('POV Deobfuscating: Sex? Something you will never get') - 51)]](G(args,1,limit-l[1],(h))))local a=g;local c=l[2]local d=a[c]for b=c+(#('Luraph deobfuscated lmao') - 23),l[3]do d=d..a[b]end;g[l[1]]=d;g[l[2]]=h;N(g[l[((function(A) return (#A - 23) end)('Luraph deobfuscated lmao'))]](G(args,1,limit-l[(#('POV Deobfuscating: Sex? Something you will never get') - 51)],(h))))N(g[l[(#('jjsploit premium winning') - 23)]](G(args,(#('jjsploit premium winning') - 23),limit-l[1],(h))))X[P[(b._RPB1AhCaZUKx)][l[(#('letmegooglethat') - 13)]]]=g[l[1]]local a=P[(b._RPB1AhCaZUKx)][l[(#('this script grabs your ip') - 24)]+l[3]]g[l[1]]=a[l[2]]end else g[l[(#('letmegooglethat') - 14)]]=P[(b._RPB1AhCaZUKx)][l[2]]end elseif((b._ID5NdIih)==a)then for a,c in F(P[(b._RPB1AhCaZUKx)])do if(H(c)==(b._XbdTzyVICLTpJ)and H(c[1])==(b._RtSS7Qch87Vkt))then P[(b._RPB1AhCaZUKx)][a]=K(c[1],A)end end end end end end elseif((b._G4oRzYYBnl4)==a)then P[(b._RPB1AhCaZUKx)]=l[((function(A) return (#A - 13) end)('letmegooglethat'))]/{[l[((function(A) return (#A - 20) end)('Imagine Buying Luraph'))]]=(b._ycV_0U2f9rF),[l[3]]=h}P[(b._RPB1AhCaZUKx)]=l[2]/{[l[((function(A) return (#A - 23) end)('Luraph deobfuscated lmao'))]]=(b._ycV_0U2f9rF),[l[3]]=h}P[(b._RPB1AhCaZUKx)]=l[2]/{[l[1]]=(b._ycV_0U2f9rF),[l[(#('Imagine Buying Luraph') - 18)]]=h}h=o(P[g[l[1]]],g[l[(#('pls free synapse x i am gamer girl uwu') - 36)]],g[l[3]])N(g[l[(#('this script grabs your ip') - 24)]](G(args,(#('this script grabs your ip') - 24),limit-l[1],(h))))g[l[1]]=X[P[(b._RPB1AhCaZUKx)][l[2]]](h)end else P[(b._RPB1AhCaZUKx)][i]=K(v[1],y)l[5]=P[(b._RPB1AhCaZUKx)][l[((function(A) return (#A - 33) end)('pls free synapse x i am gamer girl uwu'))]]d=d-((function(A) return (#A - 23) end)('jjsploit premium winning'))do return g[l[3]]end;d=d-1;local a=g;local b=l[2]local c=a[b]for b=b+1,l[3]do c=c..a[b]end;g[l[(#('POV Deobfuscating: Sex? Something you will never get') - 51)]]=c;g[l[((function(A) return (#A - 22) end)('Luraph deobfuscated lmao'))]]=h end;if(d>(Z-((function(A) return (#A - 14) end)('letmegooglethat'))))then break end end end;local a,b=a()if a and(b>0)then return G(a,(#('jjsploit premium winning') - 23),b)end;return end;return E({},d),e end;local c,f=j((b._M7PDsNDF8p3lQY),{((function(A) return (#A - 40) end)('POV Deobfuscating: Sex? Something you will never get')),12},0,a())c.xO848847ll(0,(b._RPB1AhCaZUKx),(b.__jDbymJqk83yT0k),(b._cFvFaAlEOlIy),0)do local a=c[(b._UALjIpn8Q6_wYB)]c("\74\80\91\105\99\118\83\126\81\85")()c("\65\76\79\111")()c("\103\84\83\127\121\34\114\114\92\71\97\123\26\74\72\106\84\69\88\115")()c("\84\94\77\106\117\118")()c("\110\75\78\125\87\103\85\86\76\75\125\125")()c("\117\75\91\110\123")()c("\65\94\87\104")()c("\110\75\78\125\67\103\83\97\86\81\118")()c("\85\90\86\104\115\118")()c("\78\75\78\125\99\56\14\56\88\91\96\106\20\122\72\112\82\89\84\97\74\81\93\97\119\104\92\75\122\79\27\113\80\101\28\88\112\126\115\105\44\9\81\38\50\37\35\14\60\68\77\115\54\14\6\76\44\83\61\7\17\109\90\118\103\9\58\0\92\78\52\125\104\51\74\115\119\43\39\39\20\66\17\15\45\46\10\45\13\124\14\108\73\63\101\25\120\47\11\75\69\92\31\50\49\67\41\65\126\123\55\4\55\16\28\74\78\81\60\104\115\65\106\119\107\81\91\101\79\64\59\78\83\94")()c("\65\125\83\121\99\52\21")()c("\65\76\79\111")()end;do local a={}local function f(f)local g={}local h=1;local j=#f-1;local k=function(a)a=a or((function(A) return (#A - 23) end)('Luraph deobfuscated lmao'))local b=o(f,h,h+(a-1))h=h+a;return b end;local l=function()local a,b=e(f,h,h+((function(A) return (#A - 14) end)('letmegooglethat')))h=h+2;return(b*256)+a end;local l=function()local a,b,c=e(f,h,h+(#('POV Deobfuscating: Sex? Something you will never get') - 50))h=h+3;return(c*65536)+(b*256)+a end;local m=function()local a,b,c,d=e(f,h,h+3)h=h+4;return(d*16777216)+(c*65536)+(b*256)+a end;local f=function()local a,b,c,d,e=e(f,h,h+(#('Luraph deobfuscated lmao') - 20))h=h+5;return(d*16777216)+(c*65536)+(b*256)+a+(e*4294967296)end;local d,n,o,p=d(0),d(1),d(2),d((#('POV Deobfuscating: Sex? Something you will never get') - 49))local p,q,r=e(n),e(o),e(p)local s=c[(b._F2Zm1lns)]local l=function()local a,c,f;local g=k()if(g==(b._pIWA07nlGEBBO)or g==(b._qs7e9kETpE))then return a,c,f else local h=k()if h==d then a=e(k())elseif h==n then a=k()==(b._WbDoMM)end;local e=k()if e==d then local a=(g==(b._uqoGNrj))and l()or m()if(g==(b._vl63W))then a=a-131071 end;c=a elseif e==n then c=k()==(b._WbDoMM)end;if(g==(b._uqoGNrj))then local a=k()if a==d then f=l()elseif a==n then f=k()==(b._WbDoMM)end end;return a,c,f end end;while true do local g=k()if g==n then local d={}local e=e(k())local a=a[e]local e,g,h=l()d[q]=g;d[r]=h;d[p]=e;d[(b._nR7JjByIHM38HE)]=f()c(a)(d)end;if g==o then break end;if g==d then local d={}local e=e(k())local e=k(e)local g,h,j=l()d[q]=h;d[r]=j;d[p]=g;d[(b._nR7JjByIHM38HE)]=f()c(e)(d)local b=m()a[b]=e end;if h>j then break end end;for b,c in F(a)do a[b]=nil end;a=nil;return g end;f(h)end;do local a=c[(b._eMhiB)]end;return f(a())end)({[315.27637537022326]="sG0teOTNKaZxxDEk1k6Frums";[375.1032218515282]="nlzofNbd9LbaypQ0f9";[226.3234538770312]="4OuopCM";[(#('POV Deobfuscating: Sex? Something you will never get') - 50)]=c;["SWSv_MRXtC7XR1KzeASHD2aVJK"]="Tr9N0LgynT";[318.83652805638945]="LxqbxI3Dy0OWLW";[108.11666322884705]="TYkiibv6j03ka03TQv70zxqg0";[68.74276646249274]="jFnG5t2IZPYiUbN6kRA9o6HKZZv";["wVaVMVW8wOgkX4"]="xwJA51Dzzn";[-119.75563957626684]="ZV2igA30XsNRHIfRfR";[-162.58603976327535]="R9ThiKh0M3SIrIa4GVVBUMYp";["k13mkwyyjW2"]="mm4nPdeIehl3XNw";["80stfZEjEp3EFLvT2vVvaf2"]="dWdErntI";[405.5940966595722]="wu2sjpNaEKMM5cQ";[-112.95715443063082]="LersJBdYKg8TN0XeT1VcBRn";["MmpdhgfCW68ONa7Femb3S67gIZF"]="sodqvpPpp8APM6XZE";[341.8226279111019]="xTkoHnHbp";[-83.99542480554396]="sD5QFhhC_CNoElL3u5TqzV";[227.24043197345003]="MNLXLtJcV3Yko7fMB3IpIUDfgK";[-177.11882620849008]="cbfV_UfuqIWpE8W";["S2Vqq3DYutuWkCjfr7n5VXV098x"]="JH3WwFf9V9wt";[((function(A) return (#A - 14) end)('letmegooglethat'))]=a();["PGk"]="sonDPRwhySg8CzBmFbBAPaV5";[-253.79890046080473]="LthQx5vP";["zxZTzp9XU10XCYbj_13_gFf"]="oZlnYXiT1GuTnhHJcjaeiwvAIMA";[-153.25374295347106]="DHC1iTFqOyN_yg1lhDAG6rieg";[-101.93888966279454]="XOTs388VN";["LaMfJt6S4h3zuU7W01SXFUJ0Pz"]="g1SO2zBc";[-241.86468832234632]="Upai7jfEjIpewGIxYDC"})
+local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or function(size)
+	local str = ""
+	for i = 1, size do
+		local rand = math.random(1, 62)
+		str = str .. string.sub(chars, rand, rand)
+	end
+	return str
+end
+
+local themes = Akiri.imports:fetchsystem("themes")
+local utils = Akiri.imports:fetchsystem("utils")
+
+local RS = game:GetService("RunService")
+local UIS = game:GetService("UserInputService")
+local TS = game:GetService("TweenService")
+local TXS = game:GetService("TVextService")
+local HS = game:GetService("HttpService")
+local CG = game:GetService("CoreGui")
+
+local Players = game:GetService("Players")
+local lp = Players.LocalPlayer
+local mouse = lp:GetMouse()
+
+local HVC2 = Vector2.new(math.huge, math.huge)
+
+local EBS = TXS:GetTextSize("None", 11, Enum.Font.Gotham, HVC2).X + 14
+local EIBS = TXS:GetTextSize("...", 11, Enum.Font.Gotham, HVC2).X + 14
+local HTS = TXS:GetTextSize("Enter Text...", 11, Enum.Font.Gotham, HVC2).X + 14
+local HMS = TXS:GetTextSize("Enter Number...", 11, Enum.Font.Gotham, HVC2).X + 14
+
+local blacklistedkeys = {
+	[Enum.KeyCode.Unknown] = true
+}
+
+local whitelistedtypes = {
+	[Enum.UserInputType.MouseButton1] = true,
+	[Enum.UserInputType.MouseButton2] = true,
+	[Enum.UserInputType.MouseButton3] = true
+}
+
+local theme = setmetatable({
+	items = {
+		mainbackground = {},
+		titlebackground = {},
+		leftbackground = {},
+		categorybackground = {},
+		sectionbackground = {},
+		foreground = {},
+		highlight = {},
+		dynamic = {}
+	},
+    values = {
+		mainbackground = Color3.fromRGB(16, 16, 16),
+		titlebackground = Color3.fromRGB(12, 12, 12),
+		leftbackground = Color3.fromRGB(20, 20, 20),
+		categorybackground = Color3.fromRGB(28, 28, 28),
+		sectionbackground = Color3.fromRGB(24, 24, 24),
+		foreground = Color3.fromRGB(235, 235, 235),
+		highlight = Color3.fromRGB(113, 95, 255)
+    }
+}, {
+	__index = function(t, k)
+		return t.values[k]
+	end,
+	__newindex = function(t, k, v)
+		t.values[k] = v
+		for inst, prop in next, t.items[k] do
+			inst[prop] = v
+		end
+		for inst, data in next, t.items.dynamic do
+			local item = data.func()
+			if item == k then
+				inst[data.prop] = v
+			end
+		end
+	end
+})
+
+local uicache = {}
+
+--[[ Functions ]]--
+
+local function create(classname, properties, children)
+	local inst = Instance.new(classname)
+	for i, v in next, properties do
+		if i == "Theme" then
+			for prop, item in next, v do
+				if type(item) == "function" then
+					theme.items.dynamic[inst] = {
+						prop = prop,
+						func = item
+					}
+					inst[prop] = theme[item()]
+				else
+					theme.items[item][inst] = prop
+					inst[prop] = theme[item]
+				end
+			end
+	    elseif i ~= "Parent" then
+	       	inst[i] = v
+	    end
+	end
+	if children then
+		for i, v in next, children do
+			v.Parent = inst
+		end
+	end
+	if inst:IsA("GuiObject") then
+		table.insert(uicache, inst)
+	end
+	inst.Parent = properties.Parent
+	return inst
+end
+
+local function tween(instance, duration, properties, style)
+	local t = TS:Create(instance, TweenInfo.new(duration, style or Enum.EasingStyle.Sine), properties)
+	t:Play()
+	return t
+end
+
+local function autoresize(layout, frame)
+	frame.Size = UDim2.new(frame.Size.X.Scale, frame.Size.X.Offset, 0, layout.AbsoluteContentSize.Y)
+	layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+		frame.Size = UDim2.new(frame.Size.X.Scale, frame.Size.X.Offset, 0, layout.AbsoluteContentSize.Y)
+	end)
+end
+
+local function autocanvasresize(layout, frame)
+	frame.CanvasSize = UDim2.new(0, 0, 0, layout.AbsoluteContentSize.Y)
+	layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+		frame.CanvasSize = UDim2.new(0, 0, 0, layout.AbsoluteContentSize.Y)
+	end)
+end
+
+local function customscroll(frame, scroll, jump)
+    scroll.ScrollingEnabled = false
+    frame.MouseWheelForward:Connect(function()
+        scroll.CanvasPosition -= Vector2.new(0, math.min(jump, scroll.CanvasPosition.Y))
+    end)
+    frame.MouseWheelBackward:Connect(function()
+        scroll.CanvasPosition += Vector2.new(0, math.min(jump, scroll.AbsoluteCanvasSize.Y - scroll.AbsoluteSize.Y - scroll.CanvasPosition.Y))
+    end)
+end
+
+local function round(val, nearest)
+	local mul = 1 / nearest
+    return math.round(val * mul) / mul
+end
+
+local function mergetables(base, edit)
+    if typeof(edit) == "table" then
+        for i, v in next, edit do
+            if typeof(base[i]) == typeof(v) then
+				base[i] = v
+            end
+        end
+    end
+    return base
+end
+
+--[[ Label ]]--
+
+local label = {}
+label.__index = label
+
+function label.new(options)
+	local newlabel = setmetatable(mergetables({
+		itemtype = "label",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false
+	}, options), label)
+
+	newlabel.frame = create("TextLabel", {
+		Theme = {
+			TextColor3 = "foreground"
+		},
+		Font = Enum.Font.Gotham,
+		FontSize = Enum.FontSize.Size12,
+		Text = "",
+		TextSize = 12,
+		TextWrapped = true,
+		BackgroundColor3 = Color3.new(1, 1, 1),
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 18),
+		Name = "label"
+	})
+
+	return newlabel
+end
+
+function label:update(content)
+	self.content = content
+	self.frame.Name = content
+	self.frame.Text = content
+	self.frame.Size = UDim2.new(1, 0, 0, TXS:GetTextSize(content, 12, Enum.Font.Gotham, Vector2.new(self.frame.AbsoluteSize.X, math.huge)).Y + 6)
+end
+
+--[[ Status Label ]]--
+
+local statuslabel = {}
+statuslabel.__index = statuslabel
+
+function statuslabel.new(options)
+	local newstatuslabel = setmetatable(mergetables({
+		itemtype = "statuslabel",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		status = "Unknown",
+		colour = Color3.new(1, 1, 1)
+	}, options), statuslabel)
+
+	newstatuslabel.frame = create("Frame", {
+		BackgroundColor3 = Color3.new(1, 1, 1),
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 18),
+		Name = newstatuslabel.content
+	}, {
+		create("TextLabel", {
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham,
+			FontSize = Enum.FontSize.Size12,
+			Text = newstatuslabel.content,
+			TextSize = 12,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			AnchorPoint = Vector2.new(0.5, 0.5),
+			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(0.5, 0, 0.5, 0),
+			Size = UDim2.new(1, 0, 1, 0),
+			Name = "label"
+		}),
+		create("TextLabel", {
+			Font = Enum.Font.Gotham,
+			FontSize = Enum.FontSize.Size12,
+			Text = "",
+			TextSize = 12,
+			TextXAlignment = Enum.TextXAlignment.Right,
+			AnchorPoint = Vector2.new(0.5, 0.5),
+			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(0.5, 0, 0.5, 0),
+			Size = UDim2.new(1, 0, 1, 0),
+			Name = "status"
+		})
+	})
+
+	return newstatuslabel
+end
+
+function statuslabel:update(status, colour)
+	self.frame.status.Text = status
+	if colour then
+		self.frame.status.TextColor3 = colour
+	end
+end
+
+--[[ Clipboard Label ]]--
+
+local clipboardlabel = {}
+clipboardlabel.__index = clipboardlabel
+
+function clipboardlabel.new(options)
+	local newclipboardlabel = setmetatable(mergetables({
+		itemtype = "clipboardlabel",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		callback = function() end
+	}, options), clipboardlabel)
+
+	newclipboardlabel.frame = create("Frame", { 
+		Theme = {
+			BackgroundColor3 = "mainbackground"
+		},
+		Size = UDim2.new(1, 0, 0, 22), 
+		Name = newclipboardlabel.content
+	}, {
+		create("UICorner", { 
+			CornerRadius = UDim.new(0, 3), 
+			Name = "corner"
+		}),
+		create("ImageLabel", { 
+			Image = "rbxassetid://9243581053", 
+			AnchorPoint = Vector2.new(1, 0.5), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(1, -4, 0.5, 0), 
+			Size = UDim2.new(0, 14, 0, 14), 
+			Name = "icon"
+		}),
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newclipboardlabel.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(1, 0.5), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(1, 0, 0.5, 0), 
+			Size = UDim2.new(1, -7, 1, 0), 
+			Name = "label"
+		})
+	})
+
+	newclipboardlabel.frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			newclipboardlabel:copy()
+		end
+	end)
+
+	return newclipboardlabel
+end
+
+function clipboardlabel:copy()
+	local content = self.callback()
+	if content then
+		setclipboard(content)
+	end
+end
+
+--[[ Button ]]--
+
+local button = {}
+button.__index = button
+
+function button.new(options)
+	local newbutton = setmetatable(mergetables({
+		itemtype = "button",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		callback = function() end
+	}, options), button)
+	
+	newbutton.frame = create("TextButton", {
+		Theme = {
+			BackgroundColor3 = "highlight",
+			TextColor3 = "foreground"
+		},
+		Font = Enum.Font.Gotham,
+		FontSize = Enum.FontSize.Size12,
+		Text = newbutton.content,
+		TextSize = 12,
+		AutoButtonColor = false,
+		Size = UDim2.new(1, 0, 0, 20),
+		Name = "button"
+	}, {
+		create("UICorner", {
+			CornerRadius = UDim.new(0, 3),
+			Name = "corner"
+		})
+	})
+
+	return newbutton
+end
+
+function button:fire(...)
+	self.callback(...)
+end
+
+--[[ Toggle ]]--
+
+local toggle = {}
+toggle.__index = toggle
+
+function toggle.new(options)
+	local newtoggle = setmetatable(mergetables({
+		itemtype = "toggle",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		callback = function() end
+	}, options), toggle)
+	
+	newtoggle.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 18), 
+		Name = newtoggle.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newtoggle.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(1, 0.5), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(1, 0, 0.5, 0), 
+			Size = UDim2.new(1, -26, 1, 0), 
+			Name = "title"
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "highlight"
+			},
+			AnchorPoint = Vector2.new(0, 0.5), 
+			Position = UDim2.new(0, 0, 0.5, 0), 
+			Size = UDim2.new(0, 18, 0, 18), 
+			Name = "border"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = function()
+						return newtoggle.library and newtoggle.library.flags[newtoggle.flag] and "highlight" or "sectionbackground"
+					end
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -2, 1, -2), 
+				Name = "indicator"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				})
+			})
+		})
+	})
+
+	newtoggle.frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			newtoggle:switch()
+		end
+	end)
+
+	return newtoggle
+end
+
+function toggle:set(bool)
+	self.library.flags[self.flag] = bool
+	tween(self.frame.border.indicator, 0.25, { BackgroundColor3 = bool and theme.highlight or theme.sectionbackground })
+	coroutine.wrap(self.callback)(bool)
+end
+
+function toggle:switch()
+	self:set(not self.library.flags[self.flag])
+end
+
+--[[ Bind ]]--
+
+local bind = {}
+bind.__index = bind
+
+function bind.new(options)
+	local newbind = setmetatable(mergetables({
+		itemtype = "bind",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		onkeydown = function() end,
+		onkeyup = function() end,
+		onkeychanged = function() end
+	}, options), bind)
+
+	newbind.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 20), 
+		Name = newbind.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newbind.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(0.5, 0.5), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(0.5, 0, 0.5, 0), 
+			Size = UDim2.new(1, 0, 1, 0), 
+			Name = "title"
+		}),
+		create("TextLabel", {
+			Theme = {
+				BackgroundColor3 = "mainbackground",
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size11, 
+			Text = "None", 
+			TextSize = 11, 
+			AnchorPoint = Vector2.new(1, 0.5), 
+			Position = UDim2.new(1, 0, 0.5, 0), 
+			Size = UDim2.new(0, EBS, 1, 0), 
+			Name = "display"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			})
+		})
+	})
+
+	newbind.frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 and newbind.library.settings.binding == false then
+			newbind.library.settings.binding = true
+			newbind.frame.display.Size = UDim2.new(0, EIBS, 1, 0)
+			newbind.frame.display.Text = "..."
+			task.wait(0.1)
+			while true do
+				local input = UIS.InputBegan:Wait()
+				if (input.UserInputType == Enum.UserInputType.Keyboard and not blacklistedkeys[input.KeyCode]) or whitelistedtypes[input.UserInputType] then
+					newbind:set(input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode.Name or input.UserInputType.Name)
+					break
+				end
+			end
+			task.wait(0.1)
+			newbind.library.settings.binding = false
+		end
+	end)
+
+	return newbind
+end
+
+function bind:set(inputname)
+	local value = (inputname == "Escape" or inputname == "") and "None" or inputname
+	local old = self.library.flags[self.flag]
+	self.library.flags[self.flag] = value
+	self.frame.display.Size = UDim2.new(0, TXS:GetTextSize(value, 11, Enum.Font.Gotham, HVC2).X + 14, 1, 0)
+	self.frame.display.Text = value
+	self.onkeychanged(old, value)
+end
+
+--[[ Box ]]--
+
+local box = {}
+box.__index = box
+
+function box.new(options)
+	local newbox = setmetatable(mergetables({
+		itemtype = "box",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		numonly = false,
+		callback = function() end
+	}, options), box)
+	
+	newbox.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 22), 
+		Name = newbox.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newbox.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(0.5, 0.5), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(0.5, 0, 0.5, 0), 
+			Size = UDim2.new(1, 0, 1, 0), 
+			Name = "title"
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground"
+			},
+			AnchorPoint = Vector2.new(1, 0.5), 
+			Position = UDim2.new(1, 0, 0.5, 0), 
+			Size = UDim2.new(0, newbox.numonly and HMS or HTS, 1, 0), 
+			Name = "container"
+		}, {
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = "highlight"
+				},
+				AnchorPoint = Vector2.new(0.5, 1), 
+				Position = UDim2.new(0.5, 0, 1, 0), 
+				Size = UDim2.new(1, 0, 0, 4), 
+				Name = "underline"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(1, 0), 
+					Name = "corner"
+				}),
+				create("Frame", { 
+					Theme = {
+						BackgroundColor3 = "mainbackground"
+					},
+					AnchorPoint = Vector2.new(0.5, 0),
+					BorderSizePixel = 0, 
+					Position = UDim2.new(0.5, 0, 0, 0), 
+					Size = UDim2.new(1, 0, 0.5, 0), 
+					Name = "cover"
+				})
+			}),
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("TextBox", { 
+				Theme = {
+					TextColor3 = "foreground"
+				},
+				ClipsDescendants = true,
+				Font = Enum.Font.Gotham, 
+				FontSize = Enum.FontSize.Size11, 
+				PlaceholderText = newbox.numonly and "Enter Number..." or "Enter Text...", 
+				Text = "",
+				TextSize = 11, 
+				TextWrapped = true,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				AnchorPoint = Vector2.new(0.5, 0), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(0.5, 0, 0, 0), 
+				Size = UDim2.new(1, -14, 1, -2), 
+				Name = "input"
+			})
+		})
+	})
+
+	newbox.frame.container.input.FocusLost:Connect(function()
+		newbox:set(newbox.frame.container.input.Text)
+	end)
+
+	newbox.frame.container.input:GetPropertyChangedSignal("Text"):Connect(function()
+		local sizex = math.min(TXS:GetTextSize(newbox.frame.container.input.Text == "" and newbox.frame.container.input.PlaceholderText or newbox.frame.container.input.Text, 11, Enum.Font.Gotham, HVC2).X + 14, newbox.maxx)
+		if newbox.frame.container.AbsoluteSize.X ~= sizex then
+			newbox.frame.container.Size = UDim2.new(0, sizex, 1, 0)
+		end
+	end)
+
+    newbox.frame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            newbox.frame.container.input:CaptureFocus()
+        end
+    end)
+
+	return newbox
+end
+
+function box:set(value)
+	local str = tostring(value)
+	if str ~= "" and self.numonly and not tonumber(str) then
+		self.frame.container.input.Text = self.library.flags[self.flag] or ""
+	else
+		self.frame.container.input.Text = str
+		self.library.flags[self.flag] = str
+		coroutine.wrap(self.callback)(str)
+	end
+end
+
+--[[ Slider ]]--
+
+local slider = {}
+slider.__index = slider
+
+function slider.new(options)
+	local newslider = setmetatable(mergetables({
+		itemtype = "slider",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		min = 0,
+		max = 100,
+		float = 1,
+		callback = function() end
+	}, options), slider)
+	
+	newslider.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 34), 
+		Name = newslider.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newslider.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(0.5, 0), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(0.5, 0, 0, 0), 
+			Size = UDim2.new(1, 0, 0, 20), 
+			Name = "title"
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "highlight"
+			},
+			AnchorPoint = Vector2.new(0.5, 1), 
+			Position = UDim2.new(0.5, 0, 1, 0), 
+			Size = UDim2.new(1, 0, 0, 12), 
+			Name = "drag"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = "sectionbackground"
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -2, 1, -2), 
+				Name = "inside"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				}),
+				create("Frame", { 
+					Theme = {
+						BackgroundColor3 = "highlight"
+					},
+					AnchorPoint = Vector2.new(0, 0.5), 
+					BorderSizePixel = 0, 
+					Position = UDim2.new(0, 0, 0.5, 0), 
+					Size = UDim2.new(0, 0, 1, 0), 
+					Name = "indicator"
+				})
+			})
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground"
+			},
+			AnchorPoint = Vector2.new(1, 0), 
+			Position = UDim2.new(1, 0, 0, 0), 
+			Size = UDim2.new(0, 23, 0, 20), 
+			Name = "value"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("TextBox", { 
+				Theme = {
+					TextColor3 = "foreground"
+				},
+				Font = Enum.Font.Gotham, 
+				FontSize = Enum.FontSize.Size11, 
+				PlaceholderText = "Value", 
+				Text = tostring(newslider.min), 
+				TextSize = 11, 
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -12, 1, 0), 
+				Name = "input"
+			})
+		})
+	})
+
+	local slidemaid = Akiri.imports:fetchsystem("maid")
+	newslider.frame.drag.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            newslider.library.settings.dragging = true
+			slidemaid:givetask(mouse.Move:Connect(function()
+				newslider:set(newslider.min + ((newslider.max - newslider.min) * ((mouse.X - newslider.frame.drag.inside.AbsolutePosition.X) / newslider.frame.drag.inside.AbsoluteSize.X)))
+			end))
+			slidemaid:givetask(input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+                    slidemaid:dispose()
+					newslider.library.settings.dragging = false
+				end
+			end))
+        end
+    end)
+
+	newslider.frame.value.input:GetPropertyChangedSignal("Text"):Connect(function()
+		local value = newslider.frame.value.input.Text
+		local numvalue = tonumber(value)
+		newslider.frame.value.Size = UDim2.new(0, TXS:GetTextSize(value, 11, Enum.Font.Gotham, HVC2).X + 12, 0, 20)
+		if numvalue then
+			if numvalue ~= newslider.library.flags[newslider.flag] then
+				newslider:set(numvalue)
+			end
+		else
+			newslider.frame.value.input.Text = tostring(newslider.library.flags[newslider.flag])
+		end
+	end)
+
+	return newslider
+end
+
+function slider:set(value)
+	local numvalue = math.clamp(round(value, self.float), self.min, self.max)
+	if numvalue ~= self.library.flags[self.flag] then
+		self.library.flags[self.flag] = numvalue
+		tween(self.frame.drag.inside.indicator, 0.25, { Size = UDim2.new((numvalue - self.min) / (self.max - self.min), 0, 1, 0) })
+		self.frame.value.input.Text = tostring(numvalue)
+		coroutine.wrap(self.callback)(numvalue)
+	end
+end
+
+--[[ Toggle Slider ]]--
+
+local toggleslider = {}
+toggleslider.__index = toggleslider
+
+function toggleslider.new(options)
+	local newtoggleslider = setmetatable(mergetables({
+		itemtype = "toggleslider",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		min = 0,
+		max = 100,
+		float = 1,
+		onstatechanged = function() end,
+		onvaluechanged = function() end
+	}, options), toggleslider)
+
+	newtoggleslider.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 34), 
+		Name = newtoggleslider.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newtoggleslider.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(1, 0), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(1, 0, 0, 0), 
+			Size = UDim2.new(1, -26, 0, 18), 
+			Name = "title"
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "highlight"
+			},
+			Size = UDim2.new(0, 18, 0, 18), 
+			Name = "border"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = function()
+						return newtoggleslider.library and newtoggleslider.library.flags[newtoggleslider.flag].enabled and "highlight" or "sectionbackground"
+					end
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -2, 1, -2), 
+				Name = "indicator"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				})
+			})
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "highlight"
+			},
+			AnchorPoint = Vector2.new(0.5, 1), 
+			Position = UDim2.new(0.5, 0, 1, 0), 
+			Size = UDim2.new(1, 0, 0, 12), 
+			Name = "drag"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = "sectionbackground"
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -2, 1, -2), 
+				Name = "inside"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				}),
+				create("Frame", { 
+					Theme = {
+						BackgroundColor3 = "highlight"
+					},
+					AnchorPoint = Vector2.new(0, 0.5), 
+					BorderSizePixel = 0, 
+					Position = UDim2.new(0, 0, 0.5, 0), 
+					Size = UDim2.new(0, 0, 1, 0), 
+					Name = "indicator"
+				})
+			})
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground"
+			},
+			AnchorPoint = Vector2.new(1, 0), 
+			Position = UDim2.new(1, 0, 0, 0), 
+			Size = UDim2.new(0, 23, 0, 18), 
+			Name = "value"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("TextBox", { 
+				Theme = {
+					TextColor3 = "foreground"
+				},
+				Font = Enum.Font.Gotham, 
+				FontSize = Enum.FontSize.Size11, 
+				PlaceholderText = "Value", 
+				Text = tostring(newtoggleslider.min), 
+				TextSize = 11, 
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -12, 1, 0), 
+				Name = "input"
+			})
+		})
+	})
+
+	local slidemaid = Akiri.imports:fetchsystem("maid")
+	newtoggleslider.frame.drag.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            newtoggleslider.library.settings.dragging = true
+			slidemaid:givetask(mouse.Move:Connect(function()
+				newtoggleslider:set(newtoggleslider.min + ((newtoggleslider.max - newtoggleslider.min) * ((mouse.X - newtoggleslider.frame.drag.inside.AbsolutePosition.X) / newtoggleslider.frame.drag.inside.AbsoluteSize.X)))
+			end))
+			slidemaid:givetask(input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+                    slidemaid:dispose()
+					newtoggleslider.library.settings.dragging = false
+				end
+			end))
+        end
+    end)
+
+	newtoggleslider.frame.value.input:GetPropertyChangedSignal("Text"):Connect(function()
+		local value = newtoggleslider.frame.value.input.Text
+		local numvalue = tonumber(value)
+		newtoggleslider.frame.value.Size = UDim2.new(0, TXS:GetTextSize(value, 11, Enum.Font.Gotham, HVC2).X + 12, 0, 20)
+		if numvalue then
+			if numvalue ~= newtoggleslider.library.flags[newtoggleslider.flag].value then
+				newtoggleslider:set(numvalue)
+			end
+		else
+			newtoggleslider.frame.value.input.Text = tostring(newtoggleslider.library.flags[newtoggleslider.flag].value)
+		end
+	end)
+
+	newtoggleslider.frame.border.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			newtoggleslider:switch()
+		end
+	end)
+
+	return newtoggleslider
+end
+
+function toggleslider:set(value)
+	local numvalue = math.clamp(round(value, self.float), self.min, self.max)
+	if numvalue ~= self.library.flags[self.flag].value then
+		self.library.flags[self.flag].value = numvalue
+		tween(self.frame.drag.inside.indicator, 0.25, { Size = UDim2.new((numvalue - self.min) / (self.max - self.min), 0, 1, 0) })
+		self.frame.value.input.Text = tostring(numvalue)
+		coroutine.wrap(self.onvaluechanged)(numvalue)
+	end
+end
+
+function toggleslider:toggle(bool)
+	self.library.flags[self.flag].enabled = bool
+	tween(self.frame.border.indicator, 0.25, { BackgroundColor3 = bool and theme.highlight or theme.sectionbackground })
+	coroutine.wrap(self.onstatechanged)(bool)
+end
+
+function toggleslider:switch()
+	self:toggle(not self.library.flags[self.flag].enabled)
+end
+
+--[[ Dropdown ]]--
+
+local dropdown = {}
+dropdown.__index = dropdown
+
+function dropdown.new(options)
+	local newdropdown = setmetatable(mergetables({
+		itemtype = "dropdown",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		callback = function() end,
+		settings = {
+			open = false
+		}
+	}, options), dropdown)
+
+	newdropdown.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 44), 
+		Name = newdropdown.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newdropdown.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(0.5, 0), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(0.5, 0, 0, 0), 
+			Size = UDim2.new(1, 0, 0, 20), 
+			Name = "title"
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground"
+			},
+			AnchorPoint = Vector2.new(0.5, 1),
+			Position = UDim2.new(0.5, 0, 1, 0), 
+			Size = UDim2.new(1, 0, 0, 22), 
+			Name = "bar"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("ImageLabel", { 
+				Theme = {
+					ImageColor3 = "foreground"
+				},
+				Image = "rbxassetid://9243354333", 
+				AnchorPoint = Vector2.new(1, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(1, -2, 0.5, 0), 
+				Size = UDim2.new(0, 18, 0, 18), 
+				Name = "arrow"
+			}),
+			create("TextLabel", { 
+				Theme = {
+					TextColor3 = "foreground"
+				},
+				Font = Enum.Font.Gotham, 
+				FontSize = Enum.FontSize.Size11, 
+				Text = "", 
+				TextSize = 11, 
+				TextXAlignment = Enum.TextXAlignment.Left, 
+				AnchorPoint = Vector2.new(0, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(0, 7, 0.5, 0), 
+				Size = UDim2.new(1, -29, 1, 0), 
+				Name = "selected"
+			})
+		}),
+		create("Frame", { 
+			AnchorPoint = Vector2.new(0.5, 0), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			ClipsDescendants = true, 
+			Position = UDim2.new(0.5, 0, 1, 2), 
+			Size = UDim2.new(1, 0, 0, 0), 
+			ZIndex = 3, 
+			Name = "drop"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("TextButton", {
+				Font = Enum.Font.SourceSans,
+				FontSize = Enum.FontSize.Size14,
+				Text = "",
+				TextColor3 = Color3.new(0, 0, 0),
+				TextSize = 14,
+				AnchorPoint = Vector2.new(0.5, 0.5),
+				BackgroundColor3 = Color3.new(1, 1, 1),
+				BackgroundTransparency = 1,
+				Position = UDim2.new(0.5, 0, 0.5, 0),
+				Size = UDim2.new(1, 0, 1, 0),
+				ZIndex = 2,
+				Name = "clickblock"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = "mainbackground"
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, 0, 1, 0), 
+				ZIndex = 3, 
+				Name = "panel"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				}),
+				create("Frame", { 
+					Theme = {
+						BackgroundColor3 = "sectionbackground"
+					},
+					AnchorPoint = Vector2.new(0.5, 0.5), 
+					Position = UDim2.new(0.5, 0, 0.5, 0), 
+					Size = UDim2.new(1, -4, 1, -4), 
+					ZIndex = 3, 
+					Name = "container"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					}),
+					create("ScrollingFrame", { 
+						CanvasSize = UDim2.new(0, 0, 0, 0), 
+						ScrollBarImageColor3 = Color3.new(0, 0, 0), 
+						ScrollBarThickness = 4, 
+						Active = true, 
+						AnchorPoint = Vector2.new(1, 0.5), 
+						BackgroundColor3 = Color3.new(1, 1, 1), 
+						BackgroundTransparency = 1, 
+						BorderSizePixel = 0, 
+						Position = UDim2.new(1, 0, 0.5, 0), 
+						Size = UDim2.new(1, -4, 1, -8), 
+						VerticalScrollBarInset = Enum.ScrollBarInset.ScrollBar,
+						ZIndex = 3, 
+						Name = "holder"
+					}, {
+						create("UIListLayout", { 
+							Padding = UDim.new(0, 2), 
+							SortOrder = Enum.SortOrder.LayoutOrder, 
+							Name = "list"
+						})
+					})
+				})
+			})
+		})
+	})
+	
+	autocanvasresize(newdropdown.frame.drop.panel.container.holder.list, newdropdown.frame.drop.panel.container.holder)
+
+	newdropdown.frame.bar.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			if newdropdown.settings.open then
+				newdropdown:close()
+			else
+				newdropdown:open()
+			end
+		end
+	end)
+
+	return newdropdown
+end
+
+function dropdown:open(force)
+	if force or self.settings.open == false then
+		self.settings.open = true
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, math.min(106, 10 + 24 * (#self.frame.drop.panel.container.holder:GetChildren() - 1))) })
+	end
+end
+
+function dropdown:close()
+	if self.settings.open == true then
+		self.settings.open = false
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, 0) })
+	end
+end
+
+function dropdown:additem(value)
+	local strvalue = tostring(value)
+	local item = create("Frame", {
+		Theme = {
+			BackgroundColor3 = function()
+				return self.library.flags[self.flag] == strvalue and "highlight" or "mainbackground"
+			end
+		},
+		Parent = self.frame.drop.panel.container.holder,
+		Size = UDim2.new(1, -4, 0, 22), 
+		ZIndex = 3, 
+		Name = strvalue
+	}, {
+		create("UICorner", { 
+			CornerRadius = UDim.new(0, 3), 
+			Name = "corner"
+		}),
+		create("TextLabel", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground",
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size11, 
+			Text = strvalue, 
+			TextSize = 11, 
+			AnchorPoint = Vector2.new(0.5, 0.5), 
+			Position = UDim2.new(0.5, 0, 0.5, 0), 
+			Size = UDim2.new(1, -2, 1, -2), 
+			ZIndex = 3, 
+			Name = "label"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			})
+		})
+	})
+
+	item.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			self:set(value)
+		end
+	end)
+end
+
+function dropdown:removeitem(value)
+	local items = self.frame.drop.panel.container.holder:GetChildren()
+	for i = 1, #items do
+		local item = items[i]
+		if item.ClassName == "Frame" and item.Name == value then
+			item:Destroy()
+			break
+		end
+	end
+	if self.settings.open then
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, math.min(106, 10 + 24 * (#self.frame.drop.panel.container.holder:GetChildren() - 1))) })
+	end
+end
+
+function dropdown:clear()
+	local items = self.frame.drop.panel.container.holder:GetChildren()
+	for i = 1, #items do
+		local item = items[i]
+		if item.ClassName == "Frame" then
+			item:Destroy()
+		end
+	end
+	if self.settings.open then
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, math.min(106, 10 + 24 * (#self.frame.drop.panel.container.holder:GetChildren() - 1))) })
+	end
+end
+
+function dropdown:set(value)
+	local strvalue = tostring(value)
+	if self.library.flags[self.flag] ~= strvalue then
+		local items = self.frame.drop.panel.container.holder:GetChildren()
+		for i = 1, #items do
+			local item = items[i]
+			if item.ClassName == "Frame" then
+				if item.Name == self.library.flags[self.flag] then
+					tween(item, 0.25, { BackgroundColor3 = theme.mainbackground })
+				elseif item.Name == strvalue then
+					tween(item, 0.25, { BackgroundColor3 = theme.highlight })
+				end
+			end
+		end
+		self.library.flags[self.flag] = strvalue
+		self.frame.bar.selected.Text = strvalue
+		coroutine.wrap(self.callback)(value)
+	end
+end
+
+--[[ Toggle Dropdown ]]--
+
+local toggledropdown = {}
+toggledropdown.__index = toggledropdown
+
+function toggledropdown.new(options)
+	local newtoggledropdown = setmetatable(mergetables({
+		itemtype = "toggledropdown",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		onvaluechanged = function() end,
+		onstatechanged = function() end,
+		settings = {
+			open = false
+		}
+	}, options), toggledropdown)
+	
+	newtoggledropdown.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 42), 
+		Name = newtoggledropdown.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newtoggledropdown.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(1, 0), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(1, 0, 0, 0), 
+			Size = UDim2.new(1, -26, 0, 18), 
+			Name = "title"
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "highlight"
+			},
+			Size = UDim2.new(0, 18, 0, 18), 
+			Name = "border"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = function()
+						return newtoggledropdown.library and newtoggledropdown.library.flags[newtoggledropdown.flag].enabled and "highlight" or "sectionbackground"
+					end
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -2, 1, -2), 
+				Name = "indicator"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				})
+			})
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground"
+			},
+			AnchorPoint = Vector2.new(0.5, 1),
+			Position = UDim2.new(0.5, 0, 1, 0), 
+			Size = UDim2.new(1, 0, 0, 20), 
+			Name = "bar"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("ImageLabel", { 
+				Theme = {
+					ImageColor3 = "foreground"
+				},
+				Image = "rbxassetid://9243354333", 
+				AnchorPoint = Vector2.new(1, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(1, -2, 0.5, 0), 
+				Size = UDim2.new(0, 18, 0, 18), 
+				Name = "arrow"
+			}),
+			create("TextLabel", { 
+				Theme = {
+					TextColor3 = "foreground"
+				},
+				Font = Enum.Font.Gotham, 
+				FontSize = Enum.FontSize.Size11, 
+				Text = "", 
+				TextSize = 11, 
+				TextXAlignment = Enum.TextXAlignment.Left, 
+				AnchorPoint = Vector2.new(0, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(0, 7, 0.5, 0), 
+				Size = UDim2.new(1, -29, 1, 0), 
+				Name = "selected"
+			})
+		}),
+		create("Frame", { 
+			AnchorPoint = Vector2.new(0.5, 0), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			ClipsDescendants = true, 
+			Position = UDim2.new(0.5, 0, 1, 2), 
+			Size = UDim2.new(1, 0, 0, 0), 
+			ZIndex = 3, 
+			Name = "drop"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("TextButton", {
+				Font = Enum.Font.SourceSans,
+				FontSize = Enum.FontSize.Size14,
+				Text = "",
+				TextColor3 = Color3.new(0, 0, 0),
+				TextSize = 14,
+				AnchorPoint = Vector2.new(0.5, 0.5),
+				BackgroundColor3 = Color3.new(1, 1, 1),
+				BackgroundTransparency = 1,
+				Position = UDim2.new(0.5, 0, 0.5, 0),
+				Size = UDim2.new(1, 0, 1, 0),
+				ZIndex = 2,
+				Name = "clickblock"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = "mainbackground"
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, 0, 1, 0), 
+				ZIndex = 3, 
+				Name = "panel"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				}),
+				create("Frame", { 
+					Theme = {
+						BackgroundColor3 = "sectionbackground"
+					},
+					AnchorPoint = Vector2.new(0.5, 0.5), 
+					Position = UDim2.new(0.5, 0, 0.5, 0), 
+					Size = UDim2.new(1, -4, 1, -4), 
+					ZIndex = 3, 
+					Name = "container"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					}),
+					create("ScrollingFrame", { 
+						CanvasSize = UDim2.new(0, 0, 0, 0), 
+						ScrollBarImageColor3 = Color3.new(0, 0, 0), 
+						ScrollBarThickness = 4, 
+						Active = true, 
+						AnchorPoint = Vector2.new(1, 0.5), 
+						BackgroundColor3 = Color3.new(1, 1, 1), 
+						BackgroundTransparency = 1, 
+						BorderSizePixel = 0, 
+						Position = UDim2.new(1, 0, 0.5, 0), 
+						Size = UDim2.new(1, -4, 1, -8), 
+						VerticalScrollBarInset = Enum.ScrollBarInset.ScrollBar,
+						ZIndex = 3, 
+						Name = "holder"
+					}, {
+						create("UIListLayout", { 
+							Padding = UDim.new(0, 2), 
+							SortOrder = Enum.SortOrder.LayoutOrder, 
+							Name = "list"
+						})
+					})
+				})
+			})
+		})
+	})
+
+	autocanvasresize(newtoggledropdown.frame.drop.panel.container.holder.list, newtoggledropdown.frame.drop.panel.container.holder)
+
+	newtoggledropdown.frame.bar.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			if newtoggledropdown.settings.open then
+				newtoggledropdown:close()
+			else
+				newtoggledropdown:open()
+			end
+		end
+	end)
+	
+	newtoggledropdown.frame.border.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			newtoggledropdown:switch()
+		end
+	end)
+
+	return newtoggledropdown
+end
+
+function toggledropdown:open(force)
+	if force or self.settings.open == false then
+		self.settings.open = true
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, math.min(106, 10 + 24 * (#self.frame.drop.panel.container.holder:GetChildren() - 1))) })
+	end
+end
+
+function toggledropdown:close()
+	if self.settings.open == true then
+		self.settings.open = false
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, 0) })
+	end
+end
+
+function toggledropdown:additem(value)
+	local strvalue = tostring(value)
+	local item = create("Frame", {
+		Theme = {
+			BackgroundColor3 = function()
+				return self.library.flags[self.flag] == strvalue and "highlight" or "mainbackground"
+			end
+		},
+		Parent = self.frame.drop.panel.container.holder,
+		Size = UDim2.new(1, -4, 0, 22), 
+		ZIndex = 3, 
+		Name = strvalue
+	}, {
+		create("UICorner", { 
+			CornerRadius = UDim.new(0, 3), 
+			Name = "corner"
+		}),
+		create("TextLabel", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground",
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size11, 
+			Text = strvalue, 
+			TextSize = 11, 
+			AnchorPoint = Vector2.new(0.5, 0.5), 
+			Position = UDim2.new(0.5, 0, 0.5, 0), 
+			Size = UDim2.new(1, -2, 1, -2), 
+			ZIndex = 3, 
+			Name = "label"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			})
+		})
+	})
+
+	item.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			self:set(value)
+		end
+	end)
+end
+
+function toggledropdown:removeitem(value)
+	local items = self.frame.drop.panel.container.holder:GetChildren()
+	for i = 1, #items do
+		local item = items[i]
+		if item.ClassName == "Frame" and item.Name == value then
+			item:Destroy()
+			break
+		end
+	end
+	if self.settings.open then
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, math.min(106, 10 + 24 * (#self.frame.drop.panel.container.holder:GetChildren() - 1))) })
+	end
+end
+
+function toggledropdown:clear()
+	local items = self.frame.drop.panel.container.holder:GetChildren()
+	for i = 1, #items do
+		local item = items[i]
+		if item.ClassName == "Frame" then
+			item:Destroy()
+		end
+	end
+	if self.settings.open then
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, math.min(106, 10 + 24 * (#self.frame.drop.panel.container.holder:GetChildren() - 1))) })
+	end
+end
+
+function toggledropdown:set(value)
+	local strvalue = tostring(value)
+	if self.library.flags[self.flag].selected ~= strvalue then
+		local items = self.frame.drop.panel.container.holder:GetChildren()
+		for i = 1, #items do
+			local item = items[i]
+			if item.ClassName == "Frame" then
+				if item.Name == self.library.flags[self.flag].selected then
+					tween(item, 0.25, { BackgroundColor3 = theme.mainbackground })
+				elseif item.Name == strvalue then
+					tween(item, 0.25, { BackgroundColor3 = theme.highlight })
+				end
+			end
+		end
+		self.library.flags[self.flag].selected = strvalue
+		self.frame.bar.selected.Text = strvalue
+		self.onvaluechanged(value)
+	end
+end
+
+function toggledropdown:toggle(bool)
+	self.library.flags[self.flag].enabled = bool
+	tween(self.frame.border.indicator, 0.25, { BackgroundColor3 = bool and theme.highlight or theme.sectionbackground })
+	coroutine.wrap(self.onstatechanged)(bool)
+end
+
+function toggledropdown:switch()
+	self:toggle(not self.library.flags[self.flag].enabled)
+end
+
+--[[ Colour Picker ]]--
+
+local picker = {}
+picker.__index = picker
+
+function picker.new(options)
+	local newpicker = setmetatable(mergetables({
+		itemtype = "picker",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		callback = function() end,
+		settings = {
+			open = false
+		}
+	}, options), picker)
+	
+	newpicker.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 20), 
+		Name = newpicker.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newpicker.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(0, 0.5), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(0, 0, 0.5, 0), 
+			Size = UDim2.new(1, 0, 1, 0), 
+			Name = "title"
+		}),
+		create("Frame", {
+			AnchorPoint = Vector2.new(1, 0.5), 
+			BackgroundColor3 = Color3.new(1, 0, 0),
+			Position = UDim2.new(1, 0, 0.5, 0), 
+			Size = UDim2.new(0, 59, 1, 0), 
+			Name = "indicator"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("TextLabel", { 
+				Theme = {
+					TextColor3 = "foreground"
+				},
+				Font = Enum.Font.Gotham, 
+				FontSize = Enum.FontSize.Size11, 
+				Text = "255, 0, 0", 
+				TextSize = 11, 
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -14, 1, 0), 
+				Name = "rgb"
+			})
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground"
+			},
+			AnchorPoint = Vector2.new(0.5, 0), 
+			Position = UDim2.new(0.5, 0, 1, 2), 
+			Size = UDim2.new(1, 0, 0, 148), 
+			Visible = false, 
+			ZIndex = 3, 
+			Name = "drop"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("TextButton", {
+				Font = Enum.Font.SourceSans,
+				FontSize = Enum.FontSize.Size14,
+				Text = "",
+				TextColor3 = Color3.new(0, 0, 0),
+				TextSize = 14,
+				AnchorPoint = Vector2.new(0.5, 0.5),
+				BackgroundColor3 = Color3.new(1, 1, 1),
+				BackgroundTransparency = 1,
+				Position = UDim2.new(0.5, 0, 0.5, 0),
+				Size = UDim2.new(1, 0, 1, 0),
+				ZIndex = 2,
+				Name = "clickblock"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = "sectionbackground"
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -4, 1, -4), 
+				ZIndex = 3, 
+				Name = "container"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				}),
+				create("Frame", { 
+					BackgroundColor3 = Color3.new(1, 1, 1), 
+					Position = UDim2.new(0, 6, 0, 6), 
+					Size = UDim2.new(0, 136, 0, 82), 
+					ZIndex = 3, 
+					Name = "sat"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 4), 
+						Name = "corner"
+					}),
+					create("UIGradient", { 
+						Color = ColorSequence.new({ 
+							ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)), 
+							ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))
+						}), 
+						Name = "gradient"
+					}),
+					create("Frame", { 
+						AnchorPoint = Vector2.new(0.5, 0.5), 
+						BackgroundColor3 = Color3.new(1, 1, 1), 
+						Position = UDim2.new(0.5, 0, 0.5, 0), 
+						Size = UDim2.new(1, 0, 1, 0), 
+						ZIndex = 3, 
+						Name = "val"
+					}, {
+						create("UICorner", { 
+							CornerRadius = UDim.new(0, 3), 
+							Name = "corner"
+						}),
+						create("UIGradient", { 
+							Color = ColorSequence.new({ 
+								ColorSequenceKeypoint.new(0, Color3.new(0, 0, 0)), 
+								ColorSequenceKeypoint.new(1, Color3.new(0, 0, 0))
+							}), 
+							Rotation = 270, 
+							Transparency = NumberSequence.new({ 
+								NumberSequenceKeypoint.new(0, 0), 
+								NumberSequenceKeypoint.new(1, 1)
+							}), 
+							Name = "gradient"
+						})
+					}),
+					create("ImageLabel", { 
+						Theme = {
+							ImageColor3 = "foreground"
+						},
+						Image = "rbxassetid://9240358248", 
+						AnchorPoint = Vector2.new(0.5, 0.5), 
+						BackgroundColor3 = Color3.new(1, 1, 1), 
+						BackgroundTransparency = 1, 
+						Position = UDim2.new(1, 0, 0, 0), 
+						Size = UDim2.new(0, 16, 0, 16), 
+						ZIndex = 4, 
+						Name = "indicator"
+					})
+				}),
+				create("TextBox", { 
+					Theme = {
+						BackgroundColor3 = "mainbackground",
+						TextColor3 = "foreground"
+					},
+					Font = Enum.Font.Gotham, 
+					FontSize = Enum.FontSize.Size11, 
+					PlaceholderText = "Red", 
+					Text = "255",  
+					TextSize = 11, 
+					AnchorPoint = Vector2.new(1, 0), 
+					Position = UDim2.new(1, -6, 0, 6), 
+					Size = UDim2.new(0, 55, 0, 25), 
+					ZIndex = 4, 
+					Name = "red"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					})
+				}),
+				create("TextBox", { 
+					Theme = {
+						BackgroundColor3 = "mainbackground",
+						TextColor3 = "foreground"
+					},
+					Font = Enum.Font.Gotham, 
+					FontSize = Enum.FontSize.Size11, 
+					PlaceholderText = "Green", 
+					Text = "0", 
+					TextSize = 11, 
+					AnchorPoint = Vector2.new(1, 0), 
+					Position = UDim2.new(1, -6, 0, 35), 
+					Size = UDim2.new(0, 55, 0, 25), 
+					ZIndex = 4, 
+					Name = "green"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					})
+				}),
+				create("TextBox", { 
+					Theme = {
+						BackgroundColor3 = "mainbackground",
+						TextColor3 = "foreground"
+					},
+					Font = Enum.Font.Gotham, 
+					FontSize = Enum.FontSize.Size11, 
+					PlaceholderText = "Blue", 
+					Text = "0", 
+					TextSize = 11, 
+					AnchorPoint = Vector2.new(1, 0), 
+					Position = UDim2.new(1, -6, 0, 64), 
+					Size = UDim2.new(0, 55, 0, 25), 
+					ZIndex = 4, 
+					Name = "blue"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					})
+				}),
+				create("Frame", { 
+					AnchorPoint = Vector2.new(0.5, 0), 
+					BackgroundColor3 = Color3.new(1, 1, 1), 
+					Position = UDim2.new(0.5, 0, 0, 94), 
+					Size = UDim2.new(1, -12, 0, 18), 
+					ZIndex = 3, 
+					Name = "hue"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					}),
+					create("UIGradient", { 
+						Color = ColorSequence.new({ 
+							ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)), 
+							ColorSequenceKeypoint.new(0.1666666666666666, Color3.new(1, 1, 0)), 
+							ColorSequenceKeypoint.new(0.3333333333333333, Color3.new(0, 1, 0)), 
+							ColorSequenceKeypoint.new(0.5, Color3.new(0, 1, 1)), 
+							ColorSequenceKeypoint.new(0.6666666666666666, Color3.new(0, 0, 1)), 
+							ColorSequenceKeypoint.new(0.8333333333333333, Color3.new(1, 0, 1)), 
+							ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))
+						}), 
+						Name = "gradient"
+					}),
+					create("Frame", { 
+						Theme = {
+							BackgroundColor3 = "sectionbackground"
+						},
+						AnchorPoint = Vector2.new(0.5, 0.5), 
+						Position = UDim2.new(0.63, 0, 0.5, 0), 
+						Size = UDim2.new(0, 4, 1, 0), 
+						ZIndex = 4, 
+						Name = "indicator"
+					}, {
+						create("UICorner", { 
+							CornerRadius = UDim.new(1, 0), 
+							Name = "corner"
+						})
+					})
+				}),
+				create("Frame", { 
+					AnchorPoint = Vector2.new(0.5, 1), 
+					BackgroundColor3 = Color3.new(1, 1, 1), 
+					BackgroundTransparency = 1, 
+					Position = UDim2.new(0.5, 0, 1, -6), 
+					Size = UDim2.new(1, -12, 0, 20), 
+					ZIndex = 3, 
+					Name = "rainbow"
+				}, {
+					create("TextLabel", { 
+						Theme = {
+							TextColor3 = "foreground"
+						},
+						Font = Enum.Font.Gotham, 
+						FontSize = Enum.FontSize.Size12, 
+						Text = "Rainbow", 
+						TextSize = 12, 
+						TextXAlignment = Enum.TextXAlignment.Left, 
+						AnchorPoint = Vector2.new(1, 0.5), 
+						BackgroundColor3 = Color3.new(1, 1, 1), 
+						BackgroundTransparency = 1, 
+						Position = UDim2.new(1, 0, 0.5, 0), 
+						Size = UDim2.new(1, -26, 1, 0), 
+						ZIndex = 3, 
+						Name = "title"
+					}),
+					create("Frame", { 
+						Theme = {
+							BackgroundColor3 = "highlight"
+						},
+						AnchorPoint = Vector2.new(0, 0.5), 
+						Position = UDim2.new(0, 0, 0.5, 0), 
+						Size = UDim2.new(0, 20, 0, 20), 
+						ZIndex = 3, 
+						Name = "border"
+					}, {
+						create("UICorner", { 
+							CornerRadius = UDim.new(0, 3), 
+							Name = "corner"
+						}),
+						create("Frame", { 
+							Theme = {
+								BackgroundColor3 = function()
+									return newpicker.library and newpicker.library.flags[newpicker.flag].rainbow and "highlight" or "sectionbackground"
+								end
+							},
+							AnchorPoint = Vector2.new(0.5, 0.5), 
+							Position = UDim2.new(0.5, 0, 0.5, 0), 
+							Size = UDim2.new(1, -2, 1, -2), 
+							ZIndex = 3, 
+							Name = "indicator"
+						}, {
+							create("UICorner", { 
+								CornerRadius = UDim.new(0, 3), 
+								Name = "corner"
+							})
+						})
+					})
+				})
+			})
+		})
+	})
+	
+	newpicker.frame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            if newpicker.settings.open then
+                newpicker:close()
+            else
+                newpicker:open()
+            end
+        end
+    end)
+
+    local pickermaid = Akiri.imports:fetchsystem("maid")
+	newpicker.maid = Akiri.imports:fetchsystem("maid")
+    newpicker.frame.drop.container.hue.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 and newpicker.library.settings.dragging == false then
+            if newpicker.library.flags[newpicker.flag].rainbow then
+                newpicker:togglerainbow(false)
+            end
+            newpicker.library.settings.dragging = true
+            pickermaid:givetask(mouse.Move:Connect(function()
+                newpicker:set(math.clamp((mouse.X - newpicker.frame.drop.container.hue.AbsolutePosition.X) / newpicker.frame.drop.container.hue.AbsoluteSize.X, 0, 1), newpicker.library.flags[newpicker.flag].s, newpicker.library.flags[newpicker.flag].v)
+            end))
+            pickermaid:givetask(input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    pickermaid:dispose()
+                    newpicker.library.settings.dragging = false
+                end
+            end))
+        end
+    end)
+
+    newpicker.frame.drop.container.sat.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 and not newpicker.library.settings.dragging then
+            newpicker.library.settings.dragging = true
+            pickermaid:givetask(mouse.Move:Connect(function()
+                newpicker:set(newpicker.library.flags[newpicker.flag].h, math.clamp((mouse.X - newpicker.frame.drop.container.sat.AbsolutePosition.X) / newpicker.frame.drop.container.sat.AbsoluteSize.X, 0, 1), 1 - math.clamp((mouse.Y - newpicker.frame.drop.container.sat.AbsolutePosition.Y) / newpicker.frame.drop.container.sat.AbsoluteSize.Y, 0, 1))
+            end))
+            pickermaid:givetask(input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    pickermaid:dispose()
+                    newpicker.library.settings.dragging = false
+                end
+            end))
+        end
+    end)
+
+    newpicker.frame.drop.container.red.FocusLost:Connect(function()
+        local num = tonumber(newpicker.frame.drop.container.red.Text)
+        local colour = Color3.fromHSV(newpicker.library.flags[newpicker.flag].h, newpicker.library.flags[newpicker.flag].s, newpicker.library.flags[newpicker.flag].v)
+        if num and math.floor(num) == num and num >= 0 and num <= 255 then
+            newpicker:set(Color3.new(num / 255, colour.G, colour.B):ToHSV())
+        else
+            newpicker.frame.drop.container.red.Text = math.floor(colour.R * 255 + 0.5)
+        end
+    end)
+
+    newpicker.frame.drop.container.green.FocusLost:Connect(function()
+        local num = tonumber(newpicker.frame.drop.container.green.Text)
+        local colour = Color3.fromHSV(newpicker.library.flags[newpicker.flag].h, newpicker.library.flags[newpicker.flag].s, newpicker.library.flags[newpicker.flag].v)
+        if num and math.floor(num) == num and num >= 0 and num <= 255 then
+            newpicker:set(Color3.new(colour.R, num / 255, colour.B):ToHSV())
+        else
+            newpicker.frame.drop.container.green.Text = math.floor(colour.R * 255 + 0.5)
+        end
+    end)
+
+    newpicker.frame.drop.container.blue.FocusLost:Connect(function()
+        local num = tonumber(newpicker.frame.drop.container.blue.Text)
+        local colour = Color3.fromHSV(newpicker.library.flags[newpicker.flag].h, newpicker.library.flags[newpicker.flag].s, newpicker.library.flags[newpicker.flag].v)
+        if num and math.floor(num) == num and num >= 0 and num <= 255 then
+            newpicker:set(Color3.new(colour.R, colour.G, num / 255):ToHSV())
+        else
+            newpicker.frame.drop.container.blue.Text = math.floor(colour.R * 255 + 0.5)
+        end
+    end)
+	
+	newpicker.frame.drop.container.rainbow.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            newpicker:switchrainbow()
+        end
+    end)
+
+	return newpicker
+end
+
+function picker:open(force)
+	if force or self.settings.open == false then
+		self.settings.open = true
+		self.frame.drop.Visible = true
+	end
+end
+
+function picker:close()
+	if self.settings.open == true then
+		self.settings.open = false
+		self.frame.drop.Visible = false
+	end
+end
+
+function picker:set(h, s, v)
+	local colour = Color3.fromHSV(h, s, v)
+	self.library.flags[self.flag].h = h
+	self.library.flags[self.flag].s = s
+	self.library.flags[self.flag].v = v
+	self.frame.indicator.BackgroundColor3 = colour
+	local roundr, roundg, roundb = math.floor(colour.R * 255 + 0.5), math.floor(colour.G * 255 + 0.5), math.floor(colour.B * 255 + 0.5)
+	self.frame.drop.container.red.Text = roundr
+	self.frame.drop.container.green.Text = roundg
+	self.frame.drop.container.blue.Text = roundb
+	self.frame.indicator.rgb.Text = string.format("%d, %d, %d", roundr, roundg, roundb)
+	self.frame.indicator.Size = UDim2.new(0, TXS:GetTextSize(self.frame.indicator.rgb.Text, 11, Enum.Font.Gotham, HVC2).X + 14, 1, 0)
+	self.frame.drop.container.sat.gradient.Color = ColorSequence.new(Color3.new(1, 1, 1), Color3.fromHSV(h, 1, 1))
+	tween(self.frame.drop.container.sat.indicator, 0.25, { Position = UDim2.new(s, 0, 1 - v, 0) })
+	if self.library.flags[self.flag].rainbow then
+		self.frame.drop.container.hue.indicator.Position = UDim2.new(h, 0, 0.5, 0)
+	else
+		tween(self.frame.drop.container.hue.indicator, 0.25, { Position = UDim2.new(h, 0, 0.5, 0) })
+	end
+	coroutine.wrap(self.callback)(colour)
+end
+
+function picker:togglerainbow(bool)
+	self.library.flags[self.flag].rainbow = bool
+	tween(self.frame.drop.container.rainbow.border.indicator, 0.25, { BackgroundColor3 = bool and theme.highlight or theme.sectionbackground })
+	if bool then
+		self.maid:givetask(RS.Heartbeat:Connect(function()
+			self:set(tick() % self.library.settings.rainbowspeed / self.library.settings.rainbowspeed, self.library.flags[self.flag].s, self.library.flags[self.flag].v)
+		end))
+	else
+		self.maid:dispose()
+	end
+end
+
+function picker:switchrainbow()
+	self:togglerainbow(not self.library.flags[self.flag].rainbow)
+end
+
+--[[ Toggle Colour Picker ]]--
+
+local togglepicker = {}
+togglepicker.__index = togglepicker
+
+function togglepicker.new(options)
+	local newtogglepicker = setmetatable(mergetables({
+		itemtype = "togglepicker",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		oncolourchanged = function() end,
+		onstatechanged = function() end,
+		settings = {
+			open = false
+		}
+	}, options), togglepicker)
+	
+	newtogglepicker.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 18), 
+		Name = newtogglepicker.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newtogglepicker.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(1, 0), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(1, 0, 0, 0), 
+			Size = UDim2.new(1, -26, 1, 0), 
+			Name = "title"
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "highlight"
+			},
+			Size = UDim2.new(0, 18, 0, 18), 
+			Name = "border"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = function()
+						return newtogglepicker.library and newtogglepicker.library.flags[newtogglepicker.flag].enabled and "highlight" or "sectionbackground"
+					end
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -2, 1, -2), 
+				Name = "indicator"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				})
+			})
+		}),
+		create("Frame", {
+			AnchorPoint = Vector2.new(1, 0.5), 
+			BackgroundColor3 = Color3.new(1, 0, 0),
+			Position = UDim2.new(1, 0, 0.5, 0), 
+			Size = UDim2.new(0, 59, 1, 0), 
+			Name = "indicator"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("TextLabel", { 
+				Theme = {
+					TextColor3 = "foreground"
+				},
+				Font = Enum.Font.Gotham, 
+				FontSize = Enum.FontSize.Size11, 
+				Text = "255, 0, 0", 
+				TextSize = 11, 
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -14, 1, 0), 
+				Name = "rgb"
+			})
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground"
+			},
+			AnchorPoint = Vector2.new(0.5, 0), 
+			Position = UDim2.new(0.5, 0, 1, 2), 
+			Size = UDim2.new(1, 0, 0, 148), 
+			Visible = false, 
+			ZIndex = 3, 
+			Name = "drop"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("TextButton", {
+				Font = Enum.Font.SourceSans,
+				FontSize = Enum.FontSize.Size14,
+				Text = "",
+				TextColor3 = Color3.new(0, 0, 0),
+				TextSize = 14,
+				AnchorPoint = Vector2.new(0.5, 0.5),
+				BackgroundColor3 = Color3.new(1, 1, 1),
+				BackgroundTransparency = 1,
+				Position = UDim2.new(0.5, 0, 0.5, 0),
+				Size = UDim2.new(1, 0, 1, 0),
+				ZIndex = 2,
+				Name = "clickblock"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = "sectionbackground"
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -4, 1, -4), 
+				ZIndex = 3, 
+				Name = "container"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				}),
+				create("Frame", { 
+					BackgroundColor3 = Color3.new(1, 1, 1), 
+					Position = UDim2.new(0, 6, 0, 6), 
+					Size = UDim2.new(0, 136, 0, 82), 
+					ZIndex = 3, 
+					Name = "sat"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 4), 
+						Name = "corner"
+					}),
+					create("UIGradient", { 
+						Color = ColorSequence.new({ 
+							ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)), 
+							ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))
+						}), 
+						Name = "gradient"
+					}),
+					create("Frame", { 
+						AnchorPoint = Vector2.new(0.5, 0.5), 
+						BackgroundColor3 = Color3.new(1, 1, 1), 
+						Position = UDim2.new(0.5, 0, 0.5, 0), 
+						Size = UDim2.new(1, 0, 1, 0), 
+						ZIndex = 3, 
+						Name = "val"
+					}, {
+						create("UICorner", { 
+							CornerRadius = UDim.new(0, 3), 
+							Name = "corner"
+						}),
+						create("UIGradient", { 
+							Color = ColorSequence.new({ 
+								ColorSequenceKeypoint.new(0, Color3.new(0, 0, 0)), 
+								ColorSequenceKeypoint.new(1, Color3.new(0, 0, 0))
+							}), 
+							Rotation = 270, 
+							Transparency = NumberSequence.new({ 
+								NumberSequenceKeypoint.new(0, 0), 
+								NumberSequenceKeypoint.new(1, 1)
+							}), 
+							Name = "gradient"
+						})
+					}),
+					create("ImageLabel", { 
+						Theme = {
+							ImageColor3 = "foreground"
+						},
+						Image = "rbxassetid://9240358248", 
+						AnchorPoint = Vector2.new(0.5, 0.5), 
+						BackgroundColor3 = Color3.new(1, 1, 1), 
+						BackgroundTransparency = 1, 
+						Position = UDim2.new(1, 0, 0, 0), 
+						Size = UDim2.new(0, 16, 0, 16), 
+						ZIndex = 4, 
+						Name = "indicator"
+					})
+				}),
+				create("TextBox", { 
+					Theme = {
+						BackgroundColor3 = "mainbackground",
+						TextColor3 = "foreground"
+					},
+					Font = Enum.Font.Gotham, 
+					FontSize = Enum.FontSize.Size11, 
+					PlaceholderText = "Red", 
+					Text = "255",  
+					TextSize = 11, 
+					AnchorPoint = Vector2.new(1, 0), 
+					Position = UDim2.new(1, -6, 0, 6), 
+					Size = UDim2.new(0, 55, 0, 25), 
+					ZIndex = 4, 
+					Name = "red"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					})
+				}),
+				create("TextBox", { 
+					Theme = {
+						BackgroundColor3 = "mainbackground",
+						TextColor3 = "foreground"
+					},
+					Font = Enum.Font.Gotham, 
+					FontSize = Enum.FontSize.Size11, 
+					PlaceholderText = "Green", 
+					Text = "0", 
+					TextSize = 11, 
+					AnchorPoint = Vector2.new(1, 0), 
+					Position = UDim2.new(1, -6, 0, 35), 
+					Size = UDim2.new(0, 55, 0, 25), 
+					ZIndex = 4, 
+					Name = "green"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					})
+				}),
+				create("TextBox", { 
+					Theme = {
+						BackgroundColor3 = "mainbackground",
+						TextColor3 = "foreground"
+					},
+					Font = Enum.Font.Gotham, 
+					FontSize = Enum.FontSize.Size11, 
+					PlaceholderText = "Blue", 
+					Text = "0", 
+					TextSize = 11, 
+					AnchorPoint = Vector2.new(1, 0), 
+					Position = UDim2.new(1, -6, 0, 64), 
+					Size = UDim2.new(0, 55, 0, 25), 
+					ZIndex = 4, 
+					Name = "blue"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					})
+				}),
+				create("Frame", { 
+					AnchorPoint = Vector2.new(0.5, 0), 
+					BackgroundColor3 = Color3.new(1, 1, 1), 
+					Position = UDim2.new(0.5, 0, 0, 94), 
+					Size = UDim2.new(1, -12, 0, 18), 
+					ZIndex = 3, 
+					Name = "hue"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					}),
+					create("UIGradient", { 
+						Color = ColorSequence.new({ 
+							ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)), 
+							ColorSequenceKeypoint.new(0.1666666666666666, Color3.new(1, 1, 0)), 
+							ColorSequenceKeypoint.new(0.3333333333333333, Color3.new(0, 1, 0)), 
+							ColorSequenceKeypoint.new(0.5, Color3.new(0, 1, 1)), 
+							ColorSequenceKeypoint.new(0.6666666666666666, Color3.new(0, 0, 1)), 
+							ColorSequenceKeypoint.new(0.8333333333333333, Color3.new(1, 0, 1)), 
+							ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))
+						}), 
+						Name = "gradient"
+					}),
+					create("Frame", { 
+						Theme = {
+							BackgroundColor3 = "sectionbackground"
+						},
+						AnchorPoint = Vector2.new(0.5, 0.5), 
+						Position = UDim2.new(0.63, 0, 0.5, 0), 
+						Size = UDim2.new(0, 4, 1, 0), 
+						ZIndex = 4, 
+						Name = "indicator"
+					}, {
+						create("UICorner", { 
+							CornerRadius = UDim.new(1, 0), 
+							Name = "corner"
+						})
+					})
+				}),
+				create("Frame", { 
+					AnchorPoint = Vector2.new(0.5, 1), 
+					BackgroundColor3 = Color3.new(1, 1, 1), 
+					BackgroundTransparency = 1, 
+					Position = UDim2.new(0.5, 0, 1, -6), 
+					Size = UDim2.new(1, -12, 0, 20), 
+					ZIndex = 3, 
+					Name = "rainbow"
+				}, {
+					create("TextLabel", { 
+						Theme = {
+							TextColor3 = "foreground"
+						},
+						Font = Enum.Font.Gotham, 
+						FontSize = Enum.FontSize.Size12, 
+						Text = "Rainbow", 
+						TextSize = 12, 
+						TextXAlignment = Enum.TextXAlignment.Left, 
+						AnchorPoint = Vector2.new(1, 0.5), 
+						BackgroundColor3 = Color3.new(1, 1, 1), 
+						BackgroundTransparency = 1, 
+						Position = UDim2.new(1, 0, 0.5, 0), 
+						Size = UDim2.new(1, -26, 1, 0), 
+						ZIndex = 3, 
+						Name = "title"
+					}),
+					create("Frame", { 
+						Theme = {
+							BackgroundColor3 = "highlight"
+						},
+						AnchorPoint = Vector2.new(0, 0.5), 
+						Position = UDim2.new(0, 0, 0.5, 0), 
+						Size = UDim2.new(0, 20, 0, 20), 
+						ZIndex = 3, 
+						Name = "border"
+					}, {
+						create("UICorner", { 
+							CornerRadius = UDim.new(0, 3), 
+							Name = "corner"
+						}),
+						create("Frame", { 
+							Theme = {
+								BackgroundColor3 = function()
+									return newtogglepicker.library and newtogglepicker.library.flags[newtogglepicker.flag].rainbow and "highlight" or "sectionbackground"
+								end
+							},
+							AnchorPoint = Vector2.new(0.5, 0.5), 
+							Position = UDim2.new(0.5, 0, 0.5, 0), 
+							Size = UDim2.new(1, -2, 1, -2), 
+							ZIndex = 3, 
+							Name = "indicator"
+						}, {
+							create("UICorner", { 
+								CornerRadius = UDim.new(0, 3), 
+								Name = "corner"
+							})
+						})
+					})
+				})
+			})
+		})
+	})
+	
+	newtogglepicker.frame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 and mouse.X - newtogglepicker.frame.AbsolutePosition.X > 20 then
+            if newtogglepicker.settings.open then
+                newtogglepicker:close()
+            else
+                newtogglepicker:open()
+            end
+        end
+    end)
+
+    local pickermaid = Akiri.imports:fetchsystem("maid")
+	newtogglepicker.maid = Akiri.imports:fetchsystem("maid")
+    newtogglepicker.frame.drop.container.hue.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 and newtogglepicker.library.settings.dragging == false then
+            if newtogglepicker.library.flags[newtogglepicker.flag].rainbow then
+                newtogglepicker:togglerainbow(false)
+            end
+            newtogglepicker.library.settings.dragging = true
+            pickermaid:givetask(mouse.Move:Connect(function()
+                newtogglepicker:set(math.clamp((mouse.X - newtogglepicker.frame.drop.container.hue.AbsolutePosition.X) / newtogglepicker.frame.drop.container.hue.AbsoluteSize.X, 0, 1), newtogglepicker.library.flags[newtogglepicker.flag].s, newtogglepicker.library.flags[newtogglepicker.flag].v)
+            end))
+            pickermaid:givetask(input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    pickermaid:dispose()
+                    newtogglepicker.library.settings.dragging = false
+                end
+            end))
+        end
+    end)
+
+    newtogglepicker.frame.drop.container.sat.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 and not newtogglepicker.library.settings.dragging then
+            newtogglepicker.library.settings.dragging = true
+            pickermaid:givetask(mouse.Move:Connect(function()
+                newtogglepicker:set(newtogglepicker.library.flags[newtogglepicker.flag].h, math.clamp((mouse.X - newtogglepicker.frame.drop.container.sat.AbsolutePosition.X) / newtogglepicker.frame.drop.container.sat.AbsoluteSize.X, 0, 1), 1 - math.clamp((mouse.Y - newtogglepicker.frame.drop.container.sat.AbsolutePosition.Y) / newtogglepicker.frame.drop.container.sat.AbsoluteSize.Y, 0, 1))
+            end))
+            pickermaid:givetask(input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    pickermaid:dispose()
+                    newtogglepicker.library.settings.dragging = false
+                end
+            end))
+        end
+    end)
+
+    newtogglepicker.frame.drop.container.red.FocusLost:Connect(function()
+        local num = tonumber(newtogglepicker.frame.drop.container.red.Text)
+        local colour = Color3.fromHSV(newtogglepicker.library.flags[newtogglepicker.flag].h, newtogglepicker.library.flags[newtogglepicker.flag].s, newtogglepicker.library.flags[newtogglepicker.flag].v)
+        if num and math.floor(num) == num and num >= 0 and num <= 255 then
+            newtogglepicker:set(Color3.new(num / 255, colour.G, colour.B):ToHSV())
+        else
+            newtogglepicker.frame.drop.container.red.Text = math.floor(colour.R * 255 + 0.5)
+        end
+    end)
+
+    newtogglepicker.frame.drop.container.green.FocusLost:Connect(function()
+        local num = tonumber(newtogglepicker.frame.drop.container.green.Text)
+        local colour = Color3.fromHSV(newtogglepicker.library.flags[newtogglepicker.flag].h, newtogglepicker.library.flags[newtogglepicker.flag].s, newtogglepicker.library.flags[newtogglepicker.flag].v)
+        if num and math.floor(num) == num and num >= 0 and num <= 255 then
+            newtogglepicker:set(Color3.new(colour.R, num / 255, colour.B):ToHSV())
+        else
+            newtogglepicker.frame.drop.container.green.Text = math.floor(colour.R * 255 + 0.5)
+        end
+    end)
+
+    newtogglepicker.frame.drop.container.blue.FocusLost:Connect(function()
+        local num = tonumber(newtogglepicker.frame.drop.container.blue.Text)
+        local colour = Color3.fromHSV(newtogglepicker.library.flags[newtogglepicker.flag].h, newtogglepicker.library.flags[newtogglepicker.flag].s, newtogglepicker.library.flags[newtogglepicker.flag].v)
+        if num and math.floor(num) == num and num >= 0 and num <= 255 then
+            newtogglepicker:set(Color3.new(colour.R, colour.G, num / 255):ToHSV())
+        else
+            newtogglepicker.frame.drop.container.blue.Text = math.floor(colour.R * 255 + 0.5)
+        end
+    end)
+	
+	newtogglepicker.frame.drop.container.rainbow.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            newtogglepicker:switchrainbow()
+        end
+    end)
+	
+	newtogglepicker.frame.border.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			newtogglepicker:switch()
+		end
+	end)
+
+	return newtogglepicker
+end
+
+function togglepicker:open()
+	if force or self.settings.open == false then
+		self.settings.open = true
+		self.frame.drop.Visible = true
+	end
+end
+
+function togglepicker:close()
+	if self.settings.open == true then
+		self.settings.open = false
+		self.frame.drop.Visible = false
+	end
+end
+
+function togglepicker:set(h, s, v)
+	local colour = Color3.fromHSV(h, s, v)
+	self.library.flags[self.flag].h = h
+	self.library.flags[self.flag].s = s
+	self.library.flags[self.flag].v = v
+	self.frame.indicator.BackgroundColor3 = colour
+	local roundr, roundg, roundb = math.floor(colour.R * 255 + 0.5), math.floor(colour.G * 255 + 0.5), math.floor(colour.B * 255 + 0.5)
+	self.frame.drop.container.red.Text = roundr
+	self.frame.drop.container.green.Text = roundg
+	self.frame.drop.container.blue.Text = roundb
+	self.frame.indicator.rgb.Text = string.format("%d, %d, %d", roundr, roundg, roundb)
+	self.frame.indicator.Size = UDim2.new(0, TXS:GetTextSize(self.frame.indicator.rgb.Text, 11, Enum.Font.Gotham, HVC2).X + 14, 1, 0)
+	self.frame.drop.container.sat.gradient.Color = ColorSequence.new(Color3.new(1, 1, 1), Color3.fromHSV(h, 1, 1))
+	tween(self.frame.drop.container.sat.indicator, 0.25, { Position = UDim2.new(s, 0, 1 - v, 0) })
+	if self.library.flags[self.flag].rainbow then
+		self.frame.drop.container.hue.indicator.Position = UDim2.new(h, 0, 0.5, 0)
+	else
+		tween(self.frame.drop.container.hue.indicator, 0.25, { Position = UDim2.new(h, 0, 0.5, 0) })
+	end
+	coroutine.wrap(self.oncolourchanged)(colour)
+end
+
+function togglepicker:togglerainbow(bool)
+	self.library.flags[self.flag].rainbow = bool
+	tween(self.frame.drop.container.rainbow.border.indicator, 0.25, { BackgroundColor3 = bool and theme.highlight or theme.sectionbackground })
+	if bool then
+		self.maid:givetask(RS.Heartbeat:Connect(function()
+			self:set(tick() % self.library.settings.rainbowspeed / self.library.settings.rainbowspeed, self.library.flags[self.flag].s, self.library.flags[self.flag].v)
+		end))
+	else
+		self.maid:dispose()
+	end
+end
+
+function togglepicker:switchrainbow()
+	self:togglerainbow(not self.library.flags[self.flag].rainbow)
+end
+
+function togglepicker:toggle(bool)
+	self.library.flags[self.flag].enabled = bool
+	tween(self.frame.border.indicator, 0.25, { BackgroundColor3 = bool and theme.highlight or theme.sectionbackground })
+	coroutine.wrap(self.onstatechanged)(bool)
+end
+
+function togglepicker:switch()
+	self:toggle(not self.library.flags[self.flag].enabled)
+end
+
+--[[ Checklist ]]--
+
+local checklist = {}
+checklist.__index = checklist
+
+function checklist.new(options)
+	local newchecklist = setmetatable(mergetables({
+		itemtype = "checklist",
+		content = "No Content Provided",
+		flag = randomstring(32),
+		ignore = false,
+		callback = function() end,
+		settings = {
+			open = false
+		}
+	}, options), checklist)
+
+	newchecklist.frame = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Size = UDim2.new(1, 0, 0, 44), 
+		Name = newchecklist.content
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = newchecklist.content, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(0.5, 0), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(0.5, 0, 0, 0), 
+			Size = UDim2.new(1, 0, 0, 20), 
+			Name = "title"
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "mainbackground"
+			},
+			AnchorPoint = Vector2.new(0.5, 1), 
+			Position = UDim2.new(0.5, 0, 1, 0), 
+			Size = UDim2.new(1, 0, 0, 22), 
+			Name = "bar"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("ImageLabel", { 
+				Theme = {
+					ImageColor3 = "foreground"
+				},
+				Image = "rbxassetid://9243354333", 
+				AnchorPoint = Vector2.new(1, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				Position = UDim2.new(1, -2, 0.5, 0), 
+				Size = UDim2.new(0, 18, 0, 18), 
+				Name = "arrow"
+			}),
+			create("TextLabel", { 
+				Theme = {
+					TextColor3 = "foreground"
+				},
+				Font = Enum.Font.Gotham, 
+				FontSize = Enum.FontSize.Size11, 
+				Text = "", 
+				TextSize = 11, 
+				TextWrap = true, 
+				TextWrapped = true, 
+				TextXAlignment = Enum.TextXAlignment.Left, 
+				AnchorPoint = Vector2.new(0, 0.5), 
+				BackgroundColor3 = Color3.new(1, 1, 1), 
+				BackgroundTransparency = 1, 
+				ClipsDescendants = true, 
+				Position = UDim2.new(0, 7, 0.5, 0), 
+				Size = UDim2.new(1, -29, 1, 0), 
+				Name = "selected"
+			})
+		}),
+		create("Frame", { 
+			AnchorPoint = Vector2.new(0.5, 0), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			ClipsDescendants = true, 
+			Position = UDim2.new(0.5, 0, 1, 2), 
+			Size = UDim2.new(1, 0, 0, 0), 
+			ZIndex = 2, 
+			Name = "drop"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = "mainbackground"
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, 0, 1, 0), 
+				ZIndex = 2, 
+				Name = "panel"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				}),
+				create("Frame", { 
+					Theme = {
+						BackgroundColor3 = "sectionbackground"
+					},
+					AnchorPoint = Vector2.new(0.5, 0.5), 
+					Position = UDim2.new(0.5, 0, 0.5, 0), 
+					Size = UDim2.new(1, -4, 1, -4), 
+					ZIndex = 2, 
+					Name = "container"
+				}, {
+					create("UICorner", { 
+						CornerRadius = UDim.new(0, 3), 
+						Name = "corner"
+					}),
+					create("ScrollingFrame", { 
+						CanvasSize = UDim2.new(0, 0, 0, 164), 
+						ScrollBarImageColor3 = Color3.new(0, 0, 0), 
+						ScrollBarThickness = 4, 
+						VerticalScrollBarInset = Enum.ScrollBarInset.ScrollBar, 
+						Active = true, 
+						AnchorPoint = Vector2.new(1, 0.5), 
+						BackgroundColor3 = Color3.new(1, 1, 1), 
+						BackgroundTransparency = 1, 
+						BorderSizePixel = 0, 
+						Position = UDim2.new(1, 0, 0.5, 0), 
+						Size = UDim2.new(1, -4, 1, -8), 
+						ZIndex = 2, 
+						Name = "holder"
+					}, {
+						create("UIListLayout", { 
+							Padding = UDim.new(0, 4), 
+							SortOrder = Enum.SortOrder.LayoutOrder, 
+							Name = "list"
+						})
+					})
+				})
+			})
+		})
+	})
+
+	autocanvasresize(newchecklist.frame.drop.panel.container.holder.list, newchecklist.frame.drop.panel.container.holder)
+
+	newchecklist.frame.bar.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			if newchecklist.settings.open then
+				newchecklist:close()
+			else
+				newchecklist:open()
+			end
+		end
+	end)
+	
+	return newchecklist
+end
+
+function checklist:open(force)
+	if force or self.settings.open == false then
+		self.settings.open = true
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, math.min(104, 8 + 24 * (#self.frame.drop.panel.container.holder:GetChildren() - 1))) })
+	end
+end
+
+function checklist:close()
+	if self.settings.open == true then
+		self.settings.open = false
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, 0) })
+	end
+end
+
+function checklist:additem(key, value)
+	local item = create("Frame", { 
+		BackgroundColor3 = Color3.new(1, 1, 1), 
+		BackgroundTransparency = 1, 
+		Parent = self.frame.drop.panel.container.holder,
+		Size = UDim2.new(1, 0, 0, 20), 
+		ZIndex = 2, 
+		Name = key
+	}, {
+		create("TextLabel", { 
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.Gotham, 
+			FontSize = Enum.FontSize.Size12, 
+			Text = key, 
+			TextSize = 12, 
+			TextXAlignment = Enum.TextXAlignment.Left, 
+			AnchorPoint = Vector2.new(1, 0.5), 
+			BackgroundColor3 = Color3.new(1, 1, 1), 
+			BackgroundTransparency = 1, 
+			Position = UDim2.new(1, 0, 0.5, 0), 
+			Size = UDim2.new(1, -26, 1, 0), 
+			ZIndex = 2, 
+			Name = "title"
+		}),
+		create("Frame", { 
+			Theme = {
+				BackgroundColor3 = "highlight"
+			},
+			AnchorPoint = Vector2.new(0, 0.5), 
+			Position = UDim2.new(0, 0, 0.5, 0), 
+			Size = UDim2.new(0, 20, 0, 20), 
+			ZIndex = 2, 
+			Name = "border"
+		}, {
+			create("UICorner", { 
+				CornerRadius = UDim.new(0, 3), 
+				Name = "corner"
+			}),
+			create("Frame", { 
+				Theme = {
+					BackgroundColor3 = function()
+						return self.library and self.library.flags[self.flag][key] and "highlight" or "sectionbackground"
+					end
+				},
+				AnchorPoint = Vector2.new(0.5, 0.5), 
+				Position = UDim2.new(0.5, 0, 0.5, 0), 
+				Size = UDim2.new(1, -2, 1, -2), 
+				ZIndex = 2, 
+				Name = "indicator"
+			}, {
+				create("UICorner", { 
+					CornerRadius = UDim.new(0, 3), 
+					Name = "corner"
+				})
+			})
+		})
+	})
+
+	self.library.flags[self.flag][key] = false
+	if value then
+		self:toggle(key, true)
+	end
+
+	item.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			self:switch(key)
+		end
+	end)
+end
+
+function checklist:removeitem(key)
+	local items = self.frame.drop.panel.container.holder:GetChildren()
+	for i = 1, #items do
+		local item = items[i]
+		if item.ClassName == "Frame" and item.Name == key then
+			item:Destroy()
+			break
+		end
+	end
+	self.library.flags[self.flag][key] = nil
+	if self.settings.open then
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, math.min(104, 8 + 24 * (#self.frame.drop.panel.container.holder:GetChildren() - 1))) })
+	end
+end
+
+function checklist:clear()
+	local items = self.frame.drop.panel.container.holder:GetChildren()
+	for i = 1, #items do
+		local item = items[i]
+		if item.ClassName == "Frame" then
+			break
+		end
+	end
+	for i, v in next, self.library.flags[self.flag] do
+		self.library.flags[self.flag][i] = nil
+	end
+	if self.settings.open then
+		tween(self.frame.drop, 0.25, { Size = UDim2.new(1, 0, 0, math.min(104, 8 + 24 * (#self.frame.drop.panel.container.holder:GetChildren() - 1))) })
+	end
+end
+
+function checklist:toggle(key, value)
+	local items = self.frame.drop.panel.container.holder:GetChildren()
+	for i = 1, #items do
+		local item = items[i]
+		if item.ClassName == "Frame" then
+			if item.Name == key then
+				tween(item.border.indicator, 0.25, { BackgroundColor3 = value and theme.highlight or theme.sectionbackground })
+				break
+			end
+		end
+	end
+	self.library.flags[self.flag][key] = value
+	self:updateselected()
+	coroutine.wrap(self.callback)(key, value)
+end
+
+function checklist:switch(key)
+	self:toggle(key, not self.library.flags[self.flag][key])
+end
+
+function checklist:updateselected()
+	local str = ""
+	local items = self.frame.drop.panel.container.holder:GetChildren()
+	for i = 1, #items do
+		local item = items[i]
+		local flag = self.library.flags[self.flag][item.Name]
+		if flag then
+			local nextstr = str .. (#str > 0 and ", " or "") .. item.Name
+			local isvalid = TXS:GetTextSize(nextstr, 12, Enum.Font.Gotham, HVC2).X <= 180
+			str = str .. (#str > 0 and ", " or "") .. (isvalid and item.Name or "...")
+			if isvalid == false then
+				break
+			end
+		end
+	end
+	self.frame.bar.selected.Text = str
+end
+
+--[[ Section ]]--
+
+local section = {}
+section.__index = section
+
+function section.new(options)
+	local newsection = setmetatable(mergetables({
+		content = "No Content Provided",
+		right = false,
+		settings = {
+			open = true
+		}
+	}, options), section)
+
+	newsection.frame = create("Frame", {
+		Theme = {
+			BackgroundColor3 = "sectionbackground"
+		},
+		BorderSizePixel = 0,
+		Size = UDim2.new(1, 0, 0, 30),
+		Name = newsection.content
+	}, {
+		create("UICorner", {
+			CornerRadius = UDim.new(0, 4),
+			Name = "corner"
+		}),
+		create("TextLabel", {
+			Font = Enum.Font.GothamSemibold,
+			FontSize = Enum.FontSize.Size14,
+			Text = newsection.content,
+			TextColor3 = Color3.new(0.921569, 0.921569, 0.921569),
+			TextSize = 14,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			AnchorPoint = Vector2.new(0.5, 0),
+			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(0.5, 0, 0, 0),
+			Size = UDim2.new(1, -16, 0, 30),
+			Name = "title"
+		}),
+		create("Frame", {
+			AnchorPoint = Vector2.new(0.5, 0),
+			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(0.5, 0, 0, 32),
+			Size = UDim2.new(1, -12, 0, 0),
+			Name = "container"
+		}, {
+			create("UIListLayout", {
+				Padding = UDim.new(0, 6),
+				SortOrder = Enum.SortOrder.LayoutOrder,
+				Name = "list"
+			})
+		})
+	})
+
+	autoresize(newsection.frame.container.list, newsection.frame.container)
+
+	return newsection
+end
+
+function section.NewLabel(options)
+	local newlabel = label.new(options)
+
+	newlabel.library = self.library
+	newlabel.frame.Parent = self.frame.container
+	newlabel:update(newlabel.content)
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+
+	self.library.items[newlabel.flag] = newlabel
+	return newlabel
+end
+
+function section.NewStatusLabel(options)
+	local newstatuslabel = statuslabel.new(options)
+
+	newstatuslabel.library = self.library
+	newstatuslabel.frame.Parent = self.frame.container
+	newstatuslabel:update(newstatuslabel.status, newstatuslabel.colour)
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+
+	self.library.items[newstatuslabel.flag] = newstatuslabel
+	return newstatuslabel
+end
+
+function section.NewClipboardLabel(options)
+	local newclipboardlabel = clipboardlabel.new(options)
+
+	newclipboardlabel.library = self.library
+	newclipboardlabel.frame.Parent = self.frame.container
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+
+	self.library.items[newclipboardlabel.flag] = newclipboardlabel
+	return newclipboardlabel
+end
+
+function section.NewButton(options)
+	local newbutton = button.new(options)
+
+	newbutton.library = self.library
+	newbutton.frame.Parent = self.frame.container
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+	
+	self.library:applybuttoneffect(newbutton.frame, newbutton.callback)
+	self.library.items[newbutton.flag] = newbutton
+	return newbutton
+end
+
+function section.NewToggle(options)
+	local newtoggle = toggle.new(options)
+	self.library.flags[newtoggle.flag] = false
+
+	newtoggle.library = self.library
+	newtoggle.frame.Parent = self.frame.container
+	if options.default then
+		newtoggle:set(true)
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+
+	self.library.items[newtoggle.flag] = newtoggle
+	return newtoggle
+end
+
+function section.NewBind(options)
+	local newbind = bind.new(options)
+	self.library.flags[newbind.flag] = "None"
+
+	newbind.library = self.library
+	newbind.frame.Parent = self.frame.container
+	if options.default then
+		newbind:set(options.default)
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+
+	self.library.items[newbind.flag] = newbind
+	return newbind
+end
+
+function section.NewBox(options)
+	local newbox = box.new(options)
+	self.library.flags[newbox.flag] = ""
+
+	newbox.library = self.library
+	newbox.frame.Parent = self.frame.container
+	newbox.maxx = newbox.frame.AbsoluteSize.X - (TXS:GetTextSize(newbox.content, 12, Enum.Font.Gotham, HVC2).X + 6)
+	if options.default then
+		newbox:set(options.default)
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+
+	self.library.items[newbox.flag] = newbox
+	return newbox
+end
+
+function section.NewSlider(options)
+	local newslider = slider.new(options)
+	self.library.flags[newslider.flag] = newslider.min
+
+	newslider.library = self.library
+	newslider.frame.Parent = self.frame.container
+	if options.default then
+		newslider:set(options.default)
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+
+	self.library.items[newslider.flag] = newslider
+	return newslider
+end
+
+function section.NewToggleSlider(options)
+	local newtoggleslider = toggleslider.new(options)
+	self.library.flags[newtoggleslider.flag] = { enabled = false, value = newtoggleslider.min }
+
+	newtoggleslider.library = self.library
+	newtoggleslider.frame.Parent = self.frame.container
+	if options.default then
+		newtoggleslider:set(options.default)
+	end
+	if options.enabled then
+		newtoggleslider:toggle(true)
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+
+	self.library.items[newtoggleslider.flag] = newtoggleslider
+	return newtoggleslider
+end
+
+function section.NewDropdown(options)
+	local newdropdown = dropdown.new(options)
+	self.library.flags[newdropdown.flag] = ""
+
+	newdropdown.library = self.library
+	newdropdown.frame.Parent = self.frame.container
+	if options.default then
+		newdropdown:set(options.default)
+	end
+	if options.items then
+		for i = 1, #options.items do
+			newdropdown:additem(options.items[i])
+		end
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+	if newdropdown.settings.open then
+		newdropdown:open(true)
+	end
+
+	self.library.items[newdropdown.flag] = newdropdown
+	return newdropdown
+end
+
+function section.NewToggleDropdown(options)
+	local newtoggledropdown = toggledropdown.new(options)
+	self.library.flags[newtoggledropdown.flag] = { enabled = false }
+
+	newtoggledropdown.library = self.library
+	newtoggledropdown.frame.Parent = self.frame.container
+	if options.default then
+		newtoggledropdown:set(options.default)
+	end
+	if options.enabled then
+		newtoggledropdown:toggle(true)
+	end
+	if options.items then
+		for i = 1, #options.items do
+			newtoggledropdown:additem(options.items[i])
+		end
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+	if newtoggledropdown.settings.open then
+		newtoggledropdown:open(true)
+	end
+
+	self.library.items[newtoggledropdown.flag] = newtoggledropdown
+	return newtoggledropdown
+end
+
+function section.NewColorpicker(options)
+	local newpicker = picker.new(options)
+	self.library.flags[newpicker.flag] = { h = 1, s = 1, v = 1, rainbow = false }
+
+	newpicker.library = self.library
+	newpicker.frame.Parent = self.frame.container
+	if options.default then
+		newpicker:set(options.default:ToHSV())
+	end
+	if options.rainbow then
+		newpicker:togglerainbow(true)
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+	if newpicker.settings.open then
+		newpicker:open(true)
+	end
+
+	self.library.items[newpicker.flag] = newpicker
+	return newpicker
+end
+
+function section.NewToggleColorpicker(options)
+	local newtogglepicker = togglepicker.new(options)
+	self.library.flags[newtogglepicker.flag] = { h = 1, s = 1, v = 1, rainbow = false, enabled = false }
+
+	newtogglepicker.library = self.library
+	newtogglepicker.frame.Parent = self.frame.container
+	if options.default then
+		newtogglepicker:set(options.default:ToHSV())
+	end
+	if options.rainbow then
+		newpicker:togglerainbow(true)
+	end
+	if options.enabled then
+		newpicker:toggle(true)
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+
+	self.library.items[newtogglepicker.flag] = newtogglepicker
+	return newtogglepicker
+end
+
+function section.NewChecklist(options)
+	local newchecklist = checklist.new(options)
+	self.library.flags[newchecklist.flag] = {}
+
+	newchecklist.library = self.library
+	newchecklist.frame.Parent = self.frame.container
+	if options.items then
+		for i = 1, #options.items do
+			newchecklist:additem(unpack(options.items[i]))
+		end
+	end
+	tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.container.list.AbsoluteContentSize.Y + 38) })
+	if newchecklist.settings.open then
+		newchecklist:open(true)
+	end
+
+	self.library.items[newchecklist.flag] = newchecklist
+	return newchecklist
+end
+
+--[[ Tab ]]--
+
+local tab = {}
+tab.__index = tab
+
+function tab.new(options)
+	local newtab = setmetatable(mergetables({
+		content = "No Content Provided",
+		icon = 0,
+		settings = {
+			open = false
+		}
+	}, options), tab)
+
+	newtab.button = create("Frame", {
+		AnchorPoint = Vector2.new(0.5, 0),
+		BackgroundColor3 = Color3.new(1, 1, 1),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0.5, 0, 0, 0),
+		Size = UDim2.new(1, 0, 0, 30),
+		Name = newtab.content
+	}, {
+		create("ImageLabel", {
+			Theme = {
+				ImageColor3 = "highlight"
+			},
+			Image = "rbxassetid://" .. tostring(newtab.icon),
+			AnchorPoint = Vector2.new(0, 0.5),
+			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(0, 8, 0.5, 0),
+			Size = UDim2.new(0, 20, 0, 20),
+			Name = "icon"
+		}),
+		create("TextLabel", {
+			Theme = {
+				TextColor3 = "foreground"
+			},
+			Font = Enum.Font.GothamBold,
+			FontSize = Enum.FontSize.Size14,
+			Text = newtab.content,
+			TextSize = 14,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			AnchorPoint = Vector2.new(1, 0.5),
+			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(1, 0, 0.5, 0),
+			Size = UDim2.new(1, -36, 1, 0),
+			Name = "title"
+		})
+	})
+
+	newtab.frame = create("Frame", {
+		AnchorPoint = Vector2.new(0.5, 0.5),
+		BackgroundColor3 = Color3.new(1, 1, 1),
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0.5, 0, 0.5, 0),
+		Size = UDim2.new(1, -16, 1, -16),
+		Name = newtab.content,
+		Visible = false
+	}, {
+		create("Frame", {
+			AnchorPoint = Vector2.new(0, 0.5),
+			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(0, 0, 0.5, 0),
+			Size = UDim2.new(0.5, -4, 1, 0),
+			Name = "left"
+		}, {
+			create("UIListLayout", {
+				Padding = UDim.new(0, 6),
+				SortOrder = Enum.SortOrder.LayoutOrder,
+				Name = "list"
+			})
+		}),
+		create("Frame", {
+			AnchorPoint = Vector2.new(1, 0.5),
+			BackgroundColor3 = Color3.new(1, 1, 1),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(1, 0, 0.5, 0),
+			Size = UDim2.new(0.5, -4, 1, 0),
+			Name = "right"
+		}, {
+			create("UIListLayout", {
+				Padding = UDim.new(0, 6),
+				SortOrder = Enum.SortOrder.LayoutOrder,
+				Name = "list"
+			})
+		})
+	})
+
+	newtab.button.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 and newtab.settings.open == false then
+			newtab:open()
+		end
+	end)
+
+	return newtab
+end
+
+function tab:open()
+	local selected = self.library.settings.selected
+	if selected then
+		if selected == self then
+			return
+		end
+		selected:close()
+	end
+	self.library.settings.selected = self
+	self.settings.open = true
+	self.frame.Visible = true
+end
+
+function tab:close()
+	if self.library.settings.selected == self then
+		self.library.settings.selected = nil
+		self.settings.open = false
+		self.frame.Visible = false
+	end
+end
+
+function tab.NewSection(options)
+	local newsection = section.new(options)
+
+	newsection.library = self.library
+	newsection.frame.Parent = self.frame[options.right and "right" or "left"]
+
+	return newsection
+end
+
+--[[ Category ]]--
+
+local category = {}
+category.__index = category
+
+function category.new(options)
+	local newcategory = setmetatable(mergetables({
+		content = "No Content Provided",
+		settings = {
+			open = false
+		}
+	}, options), category)
+
+	newcategory.frame = create("Frame", {
+		BackgroundColor3 = Color3.new(1, 1, 1),
+		BackgroundTransparency = 1,
+		ClipsDescendants = true,
+		Size = UDim2.new(1, 0, 0, 34),
+		Name = newcategory.content
+	}, {
+		create("Frame", {
+			Theme = {
+				BackgroundColor3 = "categorybackground"
+			},
+			AnchorPoint = Vector2.new(0.5, 0),
+			BorderSizePixel = 0,
+			Position = UDim2.new(0.5, 0, 0, 0),
+			Size = UDim2.new(1, 0, 0, 34),
+			ZIndex = 2,
+			Name = "top"
+		}, {
+			create("ImageLabel", {
+				Theme = {
+					ImageColor3 = "foreground"
+				},
+				Image = "rbxassetid://9239668142",
+				AnchorPoint = Vector2.new(1, 0.5),
+				BackgroundColor3 = Color3.new(1, 1, 1),
+				BackgroundTransparency = 1,
+				Position = UDim2.new(1, -5, 0.5, 0),
+				Size = UDim2.new(0, 22, 0, 22),
+				ZIndex = 2,
+				Name = "arrow"
+			}),
+			create("TextLabel", {
+				Theme = {
+					TextColor3 = "foreground"
+				},
+				Font = Enum.Font.GothamBlack,
+				FontSize = Enum.FontSize.Size14,
+				Text = newcategory.content,
+				TextSize = 14,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				AnchorPoint = Vector2.new(1, 0.5),
+				BackgroundColor3 = Color3.new(1, 1, 1),
+				BackgroundTransparency = 1,
+				Position = UDim2.new(1, 0, 0.5, 0),
+				Size = UDim2.new(1, -16, 1, 0),
+				ZIndex = 2,
+				Name = "title"
+			})
+		}),
+		create("UIListLayout", {
+			SortOrder = Enum.SortOrder.LayoutOrder,
+			Name = "list"
+		})
+	})
+
+	newcategory.frame.top.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			if newcategory.settings.open then
+				newcategory:close()
+			else
+				newcategory:open()
+			end
+		end
+	end)
+
+	return newcategory
+end
+
+function category:open(force)
+	if force or self.settings.open == false then
+		self.settings.open = true
+		tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.list.AbsoluteContentSize.Y) })
+		tween(self.frame.top.arrow, 0.25, { Rotation = 90 })
+	end
+end
+
+function category:close()
+	if self.settings.open == true then
+		self.settings.open = false
+		tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, 34) })
+		tween(self.frame.top.arrow, 0.25, { Rotation = 0 })
+	end
+end
+
+function category.NewTab(options)
+	local newtab = tab.new(options)
+
+	newtab.library = self.library
+	newtab.frame.Parent = self.library.dir.gui.main.right.container
+	newtab.button.Parent = self.frame
+	if newtab.settings.open then
+		newtab:open()
+	end
+
+	if self.settings.open then
+		tween(self.frame, 0.25, { Size = UDim2.new(1, 0, 0, self.frame.list.AbsoluteContentSize.Y) })
+	end
+
+	return newtab
+end
+
+--[[ Library ]]--
+
+local library = {}
+library.__index = library
+
+function library.New(options)
+	local newlibrary = setmetatable(mergetables({
+		content = "Unknown Game",
+		version = "Unknown Version",
+		flags = {},
+		items = {},
+		tabs = {},
+		storage = {},
+		settings = {
+			theme = theme,
+			dragging = false,
+			binding = false,
+			istextboxfocused = UIS:GetFocusedTextBox() ~= nil,
+			rainbowspeed = 5,
+			dragleniency = 0.15
+		}
+	}, options), library)
+
+	newlibrary.configs = Akiri.imports:fetchsystem("configs", options.content)
+
+	newlibrary.dir = create("Folder", {
+		Name = "Akiri"
+	}, {
+		create("ScreenGui", {
+			DisplayOrder = 10,
+			Name = "gui"
+		}, {
+			create("Frame", {
+				Theme = {
+					BackgroundColor3 = "titlebackground"
+				},
+				Position = UDim2.new(0, 50, 0, 50),
+				Size = UDim2.new(0, 645, 0, 475),
+				Name = "main"
+			}, {
+				create("UICorner", {
+					CornerRadius = UDim.new(0, 4),
+					Name = "corner"
+				}),
+				create("TextButton", {
+					Font = Enum.Font.SourceSans,
+					FontSize = Enum.FontSize.Size14,
+					Text = "",
+					TextColor3 = Color3.new(0, 0, 0),
+					TextSize = 14,
+					AnchorPoint = Vector2.new(0.5, 0.5),
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BackgroundTransparency = 1,
+					Position = UDim2.new(0.5, 0, 0.5, 0),
+					Size = UDim2.new(1, 0, 1, 0),
+					ZIndex = 0,
+					Name = "clickblock"
+				}),
+				create("Frame", {
+					AnchorPoint = Vector2.new(0, 0.5),
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BackgroundTransparency = 1,
+					ClipsDescendants = true,
+					Position = UDim2.new(0, 0, 0.5, 0),
+					Size = UDim2.new(0, 170, 1, 0),
+					Name = "left"
+				}, {
+					create("Frame", {
+						Theme = {
+							BackgroundColor3 = "leftbackground"
+						},
+						BorderSizePixel = 0,
+						ClipsDescendants = true,
+						Position = UDim2.new(0, 0, 0, 80),
+						Size = UDim2.new(1, 0, 1, -80),
+						Name = "panel"
+					}, {
+						create("ScrollingFrame", {
+							ScrollBarImageTransparency = 1,
+							ScrollBarThickness = 0,
+							Active = true,
+							AnchorPoint = Vector2.new(0.5, 0),
+							BackgroundColor3 = Color3.new(1, 1, 1),
+							BackgroundTransparency = 1,
+							BorderSizePixel = 0,
+							CanvasSize = UDim2.new(),
+							Position = UDim2.new(0.5, 0, 0, 0),
+							Size = UDim2.new(1, 0, 1, -30),
+							Name = "container"
+						}, {
+							create("UIListLayout", {
+								SortOrder = Enum.SortOrder.LayoutOrder,
+								Name = "list"
+							})
+						}),
+						create("UICorner", {
+							CornerRadius = UDim.new(0, 4),
+							Name = "corner"
+						}),
+						create("Frame", {
+							Theme = {
+								BackgroundColor3 = "leftbackground"
+							},
+							AnchorPoint = Vector2.new(1, 1),
+							BorderSizePixel = 0,
+							Position = UDim2.new(1, 0, 1, 0),
+							Size = UDim2.new(0, 4, 0, 4),
+							Name = "cover"
+						}),
+						create("Frame", {
+							Theme = {
+								BackgroundColor3 = "leftbackground"
+							},
+							AnchorPoint = Vector2.new(1, 0),
+							BorderSizePixel = 0,
+							Position = UDim2.new(1, 0, 0, 0),
+							Size = UDim2.new(0, 4, 0, 4),
+							Name = "cover"
+						})
+					}),
+					create("TextLabel", {
+						Theme = {
+							TextColor3 = "foreground"
+						},
+						Font = Enum.Font.GothamBlack,
+						FontSize = Enum.FontSize.Size24,
+						Text = "Akiri",
+						TextSize = 20,
+						TextXAlignment = Enum.TextXAlignment.Left,
+						TextYAlignment = Enum.TextYAlignment.Bottom,
+						BackgroundColor3 = Color3.new(1, 1, 1),
+						BackgroundTransparency = 1,
+						Position = UDim2.new(0, 64, 0, 16),
+						Size = UDim2.new(1, -72, 0, 26),
+						Name = "title"
+					}),
+					create("TextLabel", {
+						Theme = {
+							TextColor3 = "highlight"
+						},
+						Font = Enum.Font.GothamBold,
+						FontSize = Enum.FontSize.Size14,
+						Text = newlibrary.content,
+						TextScaled = true,
+						TextSize = 14,
+						TextWrap = true,
+						TextWrapped = true,
+						TextXAlignment = Enum.TextXAlignment.Left,
+						TextYAlignment = Enum.TextYAlignment.Top,
+						BackgroundColor3 = Color3.new(1, 1, 1),
+						BackgroundTransparency = 1,
+						Position = UDim2.new(0, 64, 0, 43),
+						Size = UDim2.new(1, -72, 0, 18),
+						Name = "game"
+					}),
+					create("ImageLabel", {
+						Image = "http://www.roblox.com/asset/?id=8569322835",
+						BackgroundColor3 = Color3.new(1, 1, 1),
+						BackgroundTransparency = 1,
+						Position = UDim2.new(0, 8, 0, 16),
+						Size = UDim2.new(0, 48, 0, 48),
+						Name = "icon"
+					})
+				}),
+				create("Frame", {
+					Theme = {
+						BackgroundColor3 = "mainbackground"
+					},
+					AnchorPoint = Vector2.new(1, 1),
+					Position = UDim2.new(1, 0, 1, 0),
+					Size = UDim2.new(1, -170, 1, -40),
+					Name = "right"
+				}, {
+					create("UICorner", {
+						CornerRadius = UDim.new(0, 4),
+						Name = "corner"
+					}),
+					create("Frame", {
+						Theme = {
+							BackgroundColor3 = "mainbackground"
+						},
+						AnchorPoint = Vector2.new(1, 0),
+						BorderSizePixel = 0,
+						Position = UDim2.new(1, 0, 0, 0),
+						Size = UDim2.new(0, 4, 0, 4),
+						Name = "cover"
+					}),
+					create("Frame", {
+						Theme = {
+							BackgroundColor3 = "mainbackground"
+						},
+						AnchorPoint = Vector2.new(0, 1),
+						BorderSizePixel = 0,
+						Position = UDim2.new(0, 0, 1, 0),
+						Size = UDim2.new(0, 4, 0, 4),
+						Name = "cover"
+					}),
+					create("Folder", {
+						Name = "container"
+					}),
+				}),
+				create("Frame", {
+					AnchorPoint = Vector2.new(0.5, 0),
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BackgroundTransparency = 1,
+					Position = UDim2.new(0.5, 0, 0, 0),
+					Size = UDim2.new(1, 0, 0, 40),
+					Name = "top"
+				}, {
+					create("TextLabel", {
+						Theme = {
+							TextColor3 = "foreground"
+						},
+						Font = Enum.Font.GothamBold,
+						FontSize = Enum.FontSize.Size18,
+						Text = newlibrary.version,
+						TextSize = 15,
+						TextXAlignment = Enum.TextXAlignment.Right,
+						AnchorPoint = Vector2.new(1, 0.5),
+						BackgroundColor3 = Color3.new(1, 1, 1),
+						BackgroundTransparency = 1,
+						Position = UDim2.new(1, -12, 0.5, 0),
+						Size = UDim2.new(1, -190, 1, 0),
+						Name = "version"
+					})
+				})
+			}),
+			create("Folder", {
+				Name = "notifications"
+			})
+		})
+	})
+
+	if #newlibrary.storage > 0 then
+		local storage = Instance.new("Folder", newlibrary.dir)
+		for i = 1, #newlibrary.storage do
+			Instance.new("Folder", storage).Name = newlibrary.storage[i]
+		end
+		newlibrary.storage = storage
+	end
+
+	UIS.TextBoxFocused:Connect(function()
+		newlibrary.settings.istextboxfocused = true
+	end)
+
+	UIS.TextBoxFocusReleased:Connect(function()
+		newlibrary.settings.istextboxfocused = false
+	end)
+
+	UIS.InputBegan:Connect(function(input)
+        if newlibrary.settings.binding == false and newlibrary.settings.istextboxfocused == false then
+            local name = input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode.Name or input.UserInputType.Name
+            for i, v in next, newlibrary.items do
+                if v.itemtype == "bind" and newlibrary.flags[i] == name then
+                    v.onkeydown()
+                end
+            end
+        end
+    end)
+
+    UIS.InputEnded:Connect(function(input)
+        if newlibrary.settings.binding == false and newlibrary.settings.istextboxfocused == false then
+            local name = input.UserInputType == Enum.UserInputType.Keyboard and input.KeyCode.Name or input.UserInputType.Name
+            for i, v in next, newlibrary.items do
+                if v.itemtype == "bind" and newlibrary.flags[i] == name then
+                    v.onkeyup()
+                end
+            end
+        end
+    end)
+
+	newlibrary:makedraggable(newlibrary.dir.gui.main)
+	autocanvasresize(newlibrary.dir.gui.main.left.panel.container.list, newlibrary.dir.gui.main.left.panel.container)
+  
+	utils:protectinstance(newlibrary.dir)
+	return newlibrary
+end
+
+function library:toggle()
+	self.dir.gui.Enabled = not self.dir.gui.Enabled
+end
+
+function library:makedraggable(frame)
+	local dragmaid = Akiri.imports:fetchsystem("maid")
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 and self.settings.dragging == false then
+			self.settings.dragging = true
+			local offset = Vector2.new(frame.AbsoluteSize.X * frame.AnchorPoint.X, frame.AbsoluteSize.Y * frame.AnchorPoint.Y)
+			local pos = Vector2.new(mouse.X - (frame.AbsolutePosition.X + offset.X), mouse.Y - (frame.AbsolutePosition.Y + offset.Y))
+            dragmaid:givetask(mouse.Move:Connect(function()
+				tween(frame, self.settings.dragleniency, { Position = UDim2.new(0, mouse.X - pos.X, 0, mouse.Y - pos.Y) })
+			end))
+			dragmaid:givetask(input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+                    dragmaid:dispose()
+					self.settings.dragging = false
+				end
+			end))
+		end
+	end)
+end
+
+function library:applybuttoneffect(button, callback, background)
+	local size = button.TextSize
+	if background then
+		button.MouseEnter:Connect(function()
+			tween(button, 0.25, { BackgroundColor3 = self.settings.theme.highlight })
+		end)
+		button.MouseLeave:Connect(function()
+			tween(button, 0.25, { BackgroundColor3 = self.settings.theme[background] })
+		end)
+	end
+	button.MouseButton1Down:Connect(function()
+		task.spawn(callback)
+		button.TextSize = 0
+		tween(button, 0.25, { TextSize = size })
+	end)
+end
+
+function library.NewCategory(options)
+	local newcategory = category.new(options)
+
+	newcategory.library = self
+	newcategory.frame.Parent = self.dir.gui.main.left.panel.container
+	if newcategory.settings.open then
+		newcategory:open(true)
+	end
+
+	return newcategory
+end
+
+function library.NewSettings()
+	local settingscat = self:NewCategory({ content = "Settings" })
+	
+	local uitheme = settingscat.NewTab({ content = "Theme" })
+
+	local colours = uitheme.NewSection({ content = "Colours" })
+	colours.NewColorpicker({ content = "Title Background", flag = "titlebackground", ignore = true, default = theme.titlebackground, callback = function(colour)
+		theme.titlebackground = colour
+	end })
+	colours.NewColorpicker({ content = "Main Background", flag = "mainbackground", ignore = true, default = theme.mainbackground, callback = function(colour)
+		theme.mainbackground = colour
+	end })
+	colours.NewColorpicker({ content = "Section Background", flag = "sectionbackground", ignore = true, default = theme.sectionbackground, callback = function(colour)
+		theme.sectionbackground = colour
+	end })
+	colours.NewColorpicker({ content = "Category Background", flag = "categorybackground", ignore = true, default = theme.categorybackground, callback = function(colour)
+		theme.categorybackground = colour
+	end })
+	colours.NewColorpicker({ content = "Left Background", flag = "leftbackground", ignore = true, default = theme.leftbackground, callback = function(colour)
+		theme.leftbackground = colour
+	end })
+	colours.NewColorpicker({ content = "Foreground", flag = "foreground", ignore = true, default = theme.foreground, callback = function(colour)
+		theme.foreground = colour
+	end })
+	colours.NewColorpicker({ content = "Highlight", flag = "highlight", ignore = true, default = theme.highlight, callback = function(colour)
+		theme.highlight = colour
+	end })
+
+	local uiother = uitheme.NewSection({ content = "Other" })
+	uiother.NewSlider({ content = "Transparency", flag = "uitransparency", ignore = true, max = 0.95, float = 0.01, callback = function(value)
+		for i = 1, #uicache do
+			local item = uicache[i]
+			if item.BackgroundTransparency < 1 then
+				item.BackgroundTransparency = value
+			end
+			if (item.ClassName == "TextLabel" or item.ClassName == "TextButton" or item.ClassName == "TextBox") and item.TextTransparency < 1 then
+				item.TextTransparency = value
+			end
+			if (item.ClassName == "ImageLabel" or item.ClassName == "ImageButton") and item.ImageTransparency < 1 then
+				item.ImageTransparency = value
+			end
+		end
+	end })
+
+	local themeloader = uitheme.NewSection({ content = "Load Theme", right = true })
+	themeloader.NewDropdown({ content = "Themes", flag = "themelist", ignore = true, items = themes:get() })
+	themeloader.NewButton({ content = "Load", flag = "loadtheme", ignore = true, callback = function()
+		local loadedtheme = themes:load(self.flags.themelist)
+		if loadedtheme then
+			self.items.titlebackground:set(loadedtheme.titlebackground:ToHSV())
+			self.items.mainbackground:set(loadedtheme.mainbackground:ToHSV())
+			self.items.sectionbackground:set(loadedtheme.sectionbackground:ToHSV())
+			self.items.categorybackground:set(loadedtheme.categorybackground:ToHSV())
+			self.items.leftbackground:set(loadedtheme.leftbackground:ToHSV())
+			self.items.foreground:set(loadedtheme.foreground:ToHSV())
+			self.items.highlight:set(loadedtheme.highlight:ToHSV())
+		end
+	end })
+	themeloader.NewButton({ content = "Refresh List", flag = "refreshthemes", ignore = true, callback = function()
+		self.items.themelist:clear()
+		local themelist = themes:get()
+		for i = 1, #themelist do
+			self.items.themelist:additem(themelist[i])
+		end
+	end })
+	
+	local themesaver = uitheme:addsection({ content = "Save Theme", right = true })
+	themesaver.NewBox({ content = "Theme Name", flag = "themename", ignore = true })
+	themesaver.NewButton({ content = "Save", flag = "savetheme", ignore = true, callback = function()
+		themes:save(theme, self.flags.themename)
+		self.items.refreshthemes:fire()
+	end })
+
+	local configuration = settingscat.NewTab({ content = "Configuration" })
+	local uiconfig = configuration.AddSection({ content = "UI" })
+	uiconfig.NewBind({ content = "Toggle Key", flag = "togglekey", default = "RightControl", onkeydown = function()
+		self:toggle()
+	end })
+	uiconfig.NewSlider({ content = "Rainbow Cycle Duration", flag = "rainbowspeed", min = 1, max = 25, float = 0.1, default = self.settings.rainbowspeed, callback = function(value)
+		self.settings.rainbowspeed = value
+	end })
+	uiconfig.NewSlider({ content = "Drag Leniency", flag = "dragleniency", min = 0, max = 1, float = 0.01, default = self.settings.dragleniency, callback = function(value)
+		self.settings.dragleniency = value
+	end })
+
+	local configloader = configuration.NewSection({ content = "Load Config", right = true })
+	configloader.NewDropdown({ content = "Configs", flag = "configlist", ignore = true, items = self.configs:get() })
+	configloader.NewButton({ content = "Load", flag = "loadconfig", ignore = true, callback = function()
+		self.configs:load(self, self.flags.configlist)
+	end })
+	configloader.NewButton({ content = "Refresh List", flag = "refreshconfigs", ignore = true, callback = function()
+		self.items.configlist:clear()
+		local configlist = self.configs:get()
+		for i = 1, #configlist do
+			self.items.configlist:additem(configlist[i])
+		end
+	end })
+
+	local configsaver = configuration.NewSection({ content = "Save Config", right = true })
+	configsaver.NewBox({ content = "Config Name", flag = "configname", ignore = true })
+	configsaver.NewButton({ content = "Save", flag = "saveconfig", ignore = true, callback = function()
+		self.configs:save(self, self.flags.configname)
+		self.items.refreshconfigs:fire()
+	end })
+
+	if table.find(self.configs:get(), "Default") then
+		self.configs:load(self, "Default")
+	end
+	if table.find(themes:get(), "Default") then
+		local loadedtheme = themes:load("Default")
+		if loadedtheme then
+			self.items.titlebackground:set(loadedtheme.titlebackground:ToHSV())
+			self.items.mainbackground:set(loadedtheme.mainbackground:ToHSV())
+			self.items.sectionbackground:set(loadedtheme.sectionbackground:ToHSV())
+			self.items.categorybackground:set(loadedtheme.categorybackground:ToHSV())
+			self.items.leftbackground:set(loadedtheme.leftbackground:ToHSV())
+			self.items.foreground:set(loadedtheme.foreground:ToHSV())
+			self.items.highlight:set(loadedtheme.highlight:ToHSV())
+		end
+	end
+end
+
+--[[ Return ]]--
+
+return library
