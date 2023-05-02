@@ -1,6 +1,13 @@
+--[[
 
-local HS = game:GetService('HttpService')
-local TS = game:GetService('TweenService')
+	Notes:
+
+	Yes, I know this isn't obfuscated
+
+]]
+
+local httpservice = game:GetService("HttpService")
+local tweenservice = game:GetService("TweenService")
 
 local requirements = {
 	{
@@ -194,11 +201,11 @@ local cache = {
 local links = { 
     changelog = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/changelog.json",
     modules = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/",
-    images = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/",
-    systems = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/systems/main/"
+    images = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/images/",
+    systems = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/"
 }
 
-getgenv().Akiri = {
+getgenv().evov3 = {
 	imports = {
 		fetchmodule = function(self, modulename)
 			if cache.modules[modulename] == nil then
@@ -208,20 +215,20 @@ getgenv().Akiri = {
 		end,
 		fetchimage = function(self, imagename)
 			if cache.images[imagename] == nil then
-				cache.images[imagename] = getcustomasset("AkiriData/Images/" .. imagename)
+				cache.images[imagename] = getcustomasset("Evo V3/Data/Images/" .. imagename)
 			end
 			return cache.images[imagename]
 		end,
 		fetchsystem = function(self, systemname, ...)
 			if cache.systems[systemname] == nil then
-				cache.systems[systemname] = loadstring(game:HttpGetAsync(links.systems .. systemname .. ".lua", true))()
+				cache.systems[systemname] = loadstring(readfile(string.format("Evo V3/Data/Systems/%s.lua", systemname)))()
 			end
-			return cache.systems[systemname]
+			return cache.systems[systemname].new(...)
 		end
 	},
 }
 
-Akiri.startup = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/signal.lua", true))().new()
+evov3.startup = isfile and isfile("Evo V3/Data/Systems/signal.lua") and evov3.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/signal.lua", true))().new()
 
 local function checkdirectories(changelog)
 	for i = 1, #changelog.directories do
@@ -229,30 +236,30 @@ local function checkdirectories(changelog)
 		if not isfolder(path) then
 			makefolder(path)
 		end
-		Akiri.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
+		evov3.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
 		task.wait()
 	end
 end
 
 local function checkimages(changelog)
 	for i = 1, #changelog.images do
-		local path = "AkiriData/Images/" .. changelog.images[i]
+		local path = "Evo V3/Data/Images/" .. changelog.images[i]
 		if not isfile(path) then
 			writefile(path, game:HttpGetAsync(links.images .. changelog.images[i], true))
 		end
-		Akiri.startup:fire(string.format("Checking Images... %d/%d", i, #changelog.images))
+		evov3.startup:fire(string.format("Checking Images... %d/%d", i, #changelog.images))
 		task.wait()
 	end
 end
 
 local function checksystems(changelog)
-	local path = "AkiriData/changelog.json"
+	local path = "Evo V3/Data/changelog.json"
 	local systems, count, checked = {}, 0, 0
 	for i, v in next, changelog.systems do
 		count = count + 1
 	end
 	if isfile(path) then
-		local saved = HS:JSONDecode(readfile(path))
+		local saved = httpservice:JSONDecode(readfile(path))
 		for i, v in next, saved.systems do
 			if v == changelog.systems[i] then
 				systems[i] = true
@@ -260,16 +267,16 @@ local function checksystems(changelog)
 		end
 	end
 	for i, v in next, changelog.systems do
-		local path = string.format("AkiriData/Systems/%s.lua", i)
+		local path = string.format("Evo V3/Data/Systems/%s.lua", i)
 		if forceupdate or isfile(path) == false or systems[i] ~= true then
 			writefile(path, game:HttpGetAsync(links.systems .. i .. ".lua", true))
 		end
 		checked = checked + 1
-		Akiri.startup:fire(string.format("Checking Systems... %d/%d", checked, count))
+		evov3.startup:fire(string.format("Checking Systems... %d/%d", checked, count))
 		task.wait()
 	end
-	writefile(path, HS:JSONEncode(changelog))
-	Akiri.utils = Akiri.imports:fetchsystem("utils")
+	writefile(path, httpservice:JSONEncode(changelog))
+	evov3.utils = evov3.imports:fetchsystem("utils")
 end
 
 local function doesreqexist(funcname, target)
@@ -317,14 +324,14 @@ local function checkcompatibility()
 		if not (doesreqexist(v.name, v.type) or checkaliases(v)) then
 			missing[#missing + 1] = v.name
 		end
-        Akiri.startup:fire(string.format("Checking Compatibility... %d/%d", i, #requirements))
+        evov3.startup:fire(string.format("Checking Compatibility... %d/%d", i, #requirements))
 		task.wait()
 	end
 	return #missing == 0, missing
 end
 
 local function getloginfo(self)
-	local log = HS:JSONDecode(game:HttpGetAsync(links.changelog, true))
+	local log = httpservice:JSONDecode(game:HttpGetAsync(links.changelog, true))
 	local count = #requirements + #log.directories + #log.images
 	for i, v in next, log.systems do
 		count = count + 1
@@ -347,14 +354,14 @@ local function spinquotes(self, label)
 		if label.Parent == nil then
 			break
 		end
-		local t = TS:Create(label, TweenInfo.new(0.25), { TextTransparency = 1 })
+		local t = tweenservice:Create(label, TweenInfo.new(0.25), { TextTransparency = 1 })
 		t.Completed:Connect(function()
 			local quote = quotes[math.random(1, #quotes)]
 			while quote == label.Text do
 				quote = quotes[math.random(1, #quotes)]
 			end
 			label.Text = quote
-			TS:Create(label, TweenInfo.new(0.25), { TextTransparency = 0 }):Play()
+			tweenservice:Create(label, TweenInfo.new(0.25), { TextTransparency = 0 }):Play()
 		end)
 		t:Play()
 		task.wait(4)
