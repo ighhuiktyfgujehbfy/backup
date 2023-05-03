@@ -10,8 +10,8 @@ local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or f
 end
 
 
-local themes = evov3.imports:fetchsystem("themes")
-local utils = evov3.imports:fetchsystem("utils")
+local themes = akiri.imports:fetchsystem("themes")
+local utils = akiri.imports:fetchsystem("utils")
 
 local runservice = game:GetService("RunService")
 local userinputservice = game:GetService("UserInputService")
@@ -780,7 +780,7 @@ function slider.new(options)
 		})
 	})
 
-	local slidemaid = evov3.imports:fetchsystem("maid")
+	local slidemaid = akiri.imports:fetchsystem("maid")
 	newslider.frame.drag.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             newslider.library.settings.dragging = true
@@ -960,7 +960,7 @@ function toggleslider.new(options)
 		})
 	})
 
-	local slidemaid = evov3.imports:fetchsystem("maid")
+	local slidemaid = akiri.imports:fetchsystem("maid")
 	newtoggleslider.frame.drag.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             newtoggleslider.library.settings.dragging = true
@@ -1975,8 +1975,8 @@ function picker.new(options)
         end
     end)
 
-    local pickermaid = evov3.imports:fetchsystem("maid")
-	newpicker.maid = evov3.imports:fetchsystem("maid")
+    local pickermaid = akiri.imports:fetchsystem("maid")
+	newpicker.maid = akiri.imports:fetchsystem("maid")
     newpicker.frame.drop.container.hue.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 and newpicker.library.settings.dragging == false then
             if newpicker.library.flags[newpicker.flag].rainbow then
@@ -2472,8 +2472,8 @@ function togglepicker.new(options)
         end
     end)
 
-    local pickermaid = evov3.imports:fetchsystem("maid")
-	newtogglepicker.maid = evov3.imports:fetchsystem("maid")
+    local pickermaid = akiri.imports:fetchsystem("maid")
+	newtogglepicker.maid = akiri.imports:fetchsystem("maid")
     newtogglepicker.frame.drop.container.hue.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 and newtogglepicker.library.settings.dragging == false then
             if newtogglepicker.library.flags[newtogglepicker.flag].rainbow then
@@ -2997,7 +2997,7 @@ function section.new(options)
 	return newsection
 end
 
-function section:addlabel(options)
+function section:NewLabel(options)
 	local newlabel = label.new(options)
 
 	newlabel.library = self.library
@@ -3009,7 +3009,7 @@ function section:addlabel(options)
 	return newlabel
 end
 
-function section:addstatuslabel(options)
+function section:NewStatusLabel(options)
 	local newstatuslabel = statuslabel.new(options)
 
 	newstatuslabel.library = self.library
@@ -3021,7 +3021,7 @@ function section:addstatuslabel(options)
 	return newstatuslabel
 end
 
-function section:addclipboardlabel(options)
+function section:NewClipboardLabel(options)
 	local newclipboardlabel = clipboardlabel.new(options)
 
 	newclipboardlabel.library = self.library
@@ -3032,7 +3032,7 @@ function section:addclipboardlabel(options)
 	return newclipboardlabel
 end
 
-function section:addbutton(options)
+function section:NewButton(options)
 	local newbutton = button.new(options)
 
 	newbutton.library = self.library
@@ -3044,7 +3044,7 @@ function section:addbutton(options)
 	return newbutton
 end
 
-function section:addtoggle(options)
+function section:NewToggle(options)
 	local newtoggle = toggle.new(options)
 	self.library.flags[newtoggle.flag] = false
 
@@ -3059,7 +3059,7 @@ function section:addtoggle(options)
 	return newtoggle
 end
 
-function section:addbind(options)
+function section:NewBind(options)
 	local newbind = bind.new(options)
 	self.library.flags[newbind.flag] = "None"
 
@@ -3074,7 +3074,7 @@ function section:addbind(options)
 	return newbind
 end
 
-function section:addbox(options)
+function section:NewBox(options)
 	local newbox = box.new(options)
 	self.library.flags[newbox.flag] = ""
 
@@ -3090,7 +3090,7 @@ function section:addbox(options)
 	return newbox
 end
 
-function section:addslider(options)
+function section:NewSlider(options)
 	local newslider = slider.new(options)
 	self.library.flags[newslider.flag] = newslider.min
 
@@ -3105,7 +3105,7 @@ function section:addslider(options)
 	return newslider
 end
 
-function section:addtoggleslider(options)
+function section:NewToggleSlider(options)
 	local newtoggleslider = toggleslider.new(options)
 	self.library.flags[newtoggleslider.flag] = { enabled = false, value = newtoggleslider.min }
 
@@ -3123,7 +3123,7 @@ function section:addtoggleslider(options)
 	return newtoggleslider
 end
 
-function section:adddropdown(options)
+function section:NewDropdown(options)
 	local newdropdown = dropdown.new(options)
 	self.library.flags[newdropdown.flag] = ""
 
@@ -3146,7 +3146,7 @@ function section:adddropdown(options)
 	return newdropdown
 end
 
-function section:addtoggledropdown(options)
+function section:NewToggleDropdown(options)
 	local newtoggledropdown = toggledropdown.new(options)
 	self.library.flags[newtoggledropdown.flag] = { enabled = false }
 
@@ -3172,7 +3172,7 @@ function section:addtoggledropdown(options)
 	return newtoggledropdown
 end
 
-function section:addpicker(options)
+function section:NewPicker(options)
 	local newpicker = picker.new(options)
 	self.library.flags[newpicker.flag] = { h = 1, s = 1, v = 1, rainbow = false }
 
@@ -3193,7 +3193,7 @@ function section:addpicker(options)
 	return newpicker
 end
 
-function section:addtogglepicker(options)
+function section:NewTogglePicker(options)
 	local newtogglepicker = togglepicker.new(options)
 	self.library.flags[newtogglepicker.flag] = { h = 1, s = 1, v = 1, rainbow = false, enabled = false }
 
@@ -3214,7 +3214,7 @@ function section:addtogglepicker(options)
 	return newtogglepicker
 end
 
-function section:addchecklist(options)
+function section:NewChecklist(options)
 	local newchecklist = checklist.new(options)
 	self.library.flags[newchecklist.flag] = {}
 
@@ -3355,7 +3355,7 @@ function tab:close()
 	end
 end
 
-function tab:addsection(options)
+function tab:NewSection(options)
 	local newsection = section.new(options)
 
 	newsection.library = self.library
@@ -3461,7 +3461,7 @@ function category:close()
 	end
 end
 
-function category:addtab(options)
+function category:NewTab(options)
 	local newtab = tab.new(options)
 
 	newtab.library = self.library
@@ -3501,7 +3501,7 @@ function library.new(options)
 		}
 	}, options), library)
 
-	newlibrary.configs = evov3.imports:fetchsystem("configs", options.content)
+	newlibrary.configs = akiri.imports:fetchsystem("configs", options.content)
 
 	newlibrary.dir = create("Folder", {
 		Name = "Akiri"
@@ -3757,7 +3757,7 @@ function library:toggle()
 end
 
 function library:makedraggable(frame)
-	local dragmaid = evov3.imports:fetchsystem("maid")
+	local dragmaid = akiri.imports:fetchsystem("maid")
 	frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 and self.settings.dragging == false then
 			self.settings.dragging = true
@@ -3793,7 +3793,7 @@ function library:applybuttoneffect(button, callback, background)
 	end)
 end
 
-function library:addcategory(options)
+function library:NewCategory(options)
 	local newcategory = category.new(options)
 
 	newcategory.library = self
@@ -3805,36 +3805,36 @@ function library:addcategory(options)
 	return newcategory
 end
 
-function library:addsettings()
-	local settingscat = self:addcategory({ content = "Settings" })
+function library:AddSettings()
+	local settingscat = self:NewCategory({ content = "Settings" })
 	
-	local uitheme = settingscat:addtab({ content = "Theme" })
+	local uitheme = settingscat:NewTab({ content = "Theme" })
 
-	local colours = uitheme:addsection({ content = "Colours" })
-	colours:addpicker({ content = "Title Background", flag = "titlebackground", ignore = true, default = theme.titlebackground, callback = function(colour)
+	local colours = uitheme:NewSection({ content = "Colours" })
+	colours:NewPicker({ content = "Title Background", flag = "titlebackground", ignore = true, default = theme.titlebackground, callback = function(colour)
 		theme.titlebackground = colour
 	end })
-	colours:addpicker({ content = "Main Background", flag = "mainbackground", ignore = true, default = theme.mainbackground, callback = function(colour)
+	colours:NewPicker({ content = "Main Background", flag = "mainbackground", ignore = true, default = theme.mainbackground, callback = function(colour)
 		theme.mainbackground = colour
 	end })
-	colours:addpicker({ content = "Section Background", flag = "sectionbackground", ignore = true, default = theme.sectionbackground, callback = function(colour)
+	colours:NewPicker({ content = "Section Background", flag = "sectionbackground", ignore = true, default = theme.sectionbackground, callback = function(colour)
 		theme.sectionbackground = colour
 	end })
-	colours:addpicker({ content = "Category Background", flag = "categorybackground", ignore = true, default = theme.categorybackground, callback = function(colour)
+	colours:NewPicker({ content = "Category Background", flag = "categorybackground", ignore = true, default = theme.categorybackground, callback = function(colour)
 		theme.categorybackground = colour
 	end })
-	colours:addpicker({ content = "Left Background", flag = "leftbackground", ignore = true, default = theme.leftbackground, callback = function(colour)
+	colours:NewPicker({ content = "Left Background", flag = "leftbackground", ignore = true, default = theme.leftbackground, callback = function(colour)
 		theme.leftbackground = colour
 	end })
-	colours:addpicker({ content = "Foreground", flag = "foreground", ignore = true, default = theme.foreground, callback = function(colour)
+	colours:NewPicker({ content = "Foreground", flag = "foreground", ignore = true, default = theme.foreground, callback = function(colour)
 		theme.foreground = colour
 	end })
 	colours:addpicker({ content = "Highlight", flag = "highlight", ignore = true, default = theme.highlight, callback = function(colour)
 		theme.highlight = colour
 	end })
 
-	local uiother = uitheme:addsection({ content = "Other" })
-	uiother:addslider({ content = "Transparency", flag = "uitransparency", ignore = true, max = 0.95, float = 0.01, callback = function(value)
+	local uiother = uitheme:NewSection({ content = "Other" })
+	uiother:NewSlider({ content = "Transparency", flag = "uitransparency", ignore = true, max = 0.95, float = 0.01, callback = function(value)
 		for i = 1, #uicache do
 			local item = uicache[i]
 			if item.BackgroundTransparency < 1 then
@@ -3849,9 +3849,9 @@ function library:addsettings()
 		end
 	end })
 
-	local themeloader = uitheme:addsection({ content = "Load Theme", right = true })
-	themeloader:adddropdown({ content = "Themes", flag = "themelist", ignore = true, items = themes:get() })
-	themeloader:addbutton({ content = "Load", flag = "loadtheme", ignore = true, callback = function()
+	local themeloader = uitheme:NewSection({ content = "Load Theme", right = true })
+	themeloader:NewDropdown({ content = "Themes", flag = "themelist", ignore = true, items = themes:get() })
+	themeloader:NewButton({ content = "Load", flag = "loadtheme", ignore = true, callback = function()
 		local loadedtheme = themes:load(self.flags.themelist)
 		if loadedtheme then
 			self.items.titlebackground:set(loadedtheme.titlebackground:ToHSV())
@@ -3863,7 +3863,7 @@ function library:addsettings()
 			self.items.highlight:set(loadedtheme.highlight:ToHSV())
 		end
 	end })
-	themeloader:addbutton({ content = "Refresh List", flag = "refreshthemes", ignore = true, callback = function()
+	themeloader:NewButton({ content = "Refresh List", flag = "refreshthemes", ignore = true, callback = function()
 		self.items.themelist:clear()
 		local themelist = themes:get()
 		for i = 1, #themelist do
@@ -3871,31 +3871,31 @@ function library:addsettings()
 		end
 	end })
 	
-	local themesaver = uitheme:addsection({ content = "Save Theme", right = true })
-	themesaver:addbox({ content = "Theme Name", flag = "themename", ignore = true })
-	themesaver:addbutton({ content = "Save", flag = "savetheme", ignore = true, callback = function()
+	local themesaver = uitheme:NewSection({ content = "Save Theme", right = true })
+	themesaver:NewBox({ content = "Theme Name", flag = "themename", ignore = true })
+	themesaver:NewButton({ content = "Save", flag = "savetheme", ignore = true, callback = function()
 		themes:save(theme, self.flags.themename)
 		self.items.refreshthemes:fire()
 	end })
 
-	local configuration = settingscat:addtab({ content = "Configuration" })
-	local uiconfig = configuration:addsection({ content = "UI" })
-	uiconfig:addbind({ content = "Toggle Key", flag = "togglekey", default = "RightControl", onkeydown = function()
+	local configuration = settingscat:NewTab({ content = "Configuration" })
+	local uiconfig = configuration:NewSection({ content = "UI" })
+	uiconfig:NewBind({ content = "Toggle Key", flag = "togglekey", default = "RightControl", onkeydown = function()
 		self:toggle()
 	end })
-	uiconfig:addslider({ content = "Rainbow Cycle Duration", flag = "rainbowspeed", min = 1, max = 25, float = 0.1, default = self.settings.rainbowspeed, callback = function(value)
+	uiconfig:NewSlider({ content = "Rainbow Cycle Duration", flag = "rainbowspeed", min = 1, max = 25, float = 0.1, default = self.settings.rainbowspeed, callback = function(value)
 		self.settings.rainbowspeed = value
 	end })
-	uiconfig:addslider({ content = "Drag Leniency", flag = "dragleniency", min = 0, max = 1, float = 0.01, default = self.settings.dragleniency, callback = function(value)
+	uiconfig:NewSlider({ content = "Drag Leniency", flag = "dragleniency", min = 0, max = 1, float = 0.01, default = self.settings.dragleniency, callback = function(value)
 		self.settings.dragleniency = value
 	end })
 
-	local configloader = configuration:addsection({ content = "Load Config", right = true })
-	configloader:adddropdown({ content = "Configs", flag = "configlist", ignore = true, items = self.configs:get() })
-	configloader:addbutton({ content = "Load", flag = "loadconfig", ignore = true, callback = function()
+	local configloader = configuration:NewSection({ content = "Load Config", right = true })
+	configloader:NewDropdown({ content = "Configs", flag = "configlist", ignore = true, items = self.configs:get() })
+	configloader:NewButton({ content = "Load", flag = "loadconfig", ignore = true, callback = function()
 		self.configs:load(self, self.flags.configlist)
 	end })
-	configloader:addbutton({ content = "Refresh List", flag = "refreshconfigs", ignore = true, callback = function()
+	configloader:NewButton({ content = "Refresh List", flag = "refreshconfigs", ignore = true, callback = function()
 		self.items.configlist:clear()
 		local configlist = self.configs:get()
 		for i = 1, #configlist do
@@ -3903,9 +3903,9 @@ function library:addsettings()
 		end
 	end })
 
-	local configsaver = configuration:addsection({ content = "Save Config", right = true })
-	configsaver:addbox({ content = "Config Name", flag = "configname", ignore = true })
-	configsaver:addbutton({ content = "Save", flag = "saveconfig", ignore = true, callback = function()
+	local configsaver = configuration:NewSection({ content = "Save Config", right = true })
+	configsaver:NewBox({ content = "Config Name", flag = "configname", ignore = true })
+	configsaver:NewButton({ content = "Save", flag = "saveconfig", ignore = true, callback = function()
 		self.configs:save(self, self.flags.configname)
 		self.items.refreshconfigs:fire()
 	end })
@@ -3926,7 +3926,5 @@ function library:addsettings()
 		end
 	end
 end
-
---[[ Return ]]--
 
 return library
