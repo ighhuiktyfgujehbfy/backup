@@ -205,7 +205,7 @@ local links = {
     systems = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/systems/main/"
 }
 
-getgenv().evov3 = {
+getgenv().akiri = {
 	imports = {
 		fetchmodule = function(self, modulename)
 			if cache.modules[modulename] == nil then
@@ -228,7 +228,7 @@ getgenv().evov3 = {
 	},
 }
 
-evov3.startup = isfile and isfile("Evo V3/Data/Systems/signal.lua") and evov3.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/signal.lua", true))().new()
+akiri.startup = isfile and isfile("Akiri/Data/Systems/signal.lua") and akiri.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/signal.lua", true))().new()
 
 local function checkdirectories(changelog)
 	for i = 1, #changelog.directories do
@@ -236,24 +236,24 @@ local function checkdirectories(changelog)
 		if not isfolder(path) then
 			makefolder(path)
 		end
-		evov3.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
+		akiri.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
 		task.wait()
 	end
 end
 
 local function checkimages(changelog)
 	for i = 1, #changelog.images do
-		local path = "Evo V3/Data/Images/" .. changelog.images[i]
+		local path = "Akiri/Data/Images/" .. changelog.images[i]
 		if not isfile(path) then
 			writefile(path, game:HttpGetAsync(links.images .. changelog.images[i], true))
 		end
-		evov3.startup:fire(string.format("Checking Images... %d/%d", i, #changelog.images))
+		akiri.startup:fire(string.format("Checking Images... %d/%d", i, #changelog.images))
 		task.wait()
 	end
 end
 
 local function checksystems(changelog)
-	local path = "Evo V3/Data/changelog.json"
+	local path = "Akiri/Data/changelog.json"
 	local systems, count, checked = {}, 0, 0
 	for i, v in next, changelog.systems do
 		count = count + 1
@@ -272,11 +272,11 @@ local function checksystems(changelog)
 			writefile(path, game:HttpGetAsync(links.systems .. i .. ".lua", true))
 		end
 		checked = checked + 1
-		evov3.startup:fire(string.format("Checking Systems... %d/%d", checked, count))
+		akiri.startup:fire(string.format("Checking Systems... %d/%d", checked, count))
 		task.wait()
 	end
 	writefile(path, httpservice:JSONEncode(changelog))
-	evov3.utils = evov3.imports:fetchsystem("utils")
+	akiri.utils = akiri.imports:fetchsystem("utils")
 end
 
 local function doesreqexist(funcname, target)
@@ -324,7 +324,7 @@ local function checkcompatibility()
 		if not (doesreqexist(v.name, v.type) or checkaliases(v)) then
 			missing[#missing + 1] = v.name
 		end
-        evov3.startup:fire(string.format("Checking Compatibility... %d/%d", i, #requirements))
+        akiri.startup:fire(string.format("Checking Compatibility... %d/%d", i, #requirements))
 		task.wait()
 	end
 	return #missing == 0, missing
