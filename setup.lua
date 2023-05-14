@@ -202,9 +202,8 @@ local links = {
     changelog = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/changelog.json",
     modules = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/",
     images = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/images/",
-    systems = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/systems/main/"
+    systems = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/"
 }
-
 
 getgenv().akiri = {
 	imports = {
@@ -237,7 +236,7 @@ local function checkdirectories(changelog)
 		if not isfolder(path) then
 			makefolder(path)
 		end
-		akiri.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
+		evov3.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
 		task.wait()
 	end
 end
