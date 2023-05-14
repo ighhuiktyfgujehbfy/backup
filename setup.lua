@@ -215,7 +215,7 @@ getgenv().akiri = {
 		end,
 		fetchimage = function(self, imagename)
 			if cache.images[imagename] == nil then
-				cache.images[imagename] = getcustomasset("Evo V3/Data/Images/" .. imagename)
+				cache.images[imagename] = getcustomasset("Akiri/Data/Images/" .. imagename)
 			end
 			return cache.images[imagename]
 		end,
