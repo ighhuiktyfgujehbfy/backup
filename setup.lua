@@ -215,13 +215,13 @@ getgenv().akiri = {
 		end,
 		fetchimage = function(self, imagename)
 			if cache.images[imagename] == nil then
-				cache.images[imagename] = getcustomasset("Akiri/Data/Images/" .. imagename)
+				cache.images[imagename] = getcustomasset("Evo V3/Data/Images/" .. imagename)
 			end
 			return cache.images[imagename]
 		end,
 		fetchsystem = function(self, systemname, ...)
 			if cache.systems[systemname] == nil then
-				cache.systems[systemname] = loadstring(readfile(string.format("Akiri/Data/Systems/%s.lua", systemname)))()
+				cache.systems[systemname] = loadstring(readfile(string.format("Evo V3/Data/Systems/%s.lua", systemname)))()
 			end
 			return cache.systems[systemname].new(...)
 		end
@@ -243,7 +243,7 @@ end
 
 local function checkimages(changelog)
 	for i = 1, #changelog.images do
-		local path = "Akiri/Data/Images/" .. changelog.images[i]
+		local path = "Evo V3/Data/Images/" .. changelog.images[i]
 		if not isfile(path) then
 			writefile(path, game:HttpGetAsync(links.images .. changelog.images[i], true))
 		end
@@ -253,7 +253,7 @@ local function checkimages(changelog)
 end
 
 local function checksystems(changelog)
-	local path = "Akiri/Data/changelog.json"
+	local path = "Evo V3/Data/changelog.json"
 	local systems, count, checked = {}, 0, 0
 	for i, v in next, changelog.systems do
 		count = count + 1
@@ -267,7 +267,7 @@ local function checksystems(changelog)
 		end
 	end
 	for i, v in next, changelog.systems do
-		local path = string.format("Akiri/Data/Systems/%s.lua", i)
+		local path = string.format("Evo V3/Data/Systems/%s.lua", i)
 		if forceupdate or isfile(path) == false or systems[i] ~= true then
 			writefile(path, game:HttpGetAsync(links.systems .. i .. ".lua", true))
 		end
@@ -276,7 +276,7 @@ local function checksystems(changelog)
 		task.wait()
 	end
 	writefile(path, httpservice:JSONEncode(changelog))
-	akiri.utils = akiri.imports:fetchsystem("utils")
+	akiri.utils = evov3.imports:fetchsystem("utils")
 end
 
 local function doesreqexist(funcname, target)
