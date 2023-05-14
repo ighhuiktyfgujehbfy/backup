@@ -199,10 +199,10 @@ local cache = {
 }
 
 local links = { 
-    changelog = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/changelog.json",
+    changelog = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/changelog.json",
     modules = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/",
     images = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/images/",
-    systems = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/"
+    systems = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/systems/main/"
 }
 
 getgenv().akiri = {
@@ -228,7 +228,7 @@ getgenv().akiri = {
 	},
 }
 
-akiri.startup = isfile and isfile("Evo V3/Data/Systems/signal.lua") and akiri.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/signal.lua", true))().new()
+akiri.startup = isfile and isfile("Evo V3/Data/Systems/signal.lua") and evov3.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/signal.lua", true))().new()
 
 local function checkdirectories(changelog)
 	for i = 1, #changelog.directories do
@@ -276,7 +276,7 @@ local function checksystems(changelog)
 		task.wait()
 	end
 	writefile(path, httpservice:JSONEncode(changelog))
-	akiri.utils = evov3.imports:fetchsystem("utils")
+	akiri.utils = akiri.imports:fetchsystem("utils")
 end
 
 local function doesreqexist(funcname, target)
