@@ -205,11 +205,12 @@ local links = {
     systems = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/systems/main/"
 }
 
+
 getgenv().akiri = {
 	imports = {
 		fetchmodule = function(self, modulename)
 			if cache.modules[modulename] == nil then
-				cache.modules[smodulename] = loadstring(game:HttpGetAsync(links.modules .. modulename .. ".lua", true))()
+				cache.modules[modulename] = loadstring(game:HttpGetAsync(links.modules .. modulename .. ".lua", true))()
 			end
 			return cache.modules[modulename]
 		end,
