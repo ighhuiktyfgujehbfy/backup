@@ -221,7 +221,7 @@ getgenv().akiri = {
 		end,
 		fetchsystem = function(self, systemname, ...)
 			if cache.systems[systemname] == nil then
-				cache.systems[systemname] = loadstring(readfile(string.format("Evo V3/Data/Systems/%s.lua", systemname)))()
+				cache.systems[systemname] = loadstring(readfile(string.format("Akiri/Data/Systems/%s.lua", systemname)))()
 			end
 			return cache.systems[systemname].new(...)
 		end
@@ -267,7 +267,7 @@ local function checksystems(changelog)
 		end
 	end
 	for i, v in next, changelog.systems do
-		local path = string.format("Evo V3/Data/Systems/%s.lua", i)
+		local path = string.format("Akiri/Data/Systems/%s.lua", i)
 		if forceupdate or isfile(path) == false or systems[i] ~= true then
 			writefile(path, game:HttpGetAsync(links.systems .. i .. ".lua", true))
 		end
