@@ -214,7 +214,7 @@ getgenv().axyz = {
 				cache.images[imagename] = getcustomasset("Axyz/Data/Images/" .. imagename)
 		end,
 		fetchsystem = function(self, systemname, ...)
-				cache.systems[systemname] = loadstring(readfile(string.format("Axyz/Systems/%s.lua", systemname)))()
+				cache.systems[systemname] = loadstring(game:HttpGetAsync(links.systems .. systemname .. ".lua", true))()
 		end
 	},
 }
