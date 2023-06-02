@@ -209,15 +209,12 @@ getgenv().axyz = {
 	imports = {
 		fetchmodule = function(self, modulename)
 				cache.modules[modulename] = loadstring(game:HttpGetAsync(links.modules .. modulename .. ".lua", true))()
-			return cache.modules[modulename]
 		end,
 		fetchimage = function(self, imagename)
 				cache.images[imagename] = getcustomasset("Axyz/Data/Images/" .. imagename)
-			return cache.images[imagename]
 		end,
 		fetchsystem = function(self, systemname, ...)
 				cache.systems[systemname] = loadstring(readfile(string.format("Evo V3/Data/Systems/%s.lua", systemname)))()
-			return cache.systems[systemname].new(...)
 		end
 	},
 }
