@@ -3483,7 +3483,7 @@ end
 local library = {}
 library.__index = library
 
-function library.new(options)
+function library.setLibrary(options)
 	local newlibrary = setmetatable(mergetables({
 		content = "Unknown Game",
 		version = "Unknown Version",
