@@ -209,7 +209,7 @@ getgenv().axyz = {
 	imports = {
 		fetchmodule = function(self, modulename)
 			if cache.modules[modulename] == nil then
-				cache.modules[modulename] = loadstring(game:HttpGetAsync(links.modules .. modulename .. ".lua", true))()
+				cache.modules[modulename] = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/" .. modulename .. ".lua", true))()
 			end
 			return cache.modules[modulename]
 		end,
@@ -221,7 +221,7 @@ getgenv().axyz = {
 		end,
 		fetchsystem = function(self, systemname, ...)
 			if cache.systems[systemname] == nil then
-				cache.systems[systemname] = loadstring(readfile(string.format("Axyz/Systems/%s.lua", systemname)))()
+				cache.systems[systemname] = loadstring(readfile(string.format("Axyz/Data/Systems/%s.lua", systemname)))()
 			end
 			return cache.systems[systemname].new(...)
 		end
