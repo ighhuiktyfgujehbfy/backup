@@ -3504,7 +3504,7 @@ function library.new(options)
 	newlibrary.configs = axyz.imports:fetchsystem("configs", options.content)
 
 	newlibrary.dir = create("Folder", {
-		Name = "axyz"
+		Name = "Axyz"
 	}, {
 		create("ScreenGui", {
 			DisplayOrder = 10,
@@ -3600,7 +3600,7 @@ function library.new(options)
 						},
 						Font = Enum.Font.GothamBlack,
 						FontSize = Enum.FontSize.Size24,
-						Text = "axyz",
+						Text = "Axyz",
 						TextSize = 20,
 						TextXAlignment = Enum.TextXAlignment.Left,
 						TextYAlignment = Enum.TextYAlignment.Bottom,
