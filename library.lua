@@ -1,3 +1,13 @@
+--[[
+
+    Notes:
+
+    Yes, I know this isn't obfuscated.
+
+]]
+
+--[[ Compatibility ]]--
+
 local chars = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ1234567890"
 
 local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or function(size)
@@ -9,6 +19,7 @@ local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or f
 	return str
 end
 
+--[[ Variables ]]--
 
 local themes = axyz.imports:fetchsystem("themes")
 local utils = axyz.imports:fetchsystem("utils")
@@ -58,7 +69,7 @@ local theme = setmetatable({
 		categorybackground = Color3.fromRGB(28, 28, 28),
 		sectionbackground = Color3.fromRGB(24, 24, 24),
 		foreground = Color3.fromRGB(235, 235, 235),
-		highlight = Color3.fromRGB(113, 95, 255)
+		highlight = Color3.fromRGB(43, 79, 199)
     }
 }, {
 	__index = function(t, k)
@@ -3172,7 +3183,7 @@ function section:NewToggleDropdown(options)
 	return newtoggledropdown
 end
 
-function section:NewPicker(options)
+function section:Newpicker(options)
 	local newpicker = picker.new(options)
 	self.library.flags[newpicker.flag] = { h = 1, s = 1, v = 1, rainbow = false }
 
@@ -3193,7 +3204,7 @@ function section:NewPicker(options)
 	return newpicker
 end
 
-function section:NewTogglePicker(options)
+function section:NewTogglepicker(options)
 	local newtogglepicker = togglepicker.new(options)
 	self.library.flags[newtogglepicker.flag] = { h = 1, s = 1, v = 1, rainbow = false, enabled = false }
 
@@ -3573,6 +3584,7 @@ function library.new(options)
 								Name = "list"
 							})
 						}),
+
 						create("Frame", {
 							Theme = {
 								BackgroundColor3 = "leftbackground"
@@ -3630,7 +3642,7 @@ function library.new(options)
 						Name = "game"
 					}),
 					create("ImageLabel", {
-						Image = "http://www.roblox.com/asset/?id=8569322835",
+						Image = "rbxassetid://9223312631",
 						BackgroundColor3 = Color3.new(1, 1, 1),
 						BackgroundTransparency = 1,
 						Position = UDim2.new(0, 8, 0, 16),
@@ -3926,5 +3938,7 @@ function library:AddSettings()
 		end
 	end
 end
+
+--[[ Return ]]--
 
 return library
