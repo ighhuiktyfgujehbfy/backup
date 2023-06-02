@@ -200,21 +200,30 @@ local cache = {
 
 local links = { 
     changelog = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/changelog.json",
-    modules = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/",
+    modules = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/",
     images = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/images/",
-    systems = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/main/"
+    systems = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/"
 }
 
 getgenv().axyz = {
 	imports = {
 		fetchmodule = function(self, modulename)
+			if cache.modules[modulename] == nil then
 				cache.modules[modulename] = loadstring(game:HttpGetAsync(links.modules .. modulename .. ".lua", true))()
+			end
+			return cache.modules[modulename]
 		end,
 		fetchimage = function(self, imagename)
-				cache.images[imagename] = getcustomasset("Axyz/Data/Images/" .. imagename)
+			if cache.images[imagename] == nil then
+				cache.images[imagename] = getcustomasset("Evo V3/Data/Images/" .. imagename)
+			end
+			return cache.images[imagename]
 		end,
 		fetchsystem = function(self, systemname, ...)
-				cache.systems[systemname] = loadstring(game:HttpGetAsync(links.systems .. systemname .. ".lua", true))()
+			if cache.systems[systemname] == nil then
+				cache.systems[systemname] = loadstring(readfile(string.format("Evo V3/Data/Systems/%s.lua", systemname)))()
+			end
+			return cache.systems[systemname].new(...)
 		end
 	},
 }
