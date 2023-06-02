@@ -3483,7 +3483,7 @@ end
 local library = {}
 library.__index = library
 
-function library.setLibrary(options)
+function library.new(options)
 	local newlibrary = setmetatable(mergetables({
 		content = "Unknown Game",
 		version = "Unknown Version",
@@ -3829,7 +3829,7 @@ function library:AddSettings()
 	colours:NewPicker({ content = "Foreground", flag = "foreground", ignore = true, default = theme.foreground, callback = function(colour)
 		theme.foreground = colour
 	end })
-	colours:addpicker({ content = "Highlight", flag = "highlight", ignore = true, default = theme.highlight, callback = function(colour)
+	colours:NewPicker({ content = "Highlight", flag = "highlight", ignore = true, default = theme.highlight, callback = function(colour)
 		theme.highlight = colour
 	end })
 
