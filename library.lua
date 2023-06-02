@@ -10,8 +10,8 @@ local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or f
 end
 
 
-local themes = akiri.imports:fetchsystem("themes")
-local utils = akiri.imports:fetchsystem("utils")
+local themes = axyz.imports:fetchsystem("themes")
+local utils = axyz.imports:fetchsystem("utils")
 
 local runservice = game:GetService("RunService")
 local userinputservice = game:GetService("UserInputService")
@@ -780,7 +780,7 @@ function slider.new(options)
 		})
 	})
 
-	local slidemaid = akiri.imports:fetchsystem("maid")
+	local slidemaid = axyz.imports:fetchsystem("maid")
 	newslider.frame.drag.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             newslider.library.settings.dragging = true
@@ -960,7 +960,7 @@ function toggleslider.new(options)
 		})
 	})
 
-	local slidemaid = akiri.imports:fetchsystem("maid")
+	local slidemaid = axyz.imports:fetchsystem("maid")
 	newtoggleslider.frame.drag.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             newtoggleslider.library.settings.dragging = true
@@ -1975,8 +1975,8 @@ function picker.new(options)
         end
     end)
 
-    local pickermaid = akiri.imports:fetchsystem("maid")
-	newpicker.maid = akiri.imports:fetchsystem("maid")
+    local pickermaid = axyz.imports:fetchsystem("maid")
+	newpicker.maid = axyz.imports:fetchsystem("maid")
     newpicker.frame.drop.container.hue.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 and newpicker.library.settings.dragging == false then
             if newpicker.library.flags[newpicker.flag].rainbow then
@@ -2472,8 +2472,8 @@ function togglepicker.new(options)
         end
     end)
 
-    local pickermaid = akiri.imports:fetchsystem("maid")
-	newtogglepicker.maid = akiri.imports:fetchsystem("maid")
+    local pickermaid = axyz.imports:fetchsystem("maid")
+	newtogglepicker.maid = axyz.imports:fetchsystem("maid")
     newtogglepicker.frame.drop.container.hue.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 and newtogglepicker.library.settings.dragging == false then
             if newtogglepicker.library.flags[newtogglepicker.flag].rainbow then
@@ -3501,10 +3501,10 @@ function library.new(options)
 		}
 	}, options), library)
 
-	newlibrary.configs = akiri.imports:fetchsystem("configs", options.content)
+	newlibrary.configs = axyz.imports:fetchsystem("configs", options.content)
 
 	newlibrary.dir = create("Folder", {
-		Name = "Akiri"
+		Name = "axyz"
 	}, {
 		create("ScreenGui", {
 			DisplayOrder = 10,
@@ -3600,7 +3600,7 @@ function library.new(options)
 						},
 						Font = Enum.Font.GothamBlack,
 						FontSize = Enum.FontSize.Size24,
-						Text = "Akiri",
+						Text = "axyz",
 						TextSize = 20,
 						TextXAlignment = Enum.TextXAlignment.Left,
 						TextYAlignment = Enum.TextYAlignment.Bottom,
@@ -3757,7 +3757,7 @@ function library:toggle()
 end
 
 function library:makedraggable(frame)
-	local dragmaid = akiri.imports:fetchsystem("maid")
+	local dragmaid = axyz.imports:fetchsystem("maid")
 	frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 and self.settings.dragging == false then
 			self.settings.dragging = true
