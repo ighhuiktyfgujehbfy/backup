@@ -208,9 +208,7 @@ local links = {
 getgenv().axyz = {
 	imports = {
 		fetchmodule = function(self, modulename)
-			if cache.modules[modulename] == nil then
-				cache.modules[modulename] = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/" .. modulename .. ".lua", true))()
-			end
+				cache.modules[modulename] = loadstring(game:HttpGetAsync(links.modules .. modulename .. ".lua", true))()
 			return cache.modules[modulename]
 		end,
 		fetchimage = function(self, imagename)
@@ -220,15 +218,13 @@ getgenv().axyz = {
 			return cache.images[imagename]
 		end,
 		fetchsystem = function(self, systemname, ...)
-			if cache.systems[systemname] == nil then
 				cache.systems[systemname] = loadstring(readfile(string.format("Axyz/Data/Systems/%s.lua", systemname)))()
-			end
 			return cache.systems[systemname].new(...)
 		end
 	},
 }
 
-axyz.startup = isfile and isfile("Axyz/Systems/signal.lua") and axyz.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/main/signal.lua", true))().new()
+axyz.startup = isfile and isfile("Axyz/Data/Systems/signal.lua") and axyz.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/main/signal.lua", true))().new()
 
 local function checkdirectories(changelog)
 	for i = 1, #changelog.directories do
