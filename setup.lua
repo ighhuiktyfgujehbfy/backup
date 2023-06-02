@@ -208,19 +208,13 @@ local links = {
 getgenv().axyz = {
 	imports = {
 		fetchmodule = function(self, modulename)
-			if cache.modules[modulename] == nil then
 				cache.modules[modulename] = loadstring(game:HttpGetAsync(links.modules .. modulename .. ".lua", true))()
-			end
 		end,
 		fetchimage = function(self, imagename)
-			if cache.images[imagename] == nil then
 				cache.images[imagename] = getcustomasset("Evo V3/Data/Images/" .. imagename)
-			end
 		end,
 		fetchsystem = function(self, systemname, ...)
-			if cache.system[systemname] then
 				cache.systems[systemname] = loadstring(game:HttpGetAsync(links.systems .. systemname .. ".lua", true))()
-			end
 			return cache.systems[systemname].new(...)
 		end
 	},
