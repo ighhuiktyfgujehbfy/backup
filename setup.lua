@@ -202,7 +202,7 @@ local links = {
     changelog = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/changelog.json",
     modules = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/",
     images = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/images/",
-    systems = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/"
+    systems = "hhttps://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/main/"
 }
 
 getgenv().axyz = {
@@ -219,7 +219,7 @@ getgenv().axyz = {
 	},
 }
 
-axyz.startup = isfile and isfile("Axyz/Data/Systems/signal.lua") and axyz.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/main/signal.lua", true))().new()
+axyz.startup = isfile and isfile("Axyz/Systems/signal.lua") and axyz.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/main/signal.lua", true))().new()
 
 local function checkdirectories(changelog)
 	for i = 1, #changelog.directories do
