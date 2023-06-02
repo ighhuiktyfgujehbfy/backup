@@ -214,12 +214,12 @@ getgenv().axyz = {
 				cache.images[imagename] = getcustomasset("Axyz/Data/Images/" .. imagename)
 		end,
 		fetchsystem = function(self, systemname, ...)
-				cache.systems[systemname] = loadstring(readfile(string.format("Evo V3/Data/Systems/%s.lua", systemname)))()
+				cache.systems[systemname] = loadstring(readfile(string.format("Axyz/Systems/%s.lua", systemname)))()
 		end
 	},
 }
 
-axyz.startup = isfile and isfile("Axyz/Data/Systems/signal.lua") and akiri.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/signal.lua", true))().new()
+axyz.startup = isfile and isfile("Axyz/Data/Systems/signal.lua") and axyz.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/main/signal.lua", true))().new()
 
 local function checkdirectories(changelog)
 	for i = 1, #changelog.directories do
