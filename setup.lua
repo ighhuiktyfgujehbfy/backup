@@ -221,7 +221,7 @@ getgenv().axyz = {
 		end,
 		fetchsystem = function(self, systemname, ...)
 			if cache.systems[systemname] == nil then
-				cache.systems[systemname] = loadstring(readfile(string.format("Evo V3/Data/Systems/%s.lua", systemname)))()
+				cache.systems[systemname] = loadstring(readfile(string.format("Axyz/Systems/%s.lua", systemname)))()
 			end
 			return cache.systems[systemname].new(...)
 		end
