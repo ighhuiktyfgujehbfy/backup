@@ -208,7 +208,9 @@ local links = {
 getgenv().axyz = {
 	imports = {
 		fetchmodule = function(self, modulename)
+			if cache.modules[modulename] == nil then
 				cache.modules[modulename] = loadstring(game:HttpGetAsync(links.modules .. modulename .. ".lua", true))()
+			end
 		end,
 		fetchimage = function(self, imagename)
 			if cache.images[imagename] == nil then
@@ -216,7 +218,9 @@ getgenv().axyz = {
 			end
 		end,
 		fetchsystem = function(self, systemname, ...)
-				cache.systems[systemname] = loadstring(readfile(string.format("Axyz/Data/Systems/%s.lua", systemname)))()
+			if cache.system[systemname] then
+				cache.systems[systemname] = loadstring(game:HttpGetAsync(links.systems .. systemname .. ".lua", true))()
+			end
 			return cache.systems[systemname].new(...)
 		end
 	},
