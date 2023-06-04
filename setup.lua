@@ -1,4 +1,4 @@
---[[
+-[[
 
 	Notes:
 
@@ -202,25 +202,33 @@ local links = {
     changelog = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/changelog.json",
     modules = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/backup/main/",
     images = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/images/",
-    systems = "https://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/main/"
+    systems = "https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/"
 }
 
-getgenv().axyz = {
+getgenv().akiri = {
 	imports = {
 		fetchmodule = function(self, modulename)
+			if cache.modules[modulename] == nil then
 				cache.modules[modulename] = loadstring(game:HttpGetAsync(links.modules .. modulename .. ".lua", true))()
+			end
+			return cache.modules[modulename]
 		end,
 		fetchimage = function(self, imagename)
+			if cache.images[imagename] == nil then
 				cache.images[imagename] = getcustomasset("Evo V3/Data/Images/" .. imagename)
+			end
+			return cache.images[imagename]
 		end,
 		fetchsystem = function(self, systemname, ...)
-				cache.systems[systemname] = loadstring(game:HttpGetAsync(links.systems .. systemname .. ".lua", true))()
+			if cache.systems[systemname] == nil then
+				cache.systems[systemname] = loadstring(readfile(string.format("Evo V3/Data/Systems/%s.lua", systemname)))()
+			end
 			return cache.systems[systemname].new(...)
 		end
 	},
 }
 
-axyz.startup = isfile and isfile("Axyz/Data/Systems/signal.lua") and axyz.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ighhuiktyfgujehbfy/Systems/main/signal.lua", true))().new()
+akiri.startup = isfile and isfile("Evo V3/Data/Systems/signal.lua") and akiri.imports:fetchsystem("signal") or loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Project-Evolution/Archive/main/V3/modules/systems/signal.lua", true))().new()
 
 local function checkdirectories(changelog)
 	for i = 1, #changelog.directories do
@@ -228,24 +236,24 @@ local function checkdirectories(changelog)
 		if not isfolder(path) then
 			makefolder(path)
 		end
-		axyz.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
+		evov3.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
 		task.wait()
 	end
 end
 
 local function checkimages(changelog)
 	for i = 1, #changelog.images do
-		local path = "Axyz/Data/Images/" .. changelog.images[i]
+		local path = "Evo V3/Data/Images/" .. changelog.images[i]
 		if not isfile(path) then
 			writefile(path, game:HttpGetAsync(links.images .. changelog.images[i], true))
 		end
-		axyz.startup:fire(string.format("Checking Images... %d/%d", i, #changelog.images))
+		akiri.startup:fire(string.format("Checking Images... %d/%d", i, #changelog.images))
 		task.wait()
 	end
 end
 
 local function checksystems(changelog)
-	local path = "Axyz/Data/changelog.json"
+	local path = "Evo V3/Data/changelog.json"
 	local systems, count, checked = {}, 0, 0
 	for i, v in next, changelog.systems do
 		count = count + 1
@@ -259,16 +267,16 @@ local function checksystems(changelog)
 		end
 	end
 	for i, v in next, changelog.systems do
-		local path = string.format("Axyz/Data/Systems/%s.lua", i)
+		local path = string.format("Evo V3/Data/Systems/%s.lua", i)
 		if forceupdate or isfile(path) == false or systems[i] ~= true then
 			writefile(path, game:HttpGetAsync(links.systems .. i .. ".lua", true))
 		end
 		checked = checked + 1
-		axyz.startup:fire(string.format("Checking Systems... %d/%d", checked, count))
+		akiri.startup:fire(string.format("Checking Systems... %d/%d", checked, count))
 		task.wait()
 	end
 	writefile(path, httpservice:JSONEncode(changelog))
-	axyz.utils = axyz.imports:fetchsystem("utils")
+	akiri.utils = akiri.imports:fetchsystem("utils")
 end
 
 local function doesreqexist(funcname, target)
