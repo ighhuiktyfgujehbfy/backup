@@ -236,7 +236,7 @@ local function checkdirectories(changelog)
 		if not isfolder(path) then
 			makefolder(path)
 		end
-		evov3.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
+		akiri.startup:fire(string.format("Checking Directories... %d/%d", i, #changelog.directories))
 		task.wait()
 	end
 end
