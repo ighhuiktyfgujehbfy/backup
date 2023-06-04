@@ -10,7 +10,7 @@
 
 local chars = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ1234567890"
 
-local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or function(size)
+local randomstring = randomstring or function(size)
 	local str = ""
 	for i = 1, size do
 		local rand = math.random(1, 62)
@@ -3494,7 +3494,7 @@ end
 local library = {}
 library.__index = library
 
-function library.New(options)
+function library.new(options)
 	local newlibrary = setmetatable(mergetables({
 		content = "Unknown Game",
 		version = "Unknown Version",
