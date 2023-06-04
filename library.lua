@@ -1,16 +1,6 @@
---[[
-
-    Notes:
-
-    Yes, I know this isn't obfuscated.
-
-]]
-
---[[ Compatibility ]]--
-
 local chars = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ1234567890"
 
-local randomstring = randomstring or function(size)
+local randomstring = randomstring or syn and syn.crypt and syn.crypt.random or function(size)
 	local str = ""
 	for i = 1, size do
 		local rand = math.random(1, 62)
@@ -19,10 +9,9 @@ local randomstring = randomstring or function(size)
 	return str
 end
 
---[[ Variables ]]--
 
-local themes = axyz.imports:fetchsystem("themes")
-local utils = axyz.imports:fetchsystem("utils")
+local themes = akiri.imports:fetchsystem("themes")
+local utils = akiri.imports:fetchsystem("utils")
 
 local runservice = game:GetService("RunService")
 local userinputservice = game:GetService("UserInputService")
@@ -69,7 +58,7 @@ local theme = setmetatable({
 		categorybackground = Color3.fromRGB(28, 28, 28),
 		sectionbackground = Color3.fromRGB(24, 24, 24),
 		foreground = Color3.fromRGB(235, 235, 235),
-		highlight = Color3.fromRGB(43, 79, 199)
+		highlight = Color3.fromRGB(113, 95, 255)
     }
 }, {
 	__index = function(t, k)
@@ -791,7 +780,7 @@ function slider.new(options)
 		})
 	})
 
-	local slidemaid = axyz.imports:fetchsystem("maid")
+	local slidemaid = akiri.imports:fetchsystem("maid")
 	newslider.frame.drag.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             newslider.library.settings.dragging = true
@@ -971,7 +960,7 @@ function toggleslider.new(options)
 		})
 	})
 
-	local slidemaid = axyz.imports:fetchsystem("maid")
+	local slidemaid = akiri.imports:fetchsystem("maid")
 	newtoggleslider.frame.drag.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             newtoggleslider.library.settings.dragging = true
@@ -1986,8 +1975,8 @@ function picker.new(options)
         end
     end)
 
-    local pickermaid = axyz.imports:fetchsystem("maid")
-	newpicker.maid = axyz.imports:fetchsystem("maid")
+    local pickermaid = akiri.imports:fetchsystem("maid")
+	newpicker.maid = akiri.imports:fetchsystem("maid")
     newpicker.frame.drop.container.hue.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 and newpicker.library.settings.dragging == false then
             if newpicker.library.flags[newpicker.flag].rainbow then
@@ -2483,8 +2472,8 @@ function togglepicker.new(options)
         end
     end)
 
-    local pickermaid = axyz.imports:fetchsystem("maid")
-	newtogglepicker.maid = axyz.imports:fetchsystem("maid")
+    local pickermaid = akiri.imports:fetchsystem("maid")
+	newtogglepicker.maid = akiri.imports:fetchsystem("maid")
     newtogglepicker.frame.drop.container.hue.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 and newtogglepicker.library.settings.dragging == false then
             if newtogglepicker.library.flags[newtogglepicker.flag].rainbow then
@@ -3183,7 +3172,7 @@ function section:NewToggleDropdown(options)
 	return newtoggledropdown
 end
 
-function section:Newpicker(options)
+function section:NewPicker(options)
 	local newpicker = picker.new(options)
 	self.library.flags[newpicker.flag] = { h = 1, s = 1, v = 1, rainbow = false }
 
@@ -3204,7 +3193,7 @@ function section:Newpicker(options)
 	return newpicker
 end
 
-function section:NewTogglepicker(options)
+function section:NewTogglePicker(options)
 	local newtogglepicker = togglepicker.new(options)
 	self.library.flags[newtogglepicker.flag] = { h = 1, s = 1, v = 1, rainbow = false, enabled = false }
 
@@ -3512,10 +3501,10 @@ function library.new(options)
 		}
 	}, options), library)
 
-	newlibrary.configs = axyz.imports:fetchsystem("configs", options.content)
+	newlibrary.configs = akiri.imports:fetchsystem("configs", options.content)
 
 	newlibrary.dir = create("Folder", {
-		Name = "Axyz"
+		Name = "Akiri"
 	}, {
 		create("ScreenGui", {
 			DisplayOrder = 10,
@@ -3584,7 +3573,6 @@ function library.new(options)
 								Name = "list"
 							})
 						}),
-
 						create("Frame", {
 							Theme = {
 								BackgroundColor3 = "leftbackground"
@@ -3612,7 +3600,7 @@ function library.new(options)
 						},
 						Font = Enum.Font.GothamBlack,
 						FontSize = Enum.FontSize.Size24,
-						Text = "Axyz",
+						Text = "Akiri",
 						TextSize = 20,
 						TextXAlignment = Enum.TextXAlignment.Left,
 						TextYAlignment = Enum.TextYAlignment.Bottom,
@@ -3642,7 +3630,7 @@ function library.new(options)
 						Name = "game"
 					}),
 					create("ImageLabel", {
-						Image = "rbxassetid://9223312631",
+						Image = "http://www.roblox.com/asset/?id=8569322835",
 						BackgroundColor3 = Color3.new(1, 1, 1),
 						BackgroundTransparency = 1,
 						Position = UDim2.new(0, 8, 0, 16),
@@ -3769,7 +3757,7 @@ function library:toggle()
 end
 
 function library:makedraggable(frame)
-	local dragmaid = axyz.imports:fetchsystem("maid")
+	local dragmaid = akiri.imports:fetchsystem("maid")
 	frame.InputBegan:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 and self.settings.dragging == false then
 			self.settings.dragging = true
@@ -3841,7 +3829,7 @@ function library:AddSettings()
 	colours:NewPicker({ content = "Foreground", flag = "foreground", ignore = true, default = theme.foreground, callback = function(colour)
 		theme.foreground = colour
 	end })
-	colours:NewPicker({ content = "Highlight", flag = "highlight", ignore = true, default = theme.highlight, callback = function(colour)
+	colours:addpicker({ content = "Highlight", flag = "highlight", ignore = true, default = theme.highlight, callback = function(colour)
 		theme.highlight = colour
 	end })
 
@@ -3939,6 +3927,4 @@ function library:AddSettings()
 	end
 end
 
---[[ Return ]]--
-print('working')
 return library
